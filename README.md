@@ -22,7 +22,8 @@ TO-DO:
 *         - dont forget about EU cookie law msg
 * [✓] means either the work is done or the process described works
 CURRENT KNOWN ISSUES:
-[*] can't visit user's profile page
-[*] can't see/get notifications
-[*] can't see/get/send private messages
-[*] can't send posts (DateUpdated required(???))
+
+* can't visit user's profile page
+* can't see/get notifications
+* can't see/get/send private messages
+* can't send posts (DateUpdated required(???))
