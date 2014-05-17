@@ -23,8 +23,9 @@ TO-DO:
          - [✓] import slovenian locale 
          - which plugins to use?
          - dont forget to set roles and permissions again
-         - registration: recaptcha or something else? -> something else, write a plugin that asks a simple question in slovenian (check registerapproval.php for hooks)
+         - registration/spam prevention: write a plugin that asks a simple question in slovenian (check registerapproval.php for hooks)
          - dont forget about EU cookie law msg
+         - add wordpress menu to the forum
 
  
  
