@@ -30,6 +30,7 @@ TO-DO:
          - [✓] we need to use mobile theme from vanilla because it looks much better on smaller resolutions, we achieve that by adding "$Configuration['Garden']['DebugAssets'] = TRUE;" to config.php 
          and we add " $Sender->Head->AddCss("/themes/vanilla-bootstrap-2.2.1/design/custom_ubuntu-si.css", "screen");" to class.mobilethemehooks.php
          - [✓] make a class.ubuntusithemehooks.php in root folder of the vanilla bootstrap theme so we can have a custom .css file for ubuntu.si changes
+         - add to a .htaccess file redirect from "punbb/topic/6112/" to "index.php?p=/discussion/6112/"
          
 * KNOWN ISSUES:
 
