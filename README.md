@@ -27,6 +27,7 @@ TO-DO:
          - dont forget about EU cookie law msg
          - add wordpress menu to the forum
          - fix breadcrumbs divider not being displayed
+         - we need to use mobile theme from vanilla because it looks much better on smaller resolutions, we achieve that by adding "$Configuration['Garden']['DebugAssets'] = TRUE;" to config.php 
          
 * KNOWN ISSUES:
 
