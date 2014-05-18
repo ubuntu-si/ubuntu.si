@@ -1,0 +1,46 @@
+// ubuntu.si changes //
+.Item .ItemContent {
+   word-wrap: break-word;
+}
+.CategoryGroup h2 {
+	color: #FFFFFF !important;
+	background-color: #DD4814 !important;
+}
+.Wrap h3, .Category h3 a {
+	font-weight: 600 !important;
+}
+.Box AddPeople #Form_AddPeople {
+	width: 500%;
+}
+.Banner ul {
+	color: #FFFFFF;
+	background: #DD4814 !important;
+}
+.DiscussionHeader {
+	color: #FFFFFF !important;
+	background: #DD4814 !important;
+	border: 1px solid;
+	border-color: #DD4814 !important;
+}
+.DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DateUpdated {
+	color: #FFFFFF !important;
+}
+#SignInRememberMe {
+	margin-left: 75%;
+}
+.page-sidebar .SearchForm {
+	margin-bottom: 14px !important;
+	border-radius: 8px !important;
+	padding: 10px !important;
+	background-color: #dd4814;
+}
+.HomepageTitle {
+	margin: 10px 0px 0px !important;
+	padding-bottom: 9px !important;
+}
+.Buttons .Cancel {
+	margin-right: 5px;
+}
+.Category- {
+	display: none;
+}
