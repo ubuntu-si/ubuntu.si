@@ -26,12 +26,16 @@ TO-DO:
          - registration/spam prevention: write a plugin that asks a simple question in slovenian (check registerapproval.php for hooks)
          - dont forget about EU cookie law msg
          - add wordpress menu to the forum
+         - fix breadcrumbs divider not being displayed
+         
+* KNOWN ISSUES:
 
+         - Form_Addpeople is waaay too wide (used to add people while messaging)
  
  
-* CURRENT KNOWN ISSUES:
+* FIXED (??) KNOWN ISSUES:
+* used a fresh database and that fixed these issues
 
          - can't visit user's profile page
-         - can't see/get notifications
          - can't see/get/send private messages
          - can't send posts (DateUpdated required(???))
