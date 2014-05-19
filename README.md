@@ -35,7 +35,7 @@ TO-DO:
          
 * KNOWN ISSUES:
 
-         - Form_Addpeople is waaay too wide (used to add people while messaging)
+         - [✓] Form_Addpeople is waaay too wide (used to add people while messaging)
  
  
 * FIXED (??) KNOWN ISSUES:

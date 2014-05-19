@@ -44,3 +44,6 @@
 .Category- {
 	display: none;
 }
+.TextBoxWrapper .MultiComplete {
+	width: 100%;
+}

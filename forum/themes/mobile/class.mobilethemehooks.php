@@ -27,7 +27,7 @@ class MobileThemeHooks implements Gdn_IPlugin {
    /** Add mobile meta info. Add script to hide iPhone browser bar on pageload. */
    public function Base_Render_Before($Sender) {
       if (IsMobile() && is_object($Sender->Head)) {
-		 $Sender->Head->AddCss("/themes/vanilla-bootstrap-2.2.1/design/custom_ubuntu-si.css", "screen");
+		 $Sender->Head->AddCss("/themes/vanilla-bootstrap/design/custom_ubuntu-si.css", "screen");
          $Sender->Head->AddTag('meta', array('name' => 'viewport', 'content' => "width=device-width,minimum-scale=1.0,maximum-scale=1.0"));
          $Sender->Head->AddString('
 <script type="text/javascript">
