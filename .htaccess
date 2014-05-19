@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{QUERY_STRING} ^id=(\d+)$
+RewriteRule ^punbb/viewtopic\.php$ https://www.ubuntu.si/forum/index.php?p=/discussion/%1/ [R=301]
+RewriteRule ^punbb/topic/(.*)?$ https://www.ubuntu.si/forum/index.php?p=/discussion/$1 [R=301]
+RewriteRule ^punbb/forum/(.*)?$ https://www.ubuntu.si/forum/index.php?p=/categories/$1 [R=301]
+RewriteCond %{QUERY_STRING} ^id=(\d+)$
+RewriteRule ^punbb/viewforum\.php$ https://www.ubuntu.si/forum/index.php?p=/categories/%1/ [R=301]
