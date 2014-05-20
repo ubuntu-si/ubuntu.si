@@ -44,3 +44,9 @@
 .Category- {
 	display: none;
 }
+StrengthText, #NameUnavailable, #PasswordsDontMatch, #EmailUnavailable {
+	color: red;
+}
+.CommentQuote {
+	margin-right: 5px;
+}
