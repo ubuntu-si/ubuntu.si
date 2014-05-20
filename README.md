@@ -21,9 +21,9 @@ TO-DO:
          - use the next view style (Home page: Categories, Discussion layout: Table Layout, Categories layout: Table Layout) and under 'managecategories' "Display root categories as headings" and "more than 1 level deep"
          - [✓] new design for the new forum (united theme - very ubuntu like)
          - [✓] import slovenian locale 
-         - which plugins to use?
+         - which plugins to use? BotStop,Quotes, All Viewed are a must have. Button bar is optional.
          - dont forget to set roles and permissions again
-         - registration/spam prevention: write a plugin that asks a simple question in slovenian (check registerapproval.php for hooks)
+         - [✓] registration/spam prevention: to use registerbasic.php we need to change our config.php to $Configuration['Garden']['Registration']['Method'] = 'Basic'; - BOTSTOP TO THE RESCUE. I modified registerbasic.php to update the code.
          - dont forget about EU cookie law msg
          - add wordpress menu to the forum
          - fix breadcrumbs divider not being displayed
