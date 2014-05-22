@@ -1,6 +1,6 @@
 <?php if (!defined('APPLICATION')) exit();
 
-$Definition['%1$s "%2$s" not found.'] = '%1$s "%2$s" not found.';
+$Definition['%1$s "%2$s" not found.'] = '%1$s "%2$s" ni bil najden.';
 $Definition['%1$s %2$s'] = '%1$s %2$s';
 $Definition['%1$s Version %2$s'] = '%1$s Različica %2$s';
 $Definition['%1$s version %2$s is available.'] = '%1$s različica %2$s je na voljo.';

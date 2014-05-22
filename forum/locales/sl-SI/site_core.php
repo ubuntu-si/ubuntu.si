@@ -54,8 +54,8 @@ $Definition['%s Point'] = '%s Točka';
 $Definition['%s point'] = '%s točka';
 $Definition['%s Points'] = '%s Točk';
 $Definition['%s points'] = '%s točk';
-$Definition['%s said'] = '%s je dejal';
-$Definition['%s said:'] = '%s je dejal:';
+$Definition['%s said'] = '%s je dejal/-a';
+$Definition['%s said:'] = '%s je dejal/-a:';
 $Definition['%s tag(s) found.'] = '%s oznak(a) najdena.';
 $Definition['%s tags in the system'] = '%s oznak v sistemu';
 $Definition['%s Up Votes'] = '%s glasov za';
@@ -153,7 +153,7 @@ $Definition['administrators'] = 'skrbniki';
 $Definition['Advanced Stuff'] = 'Napredne zadeve';
 $Definition['Agree'] = 'Se strinjam';
 $Definition['Alert'] = 'Opozorilo';
-$Definition['All %s'] = 'Vse %s';
+$Definition['All %s'] = 'Vsa %s';
 $Definition['All Bookmarks'] = 'Vsi zaznamki';
 $Definition['All Categories'] = 'Vse kategorije';
 $Definition['all categories'] = 'vse kategorije';
@@ -237,7 +237,7 @@ $Definition['By uploading a file you certify that you have the right to distribu
 $Definition['Cancel'] = 'Prekliči';
 $Definition['Casual'] = 'Priložnostno';
 $Definition['Categories'] = 'Kategorije';
-$Definition['Viewing'] = 'Ogledujete si';
+$Definition['Viewing'] = 'Pokaži';
 $Definition['CategoriesShowFollowed'] = 'Pokaži samo naslednje kategorije';
 $Definition['CategoriesShowUnfollowed'] = 'Pokaži skrite kategorije';
 $Definition['CategoriesViewingAll'] = 'Trenutno si ogledujete vse kategorije.';
@@ -253,7 +253,7 @@ $Definition['Change'] = 'Sprememba';
 $Definition['Change My Password'] = 'Spremeni moje geslo';
 $Definition['Change My Picture'] = 'Spremeni mojo sliko';
 $Definition['Change Password'] = 'Spremeni geslo';
-$Definition['Change Picture'] = 'Spremeni sliko';
+$Definition['Change Picture'] = 'Spremenite sliko';
 $Definition['Check all roles that apply to this user:'] = 'Označi vse vloge, ki veljajo za tega uporabnika:';
 $Definition['Child Categories'] = 'Podrejene kategorije';
 $Definition['Child Categories:'] = 'Podrejene kategorije:';
@@ -376,7 +376,7 @@ $Definition['Email Notifications'] = 'E-poštna obvestila';
 $Definition['Email Or Username'] = 'E-pošta ali uporabniško ime';
 $Definition['Email sent from the application will be addressed from the following name and address'] = 'E-pošta poslana iz programa, bo naslovljena z naslednjim imenom in naslovom';
 $Definition['Email Source'] = 'E-pošta';
-$Definition['Email Unavailable'] = 'E-pošta ni na voljo';
+$Definition['Email Unavailable'] = 'E-poštni naslov že v uporabi';
 $Definition['Email visible to other users'] = 'E-pošta vidna drugim uporabnikom';
 $Definition['Email/Username'] = 'E-pošta/Uporabniško ime';
 $Definition['EmailConfirmEmail'] = 'Preden nadaljujete morate potrditi svoj e-poštni naslov. Potrdite svoj e-poštni naslov s klikom na naslednjo povezavo:  {/entry/emailconfirm,exurl,domain}/{User.UserID,rawurlencode}/{EmailKey,rawurlencode}';
@@ -386,7 +386,7 @@ $Definition['EmailHeader'] = 'Pozdravljen {User.Name}!
 ';
 $Definition['EmailInvitation'] = 'Živjo!
 
-%1$s te je povabil/-a da se pridružiš %2$s. Če se želiš pridružiti, to storiš tako da klikneš na povezavo:
+%1$s te je povabil/-a da se pridružiš %2$s. Če se želiš pridružiti, to storiš tako, da klikneš na povezavo:
 
   %3$s';
 $Definition['EmailMembershipApproved'] = 'Živjo %1$s,
@@ -481,6 +481,7 @@ $Definition['Following %d people'] = 'Sledite %d osebam';
 $Definition['Following %d person'] = 'Sledite %d osebam';
 $Definition['Follows'] = 'Sledenje';
 $Definition['Forgot your password?'] = 'Ste pozabili svoje geslo?';
+$Definition['Your password must be at least %d characters long.'] = 'Vaše geslo ne sme biti krajše od %s znakov.';
 $Definition['Forgot?'] = 'Pozabljeno geslo?';
 $Definition['Format his'] = 'njegov';
 $Definition['Format their'] = 'njihov';
@@ -664,12 +665,12 @@ $Definition['No Roles'] = 'Ni vlog';
 $Definition['NoBadgesEarned'] = 'Vsak čas';
 $Definition['Not Authorized (401)'] = 'Niste pooblaščeni (401)';
 $Definition['Not Found (404)'] = 'Ni najdeno (404)';
+$Definition['not found'] = 'ni bil najden';
 $Definition['Not much happening here, yet.'] = 'Trenutno se tukaj ne dogaja veliko.';
 $Definition['Not Verified'] = 'Ni preverjeno';
-$Definition['Notification'] = 'Obvestila';
+$Definition['Notification'] = 'Obvestilo';
 $Definition['Notification Preferences'] = 'Možnosti obvestil';
 $Definition['Notifications'] = 'Obvestila';
-$Definition['Notifictions'] = 'Obvestila';
 $Definition['Notify'] = 'Obvesti';
 $Definition['Notify me of private messages.'] = 'Obvesti me ko prejmem zasebno sporočilo.';
 $Definition['Notify me when a badge is requested.'] = 'Obvesti me, ko je značka zahtevana.';
@@ -691,7 +692,8 @@ $Definition['OldPassword'] = 'Staro geslo';
 
 $Definition['on'] = 'na';
 
-$Definition['Only show followed categories'] = 'Pokaži samo naslednje kategorije';
+$Definition['Only show followed categories'] = 'Pokaži samo kategorije ki jim sledim';
+$Definition['followed categories'] = 'kategorije ki jim sledim';
 $Definition['OpenID Settings'] = 'Nastavitve OpenID';
 $Definition['Optional Description'] = 'Neobvezen opis';
 $Definition['Options'] = 'Možnosti';
@@ -847,7 +849,8 @@ $Definition['Search results for \'%s\''] = 'Rezultati iskanja za \'%s\'';
 $Definition['SearchBoxPlaceHolder'] = 'Iskanje';
 $Definition['Second Anniversary'] = 'Druga obletnica';
 $Definition['Sections'] = 'Odseki';
-$Definition['Security Check'] = 'Varnostni pregled';
+$Definition['SecurityQuestion'] = 'Varnostni pregled';
+$Definition['Password Translations'] = 'Prekratko,Vsebuje uporabniško ime,Zelo šibko,Šibko,V redu,Dobro,Močno';
 $Definition['Select an image on your computer (2mb max)'] = 'Izberite sliko na svojem računalniku (največ 2MB)';
 $Definition['Send a New Message'] = 'Pošlji novo sporočilo';
 $Definition['Send Message'] = 'Pošlji sporočilo';
@@ -1179,3 +1182,7 @@ $Definition['Your warning was added.'] = 'Vaše opozorilo je bilo dodano.';
 $Definition['↳ No results for \'%s\''] = '↳ Ni rezultatov za\'%s\'';
 $Definition['↳ Search results for \'%s\''] = '↳ Rezultati iskanja za \'%s\'';
 $Definition['↳ Show All'] = '↳ Pokaži vse';
+$Definition['Wrong answer on security check!'] = 'Napačen odgovor na varnostno vprašanje!';
+$Definition['Mark Category Viewed'] = 'Označi kategorijo kot prebrano';
+$Definition['Humanity Check...  Not bots allowed!'] = 'Samo preverjamo, če ste res živa oseba =)';
+$Definition['Your humanity is suspect... Please try again.'] = 'Sumimo, da niste živa oseba. Poskusite znova odgovoriti na vprašanje!';

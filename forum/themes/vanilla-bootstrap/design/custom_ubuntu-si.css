@@ -9,21 +9,20 @@
 .Wrap h3, .Category h3 a {
 	font-weight: 600 !important;
 }
-.Box AddPeople #Form_AddPeople {
-	width: 500%;
-}
-.Banner ul {
-	color: #FFFFFF;
-	background: #DD4814 !important;
-}
 .DiscussionHeader {
-	color: #FFFFFF !important;
+	/* color: #FFFFFF !important; */
 	background: #DD4814 !important;
 	border: 1px solid;
 	border-color: #DD4814 !important;
 }
-.DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DateUpdated {
+.DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DateUpdated, .DiscussionMeta .Category {
 	color: #FFFFFF !important;
+}
+.DiscussionMeta .Category a {
+	font-size: 100% !important;
+	margin-left: 5px;
+	background-color: gray !important;
+	padding: 0.3em 0.6em 0.4em !important;
 }
 #SignInRememberMe {
 	margin-left: 75%;
@@ -44,9 +43,22 @@
 .Category- {
 	display: none;
 }
-StrengthText, #NameUnavailable, #PasswordsDontMatch, #EmailUnavailable {
+.StrengthText, #NameUnavailable, #PasswordsDontMatch, #EmailUnavailable {
 	color: red;
 }
 .CommentQuote {
 	margin-right: 5px;
 }
+.Message img {
+	width: 100%;
+	height: auto;
+}
+/* mobile specific */
+.Banner ul {
+	color: #FFFFFF;
+	background: #DD4814 !important;
+}
+.Banner .NewDiscussion {
+	border-left: none !important;
+}
+
