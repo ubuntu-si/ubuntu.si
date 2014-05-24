@@ -1186,3 +1186,8 @@ $Definition['Wrong answer on security check!'] = 'Napačen odgovor na varnostno 
 $Definition['Mark Category Viewed'] = 'Označi kategorijo kot prebrano';
 $Definition['Humanity Check...  Not bots allowed!'] = 'Samo preverjamo, če ste res živa oseba =)';
 $Definition['Your humanity is suspect... Please try again.'] = 'Sumimo, da niste živa oseba. Poskusite znova odgovoriti na vprašanje!';
+$Definition['Category Filter'] = 'Filter kategorij';
+$Definition['ButtonBar.BBCodeHelp'] = 'V svoji objavi lahko uporabite <b><a href="http://en.wikipedia.org/wiki/BBCode" target="_new">BBCode</a></b>.';
+$Definition['ButtonBar.HtmlHelp'] = 'V svoji objavi lahko uporabite <b><a href="http://htmlguide.drgrog.com/cheatsheet.php" target="_new">preprost Html</a></b> .';
+$Definition['ButtonBar.MarkdownHelp'] = 'V svoji objavi lahko uporabite <b><a href="http://en.wikipedia.org/wiki/Markdown" target="_new">Markdown</a></b>.';
+$Definition['Breadcrumbs Crumb'] = '/';

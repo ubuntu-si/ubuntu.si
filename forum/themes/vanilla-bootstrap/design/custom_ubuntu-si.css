@@ -53,6 +53,16 @@
 	width: 100%;
 	height: auto;
 }
+.ButtonBarMarkupHint {
+	margin-top: 0px !important;
+}
+.Breadcrumbs .Crumb {
+	display: initial !important;
+	color: #cccccc;
+}
+.Breadcrumbs .CrumbLabel:before {
+	display: none !important;
+}
 /* mobile specific */
 .Banner ul {
 	color: #FFFFFF;
