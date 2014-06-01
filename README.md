@@ -32,6 +32,7 @@ TO-DO:
          - [✓] make a class.ubuntusithemehooks.php in root folder of the vanilla bootstrap theme so we can have a custom .css file for ubuntu.si changes
          - [✓] Move search form into the page-sidebar (.tpl in theme/views/)
          - [✓] add to a .htaccess file redirect from "punbb/topic/6112/" to "index.php?p=/discussion/6112/"
+         - we need to delete users without roles (unverified users == spammers). Hint SELECT * FROM  `GDN_UserRole` WHERE  `RoleID` =0
          
 * KNOWN ISSUES:
 
