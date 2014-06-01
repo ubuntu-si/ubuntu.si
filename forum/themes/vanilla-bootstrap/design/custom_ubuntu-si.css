@@ -67,4 +67,14 @@
 .Banner .NewDiscussion {
 	border-left: none !important;
 }
-
+.Message code {
+	background-color: #340f26;
+	color: white;
+	font-size: .95em;
+	display: block;
+	padding: 1em;
+	overflow-wrap: break-word;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
