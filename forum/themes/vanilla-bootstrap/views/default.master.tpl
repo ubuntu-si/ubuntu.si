@@ -15,7 +15,9 @@
     <![endif]-->
   </head>
   <body id="{$BodyID}" class="{$BodyClass} sticky-footer-body">
-
+    <!-- custom navbar for ubuntu.si-->
+    {asset name="WordpressNavbar"}
+	<!-- end of ubuntu.si change -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
 
@@ -52,15 +54,18 @@
       <div class="row">
 
         <main class="page-content" role="main">
-          {breadcrumbs}
-          
+
+		  {breadcrumbs}
+
           {asset name="Content"}
         </main>
 
         <aside class="page-sidebar" role="complementary">
+			<!-- ubuntu.si change-->
 			{if InSection(array("CategoryList", "CategoryDiscussionList", "DiscussionList"))}
 				<div class="SearchForm">{searchbox}</div>
 			{/if}
+			<!-- end of ubuntu.si change-->
 			{asset name="Panel"}
         </aside>
 
@@ -71,7 +76,7 @@
       <div class="container">
         <p class="pull-left">{t c="Copyright"} {$smarty.now|date_format:"%Y"} &copy; <a href="{link path="home"}">{logo}</a></p>
         <p class="pull-right hidden-xs">{t c="Built with"} <i class="InformSprite Heart"></i> {t c="and"} <a href="http://getbootstrap.com">Bootstrap</a>
-          <!-- A lot of time was put into this project - a "Follow" and a "Star" would be most appreciated! 
+          <!-- A lot of time was put into this project - a "Follow" and a "Star" would be most appreciated!
            We say no thanks to iframes <iframe src="http://ghbtns.com/github-btn.html?user=kasperisager&type=follow"
   allowtransparency="true" frameborder="0" scrolling="0" width="145" height="20" style="vertical-align:top;margin-left:20px;"></iframe>
           <iframe src="http://ghbtns.com/github-btn.html?user=kasperisager&repo=vanilla-bootstrap&type=watch&count=true"

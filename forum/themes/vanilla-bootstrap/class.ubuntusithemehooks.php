@@ -1,4 +1,5 @@
 <?php if (!defined('APPLICATION')) exit();
+include_once('modules/class.ubuntusinavbarmodule.php');
 /*
 Copyright 2008, 2009 Vanilla Forums Inc.
 This file is part of Garden.
@@ -18,21 +19,23 @@ class UbuntuSiThemeHooks implements Gdn_IPlugin {
       return TRUE;
    }
        
-        /**
-         * Add stylesheets and js
-         */
-        public function Base_Render_Before($Sender) {
-                if (is_object($Sender->Head)) {
-                       
-                        // Add Css
-                        $Sender->Head->AddCss("/themes/vanilla-bootstrap/design/custom_ubuntu-si.css", "screen");
+/**
+* stylesheets and js
+*/
+    public function Base_Render_Before($Sender) {
+		// our custom navbar
+        $Sender->AddModule('UbuntuSiNavbarModule');
+        
+		if (is_object($Sender->Head)) {
+            // Add Css
+            $Sender->Head->AddCss("/themes/vanilla-bootstrap-2.2.1/design/custom_ubuntu-si.css", "screen");
  
-                        // Add js - The number is the script order to be displayed in
-                        //$Sender->Head->AddScript("/themes/vanilla-bootstrap-2.2.1/js/cufon.js", "text/javascript", 12);
-                        //$Sender->Head->AddScript("/themesvanilla-bootstrap-2.2.1/js/font.js", "text/javascript", 13);
+            // Add js - The number is the script order to be displayed in
+            //$Sender->Head->AddScript("/themes/vanilla-bootstrap-2.2.1/js/cufon.js", "text/javascript", 12);
+            //$Sender->Head->AddScript("/themesvanilla-bootstrap-2.2.1/js/font.js", "text/javascript", 13);
  
-                }
         }
+    }
        
  
 }
