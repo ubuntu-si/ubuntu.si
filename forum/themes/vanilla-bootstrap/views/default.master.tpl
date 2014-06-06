@@ -63,7 +63,7 @@
         <aside class="page-sidebar" role="complementary">
 			<!-- ubuntu.si change-->
 			{if InSection(array("CategoryList", "CategoryDiscussionList", "DiscussionList"))}
-				<div class="SearchForm">{searchbox}</div>
+				<div class="well search-form">{searchbox}</div>
 			{/if}
 			<!-- end of ubuntu.si change-->
 			{asset name="Panel"}

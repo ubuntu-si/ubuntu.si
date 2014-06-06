@@ -24,14 +24,8 @@
 	background-color: gray !important;
 	padding: 0.3em 0.6em 0.4em !important;
 }
-#SignInRememberMe {
-	margin-left: 75%;
-}
-.page-sidebar .SearchForm {
-	margin-bottom: 14px !important;
-	border-radius: 8px !important;
-	padding: 10px !important;
-	background-color: #dd4814;
+.CheckBoxLabel {
+	display: block;
 }
 .HomepageTitle {
 	margin: 10px 0px 0px !important;
@@ -59,14 +53,6 @@
 .Breadcrumbs .CrumbLabel:before {
 	display: none !important;
 }
-/* mobile specific */
-.Banner ul {
-	color: #FFFFFF;
-	background: #DD4814 !important;
-}
-.Banner .NewDiscussion {
-	border-left: none !important;
-}
 .Message code {
 	background-color: #340f26;
 	color: white;
@@ -77,4 +63,48 @@
 	border-radius: 5px;
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35);
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+.navbar-header #logo {
+	display: block;
+	background: transparent url("../../../uploads/ubuntu-logo.png") no-repeat 0 0;
+	width: 150px;
+	height: 50px;
+	text-indent: -1000px;
+}
+.navbar:nth-of-type(1) {
+	margin-bottom: 10px;
+}
+.navbar-default:nth-of-type(1) {
+	background-color: #DD4814;
+	border-color: transparent;
+}
+/* .Selected:nth-of-type(1) {
+	background-color: pink;
+}
+* */
+a.ForgotPassword {
+	display: block;
+	margin-left: 0px !important;
+	margin-top: 5px;
+}
+.search-form .Button {
+	display: none !important;
+	visibility: hidden!important
+}
+.search-form {
+	margin-bottom: 20px;
+}
+/* mobile specific */
+.Banner ul {
+	color: #FFFFFF;
+	background: #DD4814 !important;
+}
+.Banner .NewDiscussion, .Banner li.SignInItem a {
+	border-left: none !important;
+}
+#Foot a {
+	color: #3B5998 !important;
+}
+#Foot {
+	margin-top: 0px !important;
 }
