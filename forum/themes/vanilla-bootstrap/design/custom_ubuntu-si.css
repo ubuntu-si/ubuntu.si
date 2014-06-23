@@ -75,13 +75,16 @@
 	margin-bottom: 10px;
 }
 .navbar-default:nth-of-type(1) {
-	background-color: #DD4814;
+	background-color: #77216F;
 	border-color: transparent;
 }
-/* .Selected:nth-of-type(1) {
-	background-color: pink;
+.SelectedWP {
+	background-color: #DD4814;
 }
-* */
+/* .navbar-default .navbar-nav > li > .Selected {
+	background-color: #77216F !important;
+}
+*/
 a.ForgotPassword {
 	display: block;
 	margin-left: 0px !important;
