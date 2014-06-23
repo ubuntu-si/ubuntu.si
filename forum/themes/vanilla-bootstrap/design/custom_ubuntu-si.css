@@ -97,6 +97,16 @@ a.ForgotPassword {
 .search-form {
 	margin-bottom: 20px;
 }
+.footer-icons {
+	margin-left: 30%;
+}
+.copyright-notice {
+	font-size: 75%;
+	text-align: center;
+}
+.container .pull-left, .container .pull-right {
+	font-size: 90%;
+}
 /* mobile specific */
 .Banner ul {
 	color: #FFFFFF;
