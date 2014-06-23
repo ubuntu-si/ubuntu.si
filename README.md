@@ -10,7 +10,7 @@ TO-DO:
            - design/use a bootstrap theme
            - integration with Vanilla forums (wp news -> forum news)
            
-* Forum:
+* [✓] Forum - all has been done except our custom navbar styling:
 * 
 *[✓] means either the work is done or the process described works
 
@@ -24,7 +24,7 @@ TO-DO:
          - which plugins to use? BotStop,Quotes, All Viewed are a must have. Button bar is optional.
          - dont forget to set roles and permissions again
          - [✓] registration/spam prevention: to use registerbasic.php we need to change our config.php to $Configuration['Garden']['Registration']['Method'] = 'Basic'; - BOTSTOP TO THE RESCUE. I modified registerbasic.php to update the code.
-         - dont forget about EU cookie law msg
+         - dont forget about EU cookie law msg (no need - dz0ny will do some hash magic)
          - [✓] add wordpress menu to the forum - we will be using a module with small changes to default.master.tpl
          - [✓] fix breadcrumbs divider not being displayed
          - [✓] we need to use mobile theme from vanilla because it looks much better on smaller resolutions, we achieve that by adding "$Configuration['Garden']['DebugAssets'] = TRUE;" to config.php 
