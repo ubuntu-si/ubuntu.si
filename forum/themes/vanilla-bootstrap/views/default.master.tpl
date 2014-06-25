@@ -77,14 +77,14 @@
         <p class="pull-left">{t c="Copyright"} {$smarty.now|date_format:"%Y"} &copy; <a href="{link path="home"}">{logo}</a></p>
         <i class="footer-icons">
 			<a href="http://google.com/+UbuntuSi" target="_blank"><img class="icons" src="uploads/icons/gplus-icon.png" alt="Google+"></a>
-			<a href="https://www.facebook.com/UbuntuSlovenija" target="_blank"><img class="icons" src="uploads/icons/facebook-icon.png" alt="Facebook"></a> 
+			<a href="https://www.facebook.com/UbuntuSlovenija" target="_blank"><img class="icons" src="uploads/icons/facebook-icon.png" alt="Facebook"></a>
 			<a href="https://twitter.com/ubuntusi" target="_blank"><img class="icons" src="uploads/icons/twitter-icon.png" alt="Twitter"></a>
 			<a href="https://www.youtube.com/UbuntuSlovenija" target="_blank"><img class="icons" src="uploads/icons/youtube-icon.png" alt="youtube"> </a>
 			<a href="/?feed=rss2" target="_blank"><img class="icons" src="uploads/icons/rss-icon.png" alt="RSS feed"></a>
 		</i>
         <p class="pull-right hidden-xs">{t c="Built with"} <i class="InformSprite Heart"></i> {t c="and"} <a href="http://getbootstrap.com">Bootstrap</a></p>
+        <p class="trademark-notice">Ubuntu in Canonical sta registrirani blagovni znamki podjetja Canonical Ltd.</p>
         {asset name="Foot"}
-        <p class="copyright-notice">Ubuntu in Canonical sta registrirani blagovni znamki podjetja Canonical Ltd.</p>
       </div>
     </footer>
 

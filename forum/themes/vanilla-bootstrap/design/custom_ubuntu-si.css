@@ -15,13 +15,13 @@
 	border: 1px solid;
 	border-color: #DD4814 !important;
 }
-.DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DateUpdated, .DiscussionMeta .Category {
+.DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DiscussionMeta .Category {
 	color: #FFFFFF !important;
 }
 .DiscussionMeta .Category a {
 	font-size: 100% !important;
 	margin-left: 5px;
-	background-color: gray !important;
+	background-color: #9b9389 !important;
 	padding: 0.3em 0.6em 0.4em !important;
 }
 .CheckBoxLabel {
@@ -46,13 +46,6 @@
 .ButtonBarMarkupHint {
 	margin-top: 0px !important;
 }
-.Breadcrumbs .Crumb {
-	display: initial !important;
-	color: #cccccc;
-}
-.Breadcrumbs .CrumbLabel:before {
-	display: none !important;
-}
 .Message code {
 	background-color: #340f26;
 	color: white;
@@ -66,8 +59,8 @@
 }
 .navbar-header #logo {
 	display: block;
-	background: transparent url("../../../uploads/ubuntu-logo.png") no-repeat 0 0;
-	width: 150px;
+	background: transparent url("../../../uploads/icons/ubuntu-logo.png") no-repeat 0 0;
+	width: 205px;
 	height: 50px;
 	text-indent: -1000px;
 }
@@ -78,10 +71,11 @@
 	background-color: #77216F;
 	border-color: transparent;
 }
+/*
 .SelectedWP {
 	background-color: #DD4814;
 }
-/* .navbar-default .navbar-nav > li > .Selected {
+ .navbar-default .navbar-nav > li > .Selected {
 	background-color: #77216F !important;
 }
 */
@@ -100,12 +94,43 @@ a.ForgotPassword {
 .footer-icons {
 	margin-left: 30%;
 }
-.copyright-notice {
+.sticky-footer {
+  padding-top: 10px !important;
+}
+.trademark-notice {
 	font-size: 75%;
 	text-align: center;
 }
 .container .pull-left, .container .pull-right {
 	font-size: 90%;
+}
+.BlockColumn {
+  padding-left: 15px;
+}
+.Item .Meta .MItem {
+  padding-right: 5px !important;
+}
+.AdminCheck {
+  padding-left: 5px;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin: -1px 0 0 !important;
+}
+.SpFlyoutHandle {
+  vertical-align: middle;
+}
+.Actions .Popup::after {
+  content: "|";
+  margin-left: 1px;
+  color: black;
+}
+span[itemprop="title"]::after {
+  content: "»";
+  color: #aea79f;
+}
+.Breadcrumbs .CrumbLabel:before {
+  content: none !important;
 }
 /* mobile specific */
 .Banner ul {
