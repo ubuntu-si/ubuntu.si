@@ -64,6 +64,9 @@
 	height: 50px;
 	text-indent: -1000px;
 }
+.navbar:nth-of-type(1) .navbar-header {
+  float: right;
+}
 .navbar:nth-of-type(1) {
 	margin-bottom: 10px;
 }
@@ -93,6 +96,9 @@ a.ForgotPassword {
 }
 .footer-icons {
 	margin-left: 30%;
+}
+.footer-icons a .icons {
+  padding-right: 5px;
 }
 .sticky-footer {
   padding-top: 10px !important;

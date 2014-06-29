@@ -9,16 +9,10 @@ class UbuntuSiNavbarModule extends Gdn_Module {
 	$db_name = 'changeme';
 	$db_username = 'changeme';
 	$db_password = 'changeme';
-	
+
 	$navbar = <<<EOD
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="container">
-
-			 <!-- OPTIONAL LOGO!
-			<div class="navbar-header">
-				<a class="navbar-brand" id="logo" href="{link path="home"}">{logo}</a>
-			</div>
-			-->
 			<!--  #branding -->
 			<ul class="nav navbar-nav">
 			<!-- prikrojeni meni -->
@@ -54,7 +48,15 @@ EOD;
 	    mysql_set_charset('utf8',$baza) or die();
 	    mysql_close($baza);
 	    // end of Andrej M. code
-	$navbar .= "</ul>\n</div>\n</nav>";
+	$navbar .= <<<EOD
+      </ul>
+      <!-- OPTIONAL LOGO -->
+     <div class="navbar-header">
+       <a class="navbar-brand" id="logo" href="/"></a>
+     </div>
+    </div>
+  </nav>
+EOD;
     $this->SetData('Menu', $navbar);
   }
   public function AssetTarget() {
