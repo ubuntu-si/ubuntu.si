@@ -1198,4 +1198,4 @@ $Definition['ButtonBar.MarkdownHelp'] = 'V svoji objavi lahko uporabite <b><a hr
 #$Definition['Breadcrumbs Crumb'] = '/';
 $Definition['edited %s'] = 'uredil/-a %s';
 $Definition['ConfirmDeleteCommentHeading'] = 'Izbriši komentar';
-$Definition['ConfirmDeleteCommentText'] = 'Ali ste prepričani, da želite izbrisati ta komentar?';
+$Definition['ConfirmDeleteCommentText'] = 'Ali ste prepričani, da želite izbrisati komentar?';

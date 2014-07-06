@@ -24,6 +24,9 @@
 	background-color: #9b9389 !important;
 	padding: 0.3em 0.6em 0.4em !important;
 }
+.Discussions .ItemDiscussion {
+  padding: 0px 10px 10px 10px !important;
+}
 .CheckBoxLabel {
 	display: block;
 }
@@ -46,12 +49,14 @@
 .ButtonBarMarkupHint {
 	margin-top: 0px !important;
 }
-.Message code {
+.Message code, pre {
 	background-color: #340f26;
 	color: white;
 	font-size: .95em;
 	display: block;
 	padding: 1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
 	overflow-wrap: break-word;
 	border-radius: 5px;
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35);
@@ -113,9 +118,9 @@ a.ForgotPassword {
 .BlockColumn {
   padding-left: 15px;
 }
-.Item .Meta .MItem {
+/*.Item .Meta .MItem {
   padding-right: 5px !important;
-}
+}*/
 .AdminCheck {
   padding-left: 5px;
 }
@@ -137,6 +142,24 @@ span[itemprop="title"]::after {
 }
 .Breadcrumbs .CrumbLabel:before {
   content: none !important;
+}
+.Breadcrumbs {
+  margin-bottom: 10px !important;
+}
+.PageDescription {
+  margin-top: 5px;
+  margin-bottom: 10px !important;
+}
+.SearchResults .ItemContent .Title {
+  color: #77216F;
+  text-decoration: underline;
+}
+.CommentHeader, .Comment .Options {
+  padding-bottom: 0px !important;
+  padding-top: 15px !important;
+}
+.Tag {
+  vertical-align: middle !important;
 }
 /* mobile specific */
 .Banner ul {
