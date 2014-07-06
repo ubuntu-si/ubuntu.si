@@ -545,6 +545,7 @@ $Definition['I agree to the <a id="TermsOfService" class="Popup" target="terms" 
 $Definition['I remember now!'] = 'Sedaj se spomnim!';
 
 $Definition['in'] = 'v';
+$Definition[' in '] = ' v ';
 
 $Definition['In <b>%s.</b>'] = 'V <b>%s.</b>';
 $Definition['In <b>%s</b> and recent discussions.'] = 'V <b>%s</b> in nedavne razprave.';
@@ -696,8 +697,8 @@ $Definition['OldPassword'] = 'Staro geslo';
 
 $Definition['on'] = 'na';
 
-$Definition['Only show followed categories'] = 'Pokaži samo kategorije ki jim sledim';
-$Definition['followed categories'] = 'kategorije ki jim sledim';
+$Definition['Only show followed categories'] = 'Pokaži samo kategorije, ki jim sledim';
+$Definition['followed categories'] = 'kategorije, ki jim sledim';
 $Definition['OpenID Settings'] = 'Nastavitve OpenID';
 $Definition['Optional Description'] = 'Neobvezen opis';
 $Definition['Options'] = 'Možnosti';
@@ -1196,3 +1197,5 @@ $Definition['ButtonBar.HtmlHelp'] = 'V svoji objavi lahko uporabite <b><a href="
 $Definition['ButtonBar.MarkdownHelp'] = 'V svoji objavi lahko uporabite <b><a href="http://en.wikipedia.org/wiki/Markdown" target="_new">Markdown</a></b>.';
 #$Definition['Breadcrumbs Crumb'] = '/';
 $Definition['edited %s'] = 'uredil/-a %s';
+$Definition['ConfirmDeleteCommentHeading'] = 'Izbriši komentar';
+$Definition['ConfirmDeleteCommentText'] = 'Ali ste prepričani, da želite izbrisati ta komentar?';
