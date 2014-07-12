@@ -38,7 +38,7 @@ TO-DO:
 
 * KNOWN ISSUES:
 
-         - [✓] None!
+         - [] When trying to register and click on terms of service, popup opens and does not show all of our terms of service.
 
 
 * FIXED (??) KNOWN ISSUES:
