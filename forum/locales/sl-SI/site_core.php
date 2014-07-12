@@ -1199,3 +1199,7 @@ $Definition['ButtonBar.MarkdownHelp'] = 'V svoji objavi lahko uporabite <b><a hr
 $Definition['edited %s'] = 'uredil/-a %s';
 $Definition['ConfirmDeleteCommentHeading'] = 'Izbriši komentar';
 $Definition['ConfirmDeleteCommentText'] = 'Ali ste prepričani, da želite izbrisati komentar?';
+$Definition['%s is required.'] = '%s je zahtevano.';
+$Definition['Reset my password'] = 'Ponastavi moje geslo';
+$Definition['Enter your email address or username'] = 'Vnesite svoj e-poštni naslov ali uporabniško ime';
+$Definition["Couldn't find an account associated with that email/username."] = 'Noben račun ni povezan s tem e-poštnim naslovom/uporabniškim imenom.';
