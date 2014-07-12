@@ -1,4 +1,4 @@
-// ubuntu.si changes //
+/* ubuntu.si changes */
 .Item .ItemContent {
    word-wrap: break-word;
 }
@@ -20,6 +20,7 @@
 }
 .DiscussionMeta .Category a {
 	font-size: 100% !important;
+  font-weight: normal !important;
 	margin-left: 5px;
 	background-color: #9b9389 !important;
 	padding: 0.3em 0.6em 0.4em !important;
@@ -31,8 +32,8 @@
 	display: block;
 }
 .HomepageTitle {
-	margin: 10px 0px 0px !important;
-	padding-bottom: 9px !important;
+	margin: 0px 0px 0px !important;
+	padding-bottom: 10px !important;
 }
 .Buttons .Cancel {
 	margin-right: 5px;
@@ -65,7 +66,7 @@
 .navbar-header #logo {
 	display: block;
 	background: transparent url("../../../uploads/icons/ubuntu-logo.png") no-repeat 0 0;
-	width: 205px;
+	width: 175px;
 	height: 50px;
 	text-indent: -1000px;
 }
@@ -79,6 +80,14 @@
 	background-color: #77216F;
 	border-color: transparent;
 }
+@media (min-width: 992px) {
+    .navbar {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px !important;
+  }
+}
+
 /*
 .SelectedWP {
 	background-color: #DD4814;
@@ -130,6 +139,7 @@ input[type="checkbox"] {
 }
 .SpFlyoutHandle {
   vertical-align: middle;
+  margin-bottom: 3px;
 }
 .Actions .Popup::after {
   content: "|";
@@ -154,12 +164,29 @@ span[itemprop="title"]::after {
   color: #77216F;
   text-decoration: underline;
 }
-.CommentHeader, .Comment .Options {
+/*.Comment .Options {
   padding-bottom: 0px !important;
-  padding-top: 15px !important;
-}
+  padding-top: 10px !important;
+}*/
 .Tag {
   vertical-align: middle !important;
+}
+.PageTitle {
+  margin-top: 20px !important;
+}
+.PageTitle .Options {
+  padding-top: 10px;
+}
+.Discussions .Options {
+  padding-top: 20px;
+}
+a.Delete {
+  float: none !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  color: #dd4814 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
 }
 /* mobile specific */
 .Banner ul {
@@ -174,4 +201,12 @@ span[itemprop="title"]::after {
 }
 #Foot {
 	margin-top: 0px !important;
+}
+@media screen and (max-device-width:480px){
+    .Banner ul li a {
+    padding: 3px 3px !important;
+  }
+}
+#Frame #Body #Content .Discussion .ItemDiscussion {
+  padding: 0px !important;
 }
