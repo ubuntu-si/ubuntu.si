@@ -188,6 +188,19 @@ a.Delete {
   text-shadow: none !important;
   opacity: 1 !important;
 }
+#dashboard_home_termsofservice #Content h1 {
+  text-shadow: none !important;
+  color: #ffffff !important;
+  background: #dd4814 !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+#dashboard_home_termsofservice #Content .Legal {
+  border: 1px solid #dd4814;
+}
+#dashboard_home_termsofservice {
+  background: white !important
+}
 /* mobile specific */
 .Banner ul {
 	color: #FFFFFF;
