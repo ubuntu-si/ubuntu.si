@@ -15,7 +15,7 @@
 	border: 1px solid;
 	border-color: #DD4814 !important;
 }
-.DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DiscussionMeta .Category {
+.DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DiscussionMeta .Category, .DiscussionMeta .DateUpdated {
 	color: #FFFFFF !important;
 }
 .DiscussionMeta .Category a {
@@ -51,17 +51,17 @@
 	margin-top: 0px !important;
 }
 .Message code, pre {
-	background-color: #340f26;
-	color: white;
-	font-size: .95em;
-	display: block;
-	padding: 1em;
-  margin-top: 5px;
-  margin-bottom: 5px;
-	overflow-wrap: break-word;
-	border-radius: 5px;
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35);
-	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+	background-color: #340f26 !important;
+	color: white !important;
+	font-size: .95em !important;
+	display: block !important;
+	padding: 1em !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+	overflow-wrap: break-word !important;
+	border-radius: 5px !important;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35) !important;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.15) !important;
 }
 .navbar-header #logo {
 	display: block;
