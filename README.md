@@ -38,7 +38,9 @@ TO-DO:
 
 * KNOWN ISSUES:
 
-         - [] When trying to register and click on terms of service, popup opens and does not show all of our terms of service.
+         - [ ]  When trying to register and clicking on terms of service, popup opens and does not show all of our terms of service.
+         - [✓] Search shows two next/previous buttons (one from applications/vanilla/views/discussion/index.php one from applications/dashboard/views/search/results.php = this one is best to comment out)
+         - [ ]  There is an issue with icheck and checkbox - does not register first click on the checkbox
 
 
 * FIXED (??) KNOWN ISSUES:
