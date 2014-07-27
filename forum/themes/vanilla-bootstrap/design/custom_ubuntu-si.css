@@ -201,6 +201,20 @@ a.Delete {
 #dashboard_home_termsofservice {
   background: white !important
 }
+.GuestBox {
+  margin-bottom: 10px;
+}
+a.Close {
+  color: red !important;
+  opacity: 1 !important;
+}
+.Overlay>.Popup {
+  width: 700px !important;
+}
+.Overlay .Popup .Border .Body .Content {
+  height: 800px !important;
+  overflow: auto !important;
+}
 /* mobile specific */
 .Banner ul {
 	color: #FFFFFF;
