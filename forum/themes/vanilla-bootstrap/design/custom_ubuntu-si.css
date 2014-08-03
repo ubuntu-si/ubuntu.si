@@ -211,7 +211,7 @@ a.Close {
 .Overlay>.Popup {
   width: 700px !important;
 }
-.Overlay .Popup .Border .Body .Content {
+#dashboard_entry_register .Overlay .Popup .Border .Body .Content {
   height: 800px !important;
   overflow: auto !important;
 }
