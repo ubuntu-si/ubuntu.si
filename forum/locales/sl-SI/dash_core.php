@@ -530,7 +530,7 @@ $Definition['Location'] = 'Location';
 $Definition['LogoBrowse'] = 'Izberite nov logo pasice, če ga želite spremeniti:';
 $Definition['LogoDescription'] = 'The banner logo appears at the top of your site. Some themes may not display this logo.';
 
-$Definition['Maintenance Mode'] = 'Maintenance Mode';
+$Definition['Maintenance Mode'] = 'Način vzdrževanja';
 $Definition['Make sure to use a forum theme that meshes well with the look and feel of the remote site.'] = 'Make sure to use a forum theme that meshes well with the look and feel of the remote site.';
 $Definition['Make sure you click View Page'] = 'Make sure you click <a href="%s">View Page</a> to see what your categories page looks like after saving.';
 $Definition['Make sure you select at least one item before continuing.'] = 'Make sure you select at least one item before continuing.';

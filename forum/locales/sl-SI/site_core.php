@@ -728,7 +728,7 @@ $Definition['Permalink'] = 'Permalink';
 $Definition['permalink'] = 'permalink';
 
 $Definition['Permanent (301)'] = 'Trajno (301)';
-$Definition['PermissionErrorMessage'] = 'Nimate dovoljenj za to.';
+$Definition['PermissionErrorMessage'] = 'Nimate dovoljenj za to dejanje.';
 $Definition['PermissionErrorTitle'] = 'Težava z dovoljenjem';
 $Definition['PermissionRequired.Garden.Moderation.Manage'] = 'To lahko stori samo moderator.';
 $Definition['PermissionRequired.Garden.Settings.Manage'] = 'To lahko stori samo skrbnik.';
@@ -1149,7 +1149,7 @@ $Definition['You do not have any drafts.'] = 'Nimate nobenega osnutka.';
 $Definition['You do not have any notifications yet.'] = 'Nimate nobenega obvestila.';
 $Definition['You do not have enough invitations left.'] = 'Nimate dovolj povabil.';
 $Definition['You do not have permission to write new comments.'] = 'Nimate dovoljenja za pisanje novega komentarja.';
-$Definition['You don\'t have permission to do that.'] = 'Nimate dovoljenj za to.';
+$Definition['You don\'t have permission to do that.'] = 'Nimate dovoljenj za to dejanje.';
 $Definition['You have answered questions'] = 'Odgovorili ste na vprašanja';
 $Definition['You have entered an invalid discussion title'] = 'Vnesli ste neveljaven naslov razprave';
 $Definition['You have not started any discussions.'] = 'Niste začeli nobene razprave.';
