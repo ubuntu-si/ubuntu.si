@@ -215,6 +215,9 @@ a.Close {
   height: 800px !important;
   overflow: auto !important;
 }
+.InThisConversation .PanelInfo .PhotoWrap {
+  display: none;
+}
 /* mobile specific */
 .Banner ul {
 	color: #FFFFFF;
