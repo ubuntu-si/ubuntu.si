@@ -18,10 +18,10 @@ TO-DO:
          - [✓] import database into test env
          - [✓] convert punbb to vanilla forums DB with vanilla export tool
          - [✓] import to vanilla forums from Import menu (note: choose a file, press start, check that file and press start again)
-         - use the next view style (Home page: Categories, Discussion layout: Table Layout, Categories layout: Table Layout) and under 'managecategories' "Display root categories as headings" and "more than 1 level deep"
+         - [✓] use the next view style (Home page: Categories, Discussion layout: Table Layout, Categories layout: Table Layout) and under 'managecategories' "Display root categories as headings" and "more than 1 level deep"
          - [✓] new design for the new forum (united theme - very ubuntu like)
          - [✓] import slovenian locale
-         - which plugins to use? BotStop,Quotes, All Viewed,ButtonBar, Resized Image LightBox, Split/Merge are a must. Need to modify Resolved Discussions plugin!
+         - [✓] which plugins to use? Add Registration Question,Quotes, All Viewed,ButtonBar, Resized Image LightBox, Split/Merge are a must. Need to modify Resolved Discussions plugin!
          - dont forget to set roles and permissions again
          - [✓] registration/spam prevention: to use registerbasic.php we need to change our config.php to $Configuration['Garden']['Registration']['Method'] = 'Basic'; - BOTSTOP TO THE RESCUE. I modified registerbasic.php to update the code.
          - dont forget about EU cookie law msg (no need - dz0ny will do some hash magic)
@@ -39,15 +39,9 @@ TO-DO:
 
 * KNOWN ISSUES:
 
-         - [ ]  When trying to register and clicking on terms of service, popup opens and does not show all of our terms of service.
+         - [✓]  When trying to register and clicking on terms of service, popup opens and does not show all of our terms of service.
          - [✓]  Search shows two next/previous buttons - no need, new (from github) search/index.php solves this issue
-         - [ ]  There is an issue with icheck and checkbox - does not register first click on the checkbox
+         - [✓]  There is an issue with icheck and checkbox - does not register first click on the checkbox - js issue with the theme/vanilla
 
 
-* FIXED (??) KNOWN ISSUES:
-* used a fresh database and that fixed these issues
 
-		 - [✓] Form_Addpeople is waaay too wide (used to add people while messaging)
-         - can't visit user's profile page
-         - can't see/get/send private messages
-         - can't send posts (DateUpdated required(???))

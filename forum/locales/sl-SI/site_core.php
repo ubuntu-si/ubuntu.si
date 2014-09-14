@@ -1214,3 +1214,4 @@ $Definition['New Discussion Topic'] = 'Naslov nove razprave';
 $Definition['Create New Discussion'] = 'Ustvari novo razpravo';
 $Definition['by %s'] = 'od %s';
 $Definition['No results for %s.'] = 'Ni rezultatov za <b>%s</b>.';
+$Definition['Please enter Correct Code.'] = 'Napačen odgovor na varnostno vprašanje. Poskusite znova. Ne pozabite na šumnike!';
