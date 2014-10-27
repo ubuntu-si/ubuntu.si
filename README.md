@@ -22,7 +22,7 @@ TO-DO:
          - [✓] new design for the new forum (united theme - very ubuntu like)
          - [✓] import slovenian locale
          - [✓] which plugins to use? Add Registration Question,Quotes, All Viewed,ButtonBar, Resized Image LightBox, Split/Merge are a must. Need to modify Resolved Discussions plugin!
-         - [ ]dont forget to set roles and permissions again
+         - [ ]dont forget to set roles and permissions again, untick 'View' profiles for Guests
          - [✓] registration/spam prevention: to use registerbasic.php we need to change our config.php to $Configuration['Garden']['Registration']['Method'] = 'Basic'; - BOTSTOP TO THE RESCUE. I modified registerbasic.php to update the code.
          - [ ]dont forget about EU cookie law msg (no need - dz0ny will do some hash magic)
          - [✓] add wordpress menu to the forum - we will be using a module with small changes to default.master.tpl
