@@ -41,7 +41,7 @@ TO-DO:
 
          - [✓]  When trying to register and clicking on terms of service, popup opens and does not show all of our terms of service.
          - [✓]  Search shows two next/previous buttons - no need, new (from github) search/index.php solves this issue
-         - [✓]  There is an issue with icheck and checkbox - does not register first click on the checkbox - js issue with the theme/vanilla
+         - [✓]  There is an issue with icheck and checkbox - does not register first click on the checkbox - fixed in 2.3 - workaround can be found here https://gist.github.com/andersju/13a4d0736d599f8a8731
 
 
 
