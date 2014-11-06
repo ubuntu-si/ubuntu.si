@@ -4,6 +4,7 @@ ubuntu.si
 The Community webpage
 
 * PRODUCTION FORUM TO-DO LIST:
+
          - [ ] AT THE END: export database (only tables categories, topics, users, perms, forums, groups, ranks, posts)
          - [ ] AT THE END: import database into test env
          - [ ] AT THE END: convert punbb to vanilla forums DB with vanilla export tool
