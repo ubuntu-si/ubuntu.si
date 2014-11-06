@@ -10,7 +10,7 @@ $Definition['%s level'] = '%s raven';
 $Definition['%s levels'] = '%s ravni';
 $Definition['%s of %s'] = '%s od %s';
 $Definition['%s posts'] = '%s sporočil';
-$Definition['%s Settings'] = '%s Settings';
+$Definition['%s Settings'] = '%s nastavitve';
 $Definition['%s site(s) found.'] = '%s site(s) found.';
 $Definition['%s sources(s) found.'] = '%s sources(s) found.';
 $Definition['%s times'] = '%s krat';
@@ -44,7 +44,7 @@ $Definition['<strong>Categories</strong> allow you to organize your discussions.
 $Definition['<strong>Heads Up!</strong> Deleting a role can result in users not having access to the application.'] = '<strong>Pozor!</strong> Brisanje vloge pomeni, da uporabniki ne bodo imeli dostopa do programa.';
 $Definition['<strong>Heads Up!</strong> Moving discussions into a replacement category can result in discussions vanishing (or appearing) if the replacement category has different permissions than the category being deleted.'] = '<strong>Pozor!</strong> Premik razprav v nadomestno kategorijo lahko pomeni, da bodo razprave izginile (oziroma bo videti tako), če nadomestna kategorija ima drugačna dovoljenja kot kategorija, ki bo izbrisana.';
 
-$Definition['[%s] Confirm Your Email Address'] = '[%s] Confirm Your Email Address';
+$Definition['[%s] Confirm Your Email Address'] = '[%s] Potrdite svoj e-poštni naslov';
 $Definition['[%s] Invitation'] = '[%s] Invitation';
 $Definition['[%s] Password Reset'] = '[%s] Password Reset';
 $Definition['[%s] Password Reset Request'] = '[%s] Password Reset Request';
@@ -56,7 +56,7 @@ $Definition['a full year.'] = 'a full year.';
 
 $Definition['A message has been sent to your email address with password reset instructions.'] = 'Sporočilo je bilo poslano na vaš e-poštni naslov z navodili za ponastavitev gesla.';
 $Definition['A url-friendly version of the category name for better SEO.'] = 'Različica imena kategorije, ki je bolj prijazno povezavam, za boljšo optimizacijo spletnih strani.';
-$Definition['Abilites'] = 'Abilites';
+$Definition['Abilites'] = 'Zmožnosti';
 $Definition['About Vanilla Statistics'] = 'O Vanilla Statistiki';
 $Definition['About.DisableStatistics'] = 'Če zaradi poslovnih razlogov morate onemogočiti poročanje o podatkih to lahko storite tako, da dodate naslednjo vrstico v vašo namestitveno datoteko: <code>$Configuration[\'Garden\'][\'Analytics\'][\'Enabled\'] = FALSE;</code>';
 $Definition['About.VanillaStatistics'] = 'Zelo pomembno za to brezplačno, odprtokodno programsko opremo je, da natančno beležimo doseg in učinkovitost foruma Vanilla. Zato vas prosimo, da ne onemogočite poročanja teh podatkov.';
@@ -677,7 +677,7 @@ $Definition['Ready-made Vanilla Comments Plugin for WordPress'] = 'Ready-made Va
 $Definition['Ready-made Vanilla Forum Plugin for WordPress'] = 'Ready-made Vanilla Forum Plugin for WordPress';
 $Definition['Realtime progress bars: %s'] = 'Realtime progress bars: %s';
 $Definition['Recalculate Counts'] = 'Recalculate Counts';
-$Definition['Recent News'] = 'Recent News';
+$Definition['Recent News'] = 'Nedavne novice';
 $Definition['Recently Active Users'] = 'Recently Active Users';
 $Definition['Record Content'] = 'Content';
 $Definition['Refresh Comments'] = 'Refresh Comments';
@@ -784,7 +784,7 @@ $Definition['Test URL'] = 'Test URL';
 $Definition['Testing'] = 'Testing';
 $Definition['Text'] = 'Text';
 $Definition['TextEnterEmails'] = 'Type email addresses separated by commas here';
-$Definition['Thank You!'] = 'Thank You!';
+$Definition['Thank You!'] = 'Hvala Vam!';
 $Definition['The %s Authenticator does not have any custom configuration options.'] = 'The %s Authenticator does not have any custom configuration options.';
 $Definition['The %s badge has already been given to %s.'] = 'The %s badge has already been given to %s.';
 $Definition['The %s has been deleted.'] = 'The %s has been deleted.';
@@ -802,7 +802,7 @@ $Definition['The basic registration form requires that new users copy text from 
 $Definition['The Basics'] = 'The Basics';
 $Definition['The behind-the-scenes URL that shares identity information with Vanilla'] = 'The behind-the-scenes URL that shares identity information with Vanilla';
 $Definition['The client ID uniqely identifies the site.'] = 'The client ID uniqely identifies the site. You can generate a new ID with the button at the bottom of this page.';
-$Definition['The content you were looking for has been deleted.'] = 'The content you were looking for has been deleted.';
+$Definition['The content you were looking for has been deleted.'] = 'Vsebina, ki ste jo iskali je bila izbrisana.';
 $Definition['The database user you specified does not have permission to access the database. Have you created the database yet? The database reported: <code>%s</code>'] = 'The database user you specified does not have permission to access the database. Have you created the database yet? The database reported: <code>%s</code>';
 $Definition['The default role has not been configured.'] = 'The default role has not been configured.';
 $Definition['The Disqus plugin allows users to sign in using their Disqus account.'] = 'The Disqus plugin allows users to sign in using their Disqus account. <b>You must register your application with Disqus for this plugin to work.</b>';

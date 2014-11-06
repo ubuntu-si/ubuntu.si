@@ -1214,4 +1214,6 @@ $Definition['New Discussion Topic'] = 'Naslov nove razprave';
 $Definition['Create New Discussion'] = 'Ustvari novo razpravo';
 $Definition['by %s'] = 'od %s';
 $Definition['No results for %s.'] = 'Ni rezultatov za <b>%s</b>.';
+$Definition['EmbededDiscussionLinkText'] = 'Klik na povezavo!';
 $Definition['Please enter Correct Code.'] = 'Napačen odgovor na varnostno vprašanje. Poskusite znova. Ne pozabite na šumnike!';
+$Definition["You are about to delete all of a user's content."] = 'Izbrisali boste vse v povezavi z uporabnikom  {User.UserID,user}!';
