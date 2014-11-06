@@ -5,13 +5,14 @@ The Community webpage
 
 * PRODUCTION FORUM TO-DO LIST:
 
+         - [✓] import slovenian locale
+         - [✓] added locale.php to conf/ for proper time and date format
+         - [✓] new design for the new forum (vanilla bootstrap -> united theme - very ubuntu like)
+         - [✓] use the next view style (Home page: Categories, Discussion layout: Table Layout, Categories layout: Table Layout) and under 'managecategories' "Display root categories as headings" and "more than 1 level deep"
          - [ ] AT THE END: export database (only tables categories, topics, users, perms, forums, groups, ranks, posts)
          - [ ] AT THE END: import database into test env
          - [ ] AT THE END: convert punbb to vanilla forums DB with vanilla export tool
          - [ ] AT THE END: import to vanilla forums from Import menu (note: choose a file, press start, check that file and press start again)
-         - [ ] use the next view style (Home page: Categories, Discussion layout: Table Layout, Categories layout: Table Layout) and under 'managecategories' "Display root categories as headings" and "more than 1 level deep"
-         - [ ] new design for the new forum (united theme - very ubuntu like)
-         - [ ] import slovenian locale
          - [ ] which plugins to use? Add Registration Question,Quotes, All Viewed,ButtonBar, Resized Image LightBox, Split/Merge are a must. Need to modify Resolved Discussions plugin!
          - [ ]dont forget to set roles and permissions again, untick 'View' profiles for Guests
          - [ ] registration/spam prevention: to use registerbasic.php we need to change our config.php to $Configuration['Garden']['Registration']['Method'] = 'Basic'; - BOTSTOP TO THE RESCUE. I modified registerbasic.php to update the code.
@@ -63,6 +64,3 @@ The Community webpage
          - [✓]  When trying to register and clicking on terms of service, popup opens and does not show all of our terms of service.
          - [✓]  Search shows two next/previous buttons - no need, new (from github) search/index.php solves this issue
          - [✓]  There is an issue with icheck and checkbox - does not register first click on the checkbox - fixed in 2.3 - workaround can be found here https://gist.github.com/andersju/13a4d0736d599f8a8731
-
-
-
