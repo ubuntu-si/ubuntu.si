@@ -234,6 +234,12 @@ dl dt, dl dd {
 dl dt {
   margin-left: 0px !important;
 }
+#cookiesTOS {
+	color: red;
+}
+.SpMarkAllViewed:before {
+	content: "\f00c";
+}
 /* mobile specific */
 .Banner ul {
 	color: #FFFFFF;
