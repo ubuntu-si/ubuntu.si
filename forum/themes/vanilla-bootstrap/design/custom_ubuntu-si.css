@@ -38,9 +38,6 @@
 .Buttons .Cancel {
 	margin-right: 5px;
 }
-.Category- {
-	display: none;
-}
 .StrengthText, #NameUnavailable, #PasswordsDontMatch, #EmailUnavailable {
 	color: red;
 }
@@ -67,8 +64,9 @@
 	display: block;
 	background: transparent url("../../../uploads/icons/ubuntu-logo.png") no-repeat 0 0;
 	width: 175px;
-	height: 50px;
+	height: 46px;
 	text-indent: -1000px;
+	margin: 2px auto;
 }
 .navbar:nth-of-type(1) .navbar-header {
   float: right;
@@ -124,8 +122,8 @@ a.ForgotPassword {
 	font-size: 75%;
 	text-align: center;
 }
-.container .pull-left, .container .pull-right, .Item .Meta .MItem.Category a {
-	font-size: 90% !important;
+.container .pull-left, .container .pull-right {
+	font-size: 90%;
 }
 .BlockColumn {
   padding-left: 15px;
@@ -148,15 +146,6 @@ input[type="checkbox"] {
   content: "|";
   margin-left: 1px;
   color: black;
-}
-/*
-span[itemprop="title"]::after {
-  content: " »";
-  color: #aea79f;
-}
-*/
-.Breadcrumbs .CrumbLabel:before {
-  content: none !important;
 }
 .Breadcrumbs {
   margin-bottom: 10px !important;
@@ -239,6 +228,10 @@ dl dt {
 }
 .SpMarkAllViewed:before {
 	content: "\f00c";
+}
+/* we need to hide 'Root' title */
+.Category- {
+	display: none !important;
 }
 /* mobile specific */
 .Banner ul {
