@@ -25,6 +25,7 @@ The Community webpage
          - [✓] we need to delete users without roles (unverified users == spammers). First SELECT * FROM `GDN_User` INNER JOIN `GDN_UserRole` ON GDN_User.UserID=GDN_UserRole.UserID WHERE GDN_UserRole.RoleID = 0;
          where we use DELETE `GDN_User' instead of SELECT * and  SELECT * FROM  `GDN_UserRole` WHERE  `RoleID` =0 where se use DELETE `GDN_UserRole` instead of SELECT *
          - [✓] AT THE END: export database (only tables categories, topics, users, perms, forums, groups, ranks, posts) - was not needed
+         - [✓] AndrejM fixed view counts with UPDATE GDN_Discussion  INNER JOIN punbb_topics ON punbb_topics.id = GDN_Discussion.DiscussionID SET GDN_Discussion.CountViews = punbb_topics.num_views WHERE punbb_topics.id = GDN_Discussion.DiscussionID
          - [ ] add to a .htaccess file redirect from "punbb/topic/6112/" to "index.php?p=/discussion/6112/"
          - [ ] there is an title issue with wordpress plugin for embbeded comments - this solves the issue http://vanillaforums.org/discussion/comment/189856/#Comment_189856
 
