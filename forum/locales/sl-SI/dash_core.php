@@ -46,8 +46,8 @@ $Definition['<strong>Heads Up!</strong> Moving discussions into a replacement ca
 
 $Definition['[%s] Confirm Your Email Address'] = '[%s] Potrdite svoj e-poštni naslov';
 $Definition['[%s] Invitation'] = '[%s] Invitation';
-$Definition['[%s] Password Reset'] = '[%s] Password Reset';
-$Definition['[%s] Password Reset Request'] = '[%s] Password Reset Request';
+$Definition['[%s] Password Reset'] = '[%s] Ponastavitev gesla';
+$Definition['[%s] Password Reset Request'] = '[%s] Zahteva po ponastavitvi gesla';
 
 $Definition['_Locale'] = 'Locale';
 
@@ -703,7 +703,7 @@ $Definition['Requires: '] = 'Requires: ';
 $Definition['Rescan'] = 'Rescan';
 $Definition['Reset my password'] = 'Reset my password';
 $Definition['Reset password and send email notification to user'] = 'Reset password and send email notification to user';
-$Definition['Resetting the password for %s.'] = 'Resetting the password for %s.';
+$Definition['Resetting the password for %s.'] = 'Ponastavitev gesla za uporabnika %s.';
 $Definition['Restart'] = 'Restart';
 $Definition['Restore'] = 'Restore';
 $Definition['Restoring your selection removes the items from this list.'] = 'When you restore, the items are removed from this list and put back into the site.';
@@ -998,3 +998,5 @@ $Definition['Your changes were saved successfully.'] = 'Your changes were saved 
 $Definition['Your configuration file does not have the correct permissions. PHP needs to be able to read and write to this file: <code>%s</code>'] = 'Your configuration file does not have the correct permissions. PHP needs to be able to read and write to this file: <code>%s</code>';
 $Definition['Your default locale won\'t display properly'] = 'Your default locale won\'t display properly until it is enabled below. Please enable the following: %s.';
 $Definition['Your invitations were sent successfully.'] = 'Your invitations were sent successfully.';
+$Definition['Your passwords did not match.'] = 'Vaši gesli se ne ujemata!';
+$Definition['Your new password is invalid'] = 'Vaše novo geslo je neveljavno.';

@@ -721,6 +721,8 @@ $Definition['PasswordRequest'] = 'Nekdo je zahteval ponastavitev vašega gesla o
 
   %3$s
 
+V primeru, da imate težave s ponastavitvijo gesla, odgovorite na to e-poštno sporočilo in nekdo vam bo odpisal in vam pomagal ponastaviti geslo.
+
 Če Vi niste zahtevali ponastavitve gesla, prezrite to e-pošto.';
 $Definition['Passwords don\'t match'] = 'Gesli se ne ujemata';
 $Definition['Permalink'] = 'Permalink';
@@ -944,6 +946,7 @@ $Definition['Tenth Anniversary'] = 'Deseta obletnica';
 $Definition['Terms of Service'] = 'Pogoji uporabe';
 $Definition['TermsOfService'] = 'Pogoji uporabe';
 $Definition['TermsOfServiceText'] = '<p>Forum na spletišču ubuntu.si je javni forum in čeprav podpiramo  prost pretok idej in informacij, zahtevamo tudi, da se z uporabo foruma  strinjate z naslednjimi pravili:</p>
+<p id="cookiesTOS"><strong>0. Piškotki:</strong> Ob vsaki prijavi na forum se naložijo piškotki! Piškotki se uporabljajo za samo delovanje foruma in so nujno potrebni. <br />Če ne želite, da se piškotki naložijo na vaš računalnik, se nikar ne vpišite na forum!</p>
 <p><strong>1. Neprimerne objave:</strong> To vključuje, vendar ni omejeno na razprave o nelegalnih aktivnostih,  pornografiji, sovražnem govoru ali ostalih neprimernih vsebinah. Ne  objavljajte avtorsko zaščitenih podatkov, razen, če so avtorske pravice  vaša last ali last tega spletišča. Pri odločanju kaj objaviti,  uporabite vašo lastno presojo in občutek za osnovni bonton.</p>
 <p><strong>2. Slovnica in izrazoslovje:</strong> Želimo si, da bi bili naši forumi berljivi, zato pišite razumljivo, v  celih stavkih s pravilnim črkovanjem in postavljanjem ločil.</p>
 <p><strong>3. Objave izven teme:</strong> Objave objavljajte v ustreznih podforumih in temah ali pa odprite nove.  Za teme, ki ne spadajo v noben podforum uporabite podforum Ostalo.</p>
@@ -959,7 +962,6 @@ $Definition['TermsOfServiceText'] = '<p>Forum na spletišču ubuntu.si je javni 
 <p><strong>13. Avtorske pravice:</strong> Avtor z objavo prispevka na kateremkoli delu foruma, brezpogojno prenese pravico dajanja na voljo javnosti na forumu.</p>
 <p><strong>14. Voščila:</strong> Za voščila je priporočena uporaba zasebnega sporočanja. Če želite voščilo izraziti javno, uporabite za to namenjen podforum.</p>
 <p><strong>15. Zahteva po izbrisu uporabnika:</strong> V primeru zahtevka po izbrisu uporabnika se uporabnikov e-poštni naslov in uporabniško ime spremenita v "anonimen", njegova sporočila, ki ne razkrivajo osebnih podatkov, pa ostanejo v povezanih temah. Sporočila, ki razkrivajo osebne podatke pa sporoči uporabnik osebju foruma.</p>
-<p><strong>16. Piškotki:</strong> Ob vsakem obisku foruma se naloži piškotek <strong>PHPSESSID</strong>. Piškotek se ob vsakem zahtevku na strani nastavi na novo naključno vrednost in je potreben za normalno delovanje foruma. <br />Ob prijavi na forum pa se dodatno naloži piškotek <strong>ubuntusi_forum</strong> z namenom hranjenja uporabnikove seje. Seja se hrani 14 dni.</p>
 <p><em>Osebje  foruma si pridržuje pravico do opozorila oz. brisanja ali urejanja  objave brez opozorila in uporabe ostalih ukrepov tudi v primeru, da ni  kršeno nobeno od zgoraj navedenih pravil, če se jim to zdi primerno.  Brisane oz. urejene bodo tudi vse objave, ki se bodo nanašale na  objave, ki bodo v nasprotju s pravili foruma.</em></p>
 <p>Pravila se lahko brez opozorila kadarkoli spremenijo, zato jih redno spremljajte.</p>
 <p>Upoštevajte,  da nismo odgovorni za nobeno objavljeno sporočilo. Ne odgovarjamo za  natančnost, popolnost ali uporabnost kateregakoli sporočila, in nismo  odgovorni za vsebino kateregakoli sporočila. Sporočila izražajo mnenje  avtorja sporočila, kar pa ne pomeni, da je to enako mnenju Foruma.</p>';
@@ -1214,6 +1216,5 @@ $Definition['New Discussion Topic'] = 'Naslov nove razprave';
 $Definition['Create New Discussion'] = 'Ustvari novo razpravo';
 $Definition['by %s'] = 'od %s';
 $Definition['No results for %s.'] = 'Ni rezultatov za <b>%s</b>.';
-$Definition['EmbededDiscussionLinkText'] = 'Klik na povezavo!';
 $Definition['Please enter Correct Code.'] = 'Napačen odgovor na varnostno vprašanje. Poskusite znova. Ne pozabite na šumnike!';
 $Definition["You are about to delete all of a user's content."] = 'Izbrisali boste vse v povezavi z uporabnikom  {User.UserID,user}!';
