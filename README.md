@@ -16,16 +16,16 @@ The Community webpage
          - [✓] which plugins to use? Add Registration Question,Quotes, All Viewed,ButtonBar, Resized Image LightBox, Split/Merge are a must. Need to modify Resolved Discussions plugin!
          - [✓] registration/spam prevention: to use registerbasic.php we need to change our config.php to $Configuration['Garden']['Registration']['Method'] = 'Basic';
          - [✓] add wordpress menu to the forum - we will be using a module with small changes to default.master.tpl
-        - [ ]dont forget about EU cookie law msg (no need - dz0ny will do some hash magic)
-         - [ ] add to a .htaccess file redirect from "punbb/topic/6112/" to "index.php?p=/discussion/6112/"
-         - [ ] we need to delete users without roles (unverified users == spammers). First SELECT * FROM `GDN_User` INNER JOIN `GDN_UserRole` ON GDN_User.UserID=GDN_UserRole.UserID WHERE GDN_UserRole.RoleID = 0;
-         where we use DELETE `GDN_User' instead of SELECT * and  SELECT * FROM  `GDN_UserRole` WHERE  `RoleID` =0 where se use DELETE `GDN_UserRole` instead of SELECT *
-         - [ ] AT THE END: export database (only tables categories, topics, users, perms, forums, groups, ranks, posts)
-         - [ ] AT THE END: import database into test env
-         - [ ] AT THE END: convert punbb to vanilla forums DB with vanilla export tool
-         - [ ] AT THE END: import to vanilla forums from Import menu (note: choose a file, press start, check that file and press start again)
+         - [✓] dont forget about EU cookie law msg (no need - dz0ny will do some hash magic -- no need for that either, we added a msg at terms of service)
+         - [✓] AT THE END: import database into test env
+         - [✓] AT THE END: convert punbb to vanilla forums DB with vanilla export tool
+         - [✓] AT THE END: import to vanilla forums from Import menu (note: choose a file, press start, check that file and press start again)
          - [ ] AT THE END: dont forget to set roles and permissions again, untick 'View' profiles for Guests
          - [ ] AT THE END: install wordpress plugin for vanilla forums embbeded comments!
+         - [ ] we need to delete users without roles (unverified users == spammers). First SELECT * FROM `GDN_User` INNER JOIN `GDN_UserRole` ON GDN_User.UserID=GDN_UserRole.UserID WHERE GDN_UserRole.RoleID = 0;
+         where we use DELETE `GDN_User' instead of SELECT * and  SELECT * FROM  `GDN_UserRole` WHERE  `RoleID` =0 where se use DELETE `GDN_UserRole` instead of SELECT *
+         - [✓] AT THE END: export database (only tables categories, topics, users, perms, forums, groups, ranks, posts) - was not needed
+         - [ ] add to a .htaccess file redirect from "punbb/topic/6112/" to "index.php?p=/discussion/6112/"
          - [ ] there is an title issue with wordpress plugin for embbeded comments - this solves the issue http://vanillaforums.org/discussion/comment/189856/#Comment_189856
 
 * Wordpress:
