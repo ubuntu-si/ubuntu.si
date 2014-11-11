@@ -47,19 +47,7 @@
 .ButtonBarMarkupHint {
 	margin-top: 0px !important;
 }
-.Message code, pre {
-	background-color: #340f26 !important;
-	color: white !important;
-	font-size: .95em !important;
-	display: block !important;
-	padding: 1em !important;
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
-	overflow-wrap: break-word !important;
-	border-radius: 5px !important;
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35) !important;
-	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.15) !important;
-}
+
 .navbar-header #logo {
 	display: block;
 	background: transparent url("../../../uploads/icons/ubuntu-logo.png") no-repeat 0 0;
@@ -203,10 +191,10 @@ a.Close {
   opacity: 1 !important;
 }
 .Overlay>.Popup {
-  width: 700px !important;
+  width: 800px !important;
 }
-#dashboard_entry_register .Overlay .Popup .Border .Body .Content {
-  height: 800px !important;
+.Overlay .Popup .Border .Body .Content {
+  height: 500px !important;
   overflow: auto !important;
 }
 .InThisConversation .PanelInfo .PhotoWrap {
@@ -233,15 +221,8 @@ dl dt {
 .Category- {
 	display: none !important;
 }
-/* blockquotes are way too big */
-.Message blockquote.UserQuote {
-  font-size: 14px !important;
-  margin-bottom: 10px !important;
-  border-right: 1px solid #EEE;
-  border-top: 1px solid #EEE;
-  border-bottom: 1px solid #EEE;
-}
 
+/* Andrej M. suggestions */
 /* role titles */
 .RoleTitle {
   padding: 0.3em !important;
@@ -257,6 +238,34 @@ dl dt {
 .Item .Meta .MItem.Category a {
   font-size: 85% !important;
 }
+
+.ButtonBar .ButtonWrap {
+  background-image: url('sprites.png') !important;
+}
+
+/* blockquotes are way too big */
+.Message blockquote.UserQuote, .Message blockquote.Quote {
+  font-size: 14px !important;
+  margin: 10px auto !important;
+  border: 1px solid #9B9389 !important;
+  border-left: 5px solid #9B9389 !important;
+}
+
+/* better code blocks */
+.Message code, pre {
+  font-size: 14px !important;
+  margin: 10px auto !important;
+  border: 1px solid #77216F !important;
+  border-left: 5px solid #77216F !important;
+}
+
+/* smaller title in discussions */
+.Discussion .PageTitle h1 {
+  font-size: 28px;
+}
+/* end of Andrej M. suggestions */
+
+
 /* mobile specific */
 .Banner ul {
 	color: #FFFFFF;

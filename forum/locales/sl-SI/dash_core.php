@@ -1000,3 +1000,4 @@ $Definition['Your default locale won\'t display properly'] = 'Your default local
 $Definition['Your invitations were sent successfully.'] = 'Your invitations were sent successfully.';
 $Definition['Your passwords did not match.'] = 'Vaši gesli se ne ujemata!';
 $Definition['Your new password is invalid'] = 'Vaše novo geslo je neveljavno.';
+$Definition['Please try again.'] = 'Prosimo poskusite znova.';

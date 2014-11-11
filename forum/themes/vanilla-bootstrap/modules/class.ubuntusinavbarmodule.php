@@ -45,7 +45,7 @@ EOD;
   			  $navbar .= '<li><a href="' . $sel_row['meta_value'].'">'.$rows['post_title'].'</a></li>' . "\n";
   			}
 	    }
-	    mysql_set_charset('utf8',$baza) or die();
+	    mysql_set_charset('latin1',$baza) or die();
 	    mysql_close($baza);
 	    // end of Andrej M. code
 	$navbar .= <<<EOD
