@@ -1,0 +1,290 @@
+/* ubuntu.si changes */
+.Item .ItemContent {
+   word-wrap: break-word;
+}
+.CategoryGroup h2 {
+	color: #FFFFFF !important;
+	background-color: #DD4814 !important;
+}
+.Wrap h3, .Category h3 a {
+	font-weight: 600 !important;
+}
+.DiscussionHeader {
+	/* color: #FFFFFF !important; */
+	background: #DD4814 !important;
+	border: 1px solid;
+	border-color: #DD4814 !important;
+}
+.DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DiscussionMeta .Category, .DiscussionMeta .DateUpdated {
+	color: #FFFFFF !important;
+}
+.DiscussionMeta .Category a {
+	font-size: 100% !important;
+  font-weight: normal !important;
+	margin-left: 5px;
+	background-color: #9b9389 !important;
+	padding: 0.3em 0.6em 0.4em !important;
+}
+.Discussions .ItemDiscussion {
+  padding: 0px 10px 10px 10px !important;
+}
+.CheckBoxLabel {
+	display: block;
+}
+.HomepageTitle {
+	margin: 0px 0px 0px !important;
+	padding-bottom: 10px !important;
+}
+.Buttons .Cancel {
+	margin-right: 5px;
+}
+.StrengthText, #NameUnavailable, #PasswordsDontMatch, #EmailUnavailable {
+	color: red;
+}
+.CommentQuote {
+	margin-right: 5px;
+}
+.ButtonBarMarkupHint {
+	margin-top: 0px !important;
+}
+
+.navbar-header #logo {
+	display: block;
+	background: transparent url("../../../uploads/icons/ubuntu-logo.png") no-repeat 0 0;
+	width: 175px;
+	height: 46px;
+	text-indent: -1000px;
+	margin: 2px auto;
+}
+.navbar:nth-of-type(1) .navbar-header {
+  float: right;
+}
+.navbar:nth-of-type(1) {
+	margin-bottom: 10px;
+}
+.navbar-default:nth-of-type(1) {
+	background-color: #77216F;
+	border-color: transparent;
+}
+@media (min-width: 992px) {
+    .navbar {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px !important;
+  }
+}
+
+/*
+.SelectedWP {
+	background-color: #DD4814;
+}
+ .navbar-default .navbar-nav > li > .Selected {
+	background-color: #77216F !important;
+}
+*/
+a.ForgotPassword {
+	display: block;
+	margin-left: 0px !important;
+	margin-top: 5px;
+}
+.PasswordStrength.Score-0 .StrengthText {
+	width: 30% !important;
+}
+.search-form .Button {
+	display: none !important;
+	visibility: hidden!important
+}
+.search-form {
+	margin-bottom: 20px;
+}
+.footer-icons {
+	margin-left: 30%;
+}
+.footer-icons a .icons {
+  padding-right: 5px;
+}
+.sticky-footer {
+  padding-top: 10px !important;
+}
+.trademark-notice {
+	font-size: 75%;
+	text-align: center;
+}
+.container .pull-left, .container .pull-right {
+	font-size: 90%;
+}
+.BlockColumn {
+  padding-left: 15px;
+}
+/*.Item .Meta .MItem {
+  padding-right: 5px !important;
+}*/
+.AdminCheck {
+  padding-left: 5px;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin: -1px 0 0 !important;
+}
+.SpFlyoutHandle {
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+.Actions .Popup::after {
+  content: "|";
+  margin-left: 1px;
+  color: black;
+}
+.Breadcrumbs {
+  margin-bottom: 10px !important;
+}
+.PageDescription {
+  margin-top: 5px;
+  margin-bottom: 10px !important;
+}
+.SearchResults .ItemContent .Title {
+  color: #77216F;
+  text-decoration: underline;
+}
+/*.Comment .Options {
+  padding-bottom: 0px !important;
+  padding-top: 10px !important;
+}*/
+.Tag {
+  vertical-align: middle !important;
+}
+.PageTitle {
+  margin-top: 20px !important;
+}
+.PageTitle .Options {
+  padding-top: 10px;
+}
+.Discussions .Options {
+  padding-top: 20px;
+}
+a.Delete {
+  float: none !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  color: #dd4814 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
+#dashboard_home_termsofservice #Content h1 {
+  text-shadow: none !important;
+  color: #ffffff !important;
+  background: #dd4814 !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+#dashboard_home_termsofservice #Content .Legal {
+  border: 1px solid #dd4814;
+}
+#dashboard_home_termsofservice {
+  background: white !important
+}
+.GuestBox {
+  margin-bottom: 10px;
+}
+a.Close {
+  color: red !important;
+  opacity: 1 !important;
+}
+.Overlay>.Popup {
+  width: 800px !important;
+}
+.Overlay .Popup .Border .Body .Content {
+  height: 500px !important;
+  overflow: auto !important;
+}
+.InThisConversation .PanelInfo .PhotoWrap {
+  display: none;
+}
+dl.About {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+dl dt, dl dd {
+  display: block !important;
+}
+dl dt {
+  margin-left: 0px !important;
+}
+#cookiesTOS {
+	color: red;
+}
+.SpMarkAllViewed:before {
+	content: "\f00c";
+}
+/* we need to hide 'Root' title */
+.Category- {
+	display: none !important;
+}
+
+/* Andrej M. suggestions */
+/* role titles */
+.RoleTitle {
+  padding: 0.3em !important;
+  margin-left: 0.2em;
+  font-size: 75%;
+  text-align: center;
+  border-radius: 0.25em;
+  color: #FFF;
+  background-color: #9B9389;
+}
+
+/* category too small to be readable */
+.Item .Meta .MItem.Category a {
+  font-size: 85% !important;
+}
+
+.ButtonBar .ButtonWrap {
+  background-image: url('sprites.png') !important;
+}
+
+/* blockquotes are way too big */
+.Message blockquote.UserQuote, .Message blockquote.Quote {
+  font-size: 14px !important;
+  margin: 10px auto !important;
+  border: 1px solid #9B9389 !important;
+  border-left: 5px solid #9B9389 !important;
+}
+
+/* better code blocks */
+.Message code, pre {
+  font-size: 14px !important;
+  margin: 10px auto !important;
+  border: 1px solid #77216F !important;
+  border-left: 5px solid #77216F !important;
+}
+
+/* smaller title in discussions */
+.Discussion .PageTitle h1 {
+  font-size: 28px;
+}
+/* end of Andrej M. suggestions */
+
+
+/* mobile specific */
+.Banner ul {
+	color: #FFFFFF;
+	background: #DD4814 !important;
+}
+.Banner .NewDiscussion, .Banner li.SignInItem a {
+	border-left: none !important;
+}
+#Foot a {
+	color: #3B5998 !important;
+}
+#Foot {
+	margin-top: 0px !important;
+}
+@media screen and (max-device-width:480px){
+    .Banner ul li a {
+    padding: 3px 3px !important;
+  }
+}
+#Frame #Body #Content .Discussion .ItemDiscussion {
+  padding: 0px !important;
+}
