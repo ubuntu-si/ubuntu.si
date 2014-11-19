@@ -74,15 +74,42 @@
 
     <footer class="page-footer sticky-footer">
       <div class="container">
+        <i class="footer-icons hidden-xs">
+		<ul class="social-icons">
+			<li class="facebook">
+				<a href="https://www.facebook.com/UbuntuSlovenija" target="_blank">
+					<i class="fa fa-facebook">
+						</i>
+				</a>
+			</li>
+			<li class="google-plus">
+				<a href="https://google.com/+UbuntuSi" target="_blank">
+					<i class="fa fa-google-plus">
+					</i>
+				</a>
+			</li>
+			<li class="twitter">
+				<a href="https://twitter.com/ubuntusi" target="_blank">
+					<i class="fa fa-twitter">
+					</i>
+				</a>
+			</li>
+			<li class="youtube">
+				<a href="https://www.youtube.com/UbuntuSlovenija" target="_blank">
+					<i class="fa fa-youtube">
+					</i>
+				</a>
+			</li>
+			<li class="rss">
+				<a href="https://www.ubuntu.si/forum/discussions/comments/all/feed.rss" target="_blank">
+					<i class="fa fa-rss">
+					</i>
+				</a>
+			</li>
+		</ul>	
+	</i>
         <p class="pull-left">{t c="Copyright"} {$smarty.now|date_format:"%Y"} &copy; <a href="https://ubuntu.si">Ubuntu.Si</a></p>
-        <i class="footer-icons">
-			<a href="http://google.com/+UbuntuSi" target="_blank"><img class="icons" src="https://www.ubuntu.si/forum/uploads/icons/gplus-icon.png" alt="Google+"></a>
-			<a href="https://www.facebook.com/UbuntuSlovenija" target="_blank"><img class="icons" src="https://www.ubuntu.si/forum/uploads/icons/facebook-icon.png" alt="Facebook"></a>
-			<a href="https://twitter.com/ubuntusi" target="_blank"><img class="icons" src="https://www.ubuntu.si/forum/uploads/icons/twitter-icon.png" alt="Twitter"></a>
-			<a href="https://www.youtube.com/UbuntuSlovenija" target="_blank"><img class="icons" src="https://www.ubuntu.si/forum/uploads/icons/youtube-icon.png" alt="youtube"> </a>
-			<a href="/?feed=rss2" target="_blank"><img class="icons" src="https://www.ubuntu.si/forum/uploads/icons/rss-icon.png" alt="RSS feed"></a>
-		</i>
-        <p class="pull-right hidden-xs"><a href="https://github.com/vanilla/vanilla">Vanilla</a> {t c="+"} <a href="https://github.com/kasperisager/vanilla-bootstrap">Bootstrap for Vanilla</a> {t c="="} <i class="InformSprite Heart"></i></p>
+		<p class="pull-right hidden-xs"><a href="https://github.com/vanilla/vanilla">Vanilla</a> {t c="+"} <a href="https://github.com/kasperisager/vanilla-bootstrap">Bootstrap for Vanilla</a> {t c="="} <i class="InformSprite Heart"></i></p>
         <p class="trademark-notice">Ubuntu in Canonical sta registrirani blagovni znamki podjetja Canonical Ltd.</p>
         {asset name="Foot"}
       </div>
