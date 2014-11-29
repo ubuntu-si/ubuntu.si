@@ -343,7 +343,7 @@ BLOCKQUOTE;
 //                  $QuoteBody = trim(preg_replace('`(\[quote.*/quote\])`si', '', $QuoteBody));
 
                $Quote = <<<BQ
-[quote="{$Author}{$IDString}"]{$QuoteBody}[/quote]
+[quote={$Author}]{$QuoteBody}[/quote]
 
 BQ;
                break;
