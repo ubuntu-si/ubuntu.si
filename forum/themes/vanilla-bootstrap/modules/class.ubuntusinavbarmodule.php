@@ -12,10 +12,20 @@ class UbuntuSiNavbarModule extends Gdn_Module {
 
 	$navbar = <<<EOD
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
-		<div class="container">
-			<!--  #branding -->
-			<ul class="nav navbar-nav">
-			<!-- prikrojeni meni -->
+	<div class="container">
+		 <div class="navbar-header">
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-wp">	    <span class="sr-only">{t c="Toggle navigation"}</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    </button>
+	           <a class="navbar-brand hidden-sm" id="logo" href="/"></a>
+		 </div>
+
+		<div class="navbar-collapse collapse navbar-wp">
+		<!--  #branding -->
+                   <ul class="nav navbar-nav">
+		   <!-- prikrojeni meni -->
 EOD;
     // start of Andrej M. code with adjustments ($navbar)
 		$baza = mysql_connect($db_host, $db_username, $db_password, TRUE) or die();
@@ -49,10 +59,7 @@ EOD;
 	    mysql_close($baza);
 	    // end of Andrej M. code
 	$navbar .= <<<EOD
-      </ul>
-      <!-- OPTIONAL LOGO -->
-     <div class="navbar-header">
-       <a class="navbar-brand" id="logo" href="/"></a>
+         </ul>
      </div>
     </div>
   </nav>

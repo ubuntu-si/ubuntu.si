@@ -13,13 +13,15 @@ RewriteRule ^search/ https://www.ubuntu.si/forum/search [R=301,L]
 RewriteRule ^user/(.*)?$ https://www.ubuntu.si/forum/ [R=301,L]
 RewriteRule ^users/ https://www.ubuntu.si/forum/ [R=301,L]
 RewriteRule ^rules/ https://www.ubuntu.si/forum/home/termsofservice [R=301,L]
+RewriteRule ^login/ https://www.ubuntu.si/forum/ [R=301,L]
 
 RewriteCond %{QUERY_STRING} ^id=([0-9]*)$
 RewriteRule ^viewtopic\.php$ https://www.ubuntu.si/forum/discussion/%1/? [R=301,L]
-RewriteCond %{QUERY_STRING} ^id=([0-9]*)$
+RewriteCond %{QUERY_STRING} ^id=([0-9]*)
 RewriteRule ^viewforum\.php$ https://www.ubuntu.si/forum/categories/%1/? [R=301,L]
 RewriteCond %{QUERY_STRING} ^id=([0-9]*)$
 RewriteRule ^profile\.php$ https://www.ubuntu.si/forum/? [R=301,L]
 RewriteCond %{QUERY_STRING} ^pid=([0-9]*)$
 RewriteRule ^viewtopic\.php$ https://www.ubuntu.si/forum/discussion/comment/%1#Comment_%1? [R=301,NE,L]
 
+RewriteRule ^search\.php$ https://www.ubuntu.si/forum/search? [R=301,L]
