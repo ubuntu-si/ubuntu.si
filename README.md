@@ -3,7 +3,17 @@ ubuntu.si
 
 The Community webpage
 
-* PRODUCTION FORUM TO-DO LIST:
+* Wordpress TO-DO list:
+
+           - create enigma child theme
+           - remove header
+           - menu should be like forum menu
+           - news should be before "our services", we will show 3 latest news and we wont be using any rotation for that
+           - "our services" will include 1. latest forum posts, 2. interesting links (pdfs etc), 3. quick download links for .ISOs.
+           - thats it for now
+
+
+* what we have done on the forum side:
 
          - [✓] import slovenian locale
          - [✓] added locale.php to conf/ for proper time and date format
@@ -30,15 +40,6 @@ The Community webpage
          - [✓] AT THE END: install wordpress plugin for vanilla forums embbeded comments! -NOT NEEDED
          - [✓] Andrej M. wrote an awesome wordpress2vanilla plugin for our news system!
          - [✓✓✓] With that we conclude our work on our brand spankin new forum.
-
-
-
-* Wordpress:
-
-           - design/use a bootstrap theme
-           - integration with Vanilla forums (wp news -> forum news)
-
-
 
 * KNOWN Forum ISSUES:
          - [✓]  There is an issue with icheck and checkbox - does not register first click on the checkbox - fixed in 2.3 - workaround can be found here https://gist.github.com/andersju/13a4d0736d599f8a8731
