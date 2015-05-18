@@ -2,43 +2,56 @@
 <?php $wl_theme_options = weblizar_get_options(); ?>
 <!-- Footer Widget Secton -->
 <div class="enigma_footer_area">
-		<div class="container">
-			<div class="col-md-12">
-<!--			<p class="enigma_footer_copyright_info wl_rtl" >
+	<div class="container">
+		<div class="col-md-12">
+			<p class="enigma_footer_copyright_info wl_rtl" >
+				<span id="trademark-notice">Ubuntu in Canonical sta registrirani blagovni znamki podjetja Canonical Ltd.</span>
+				<span id="copyright"><a href="https://wordpress.org/themes/enigma/">Enigma</a> + <a href="https://wordpress.org/">WordPress</a> = <i class="fa fa-heart"></i></span>
+			</p>
 
-			<?php if($wl_theme_options['footer_customizations']) { echo esc_attr($wl_theme_options['footer_customizations']); }
-			if($wl_theme_options['developed_by_text']) { echo "|" .esc_attr($wl_theme_options['developed_by_text']); } ?>
-			<a target="_blank" rel="nofollow" href="<?php if($wl_theme_options['developed_by_link']) { echo esc_url($wl_theme_options['developed_by_link']); } ?>"><?php if($wl_theme_options['developed_by_weblizar_text']) { echo esc_attr($wl_theme_options['developed_by_weblizar_text']); } ?></a></p>
--->
-			<?php if($wl_theme_options['footer_section_social_media_enbled'] == '1') { ?>
 			<div class="enigma_footer_social_div">
-				<ul class="social">
-					<?php if($wl_theme_options['fb_link']!='') { ?>
-					   <li class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><a  href="<?php echo esc_url($wl_theme_options['fb_link']); ?>"><i class="fa fa-facebook"></i></a></li>
-					<?php } if($wl_theme_options['twitter_link']!='') { ?>
-					<li class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><a href="<?php echo esc_url($wl_theme_options['twitter_link']) ; ?>"><i class="fa fa-twitter"></i></a></li>				
-					<?php } if($wl_theme_options['linkedin_link']!='') { ?>
-					<li class="linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"><a href="<?php echo esc_url($wl_theme_options['linkedin_link']) ; ?>"><i class="fa fa-linkedin"></i></a></li>
-					<?php } if($wl_theme_options['youtube_link']!='') { ?>
-					<li class="youtube" data-toggle="tooltip" data-placement="top" title="Youtube"><a href="<?php echo esc_url($wl_theme_options['youtube_link']) ; ?>"><i class="fa fa-youtube"></i></a></li>
-	                <?php } if($wl_theme_options['gplus']!='') { ?>
-					<li class="twitter" data-toggle="tooltip" data-placement="top" title="gplus"><a href="<?php echo esc_url($wl_theme_options['gplus']) ; ?>"><i class="fa fa-google-plus"></i></a></li>
-	                <?php } if($wl_theme_options['instagram']!='') { ?>
-					<li class="facebook" data-toggle="tooltip" data-placement="top" title="instagram"><a href="<?php echo esc_url($wl_theme_options['instagram']) ; ?>"><i class="fa fa-instagram"></i></a></li>
-	                <?php } ?>
-				</ul>
-			</div>
-			<?php } ?>			
+				<i class="footer-icons hidden-xs">
+					<ul class="social-icons">
+						<li class="facebook">
+							<a href="https://www.facebook.com/UbuntuSlovenija" target="_blank">
+								<i class="fa fa-facebook">
+									</i>
+							</a>
+						</li>
+						<li class="google-plus">
+							<a href="https://google.com/+UbuntuSi" target="_blank">
+								<i class="fa fa-google-plus">
+								</i>
+							</a>
+						</li>
+						<li class="twitter">
+							<a href="https://twitter.com/ubuntusi" target="_blank">
+								<i class="fa fa-twitter">
+								</i>
+							</a>
+						</li>
+						<li class="youtube">
+							<a href="https://www.youtube.com/UbuntuSlovenija" target="_blank">
+								<i class="fa fa-youtube">
+								</i>
+							</a>
+						</li>
+						<li class="rss">
+							<a href="https://www.ubuntu.si/feed/" target="_blank">
+								<i class="fa fa-rss">
+								</i>
+							</a>
+						</li>
+					</ul>	
+				</i>
 			</div>		
 		</div>		
-</div>	
+	</div>		
+</div>
 <!-- /Footer Widget Secton -->
 </div>
 <a href="#" title="Go Top" class="enigma_scrollup" style="display: inline;"><i class="fa fa-chevron-up"></i></a>
-<?php if($wl_theme_options['custom_css']) ?>
-<style type="text/css">
-<?php { echo esc_attr($wl_theme_options['custom_css']); } ?>
-</style>
+<!-- latest blog -->
 <?php wp_footer(); ?>
 </body>
 </html>
