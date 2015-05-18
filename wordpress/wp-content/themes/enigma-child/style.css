@@ -40,3 +40,23 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    box-shadow: none;
+    background-color: #97310E;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.dropdown-menu .active a {
+    background-color: #97310E;
+}
