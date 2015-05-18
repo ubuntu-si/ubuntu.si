@@ -13,5 +13,19 @@
 */
 
 .navbar-header {
- float:right;
+    float:right;
+}
+
+#enigma_nav_top {
+    background-color: #77216F;
+    margin: 0 5px 10px 5px;
+}
+
+.navigation_menu {
+    width: inherit;
+}
+
+#menu {
+    margin-top: 0;
+    margin-bottom: 0;
 }
