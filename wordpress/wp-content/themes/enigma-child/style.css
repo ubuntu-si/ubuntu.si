@@ -22,6 +22,11 @@
     border-radius: 4px;
 }
 
+#enigma_nav_top.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .navigation_menu {
     width: inherit;
     border-top: none;
@@ -30,15 +35,6 @@
 #menu {
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.navbar-nav {
-    height: 50px;
-}
-
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -64,4 +60,15 @@
 
 .navbar-default .navbar-nav > li {
     margin-right: 0;
+}
+
+.navbar-collapse ul li a {
+    height: auto;
+}
+
+
+@media only screen and (min-width: 767px) {
+    .navbar-nav {
+        height: 50px;
+    }
 }
