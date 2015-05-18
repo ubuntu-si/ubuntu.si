@@ -22,8 +22,12 @@
     padding-right: 15px;
 }
 
-#enigma_nav_top, .navbar-header > .navbar-toggle {
+#enigma_nav_top, .navbar-default > .navbar-header > .navbar-toggle {
     background-color: #77216F !important;
+}
+
+#logo {
+    padding: 15px;
 }
 
 #menu {
@@ -49,7 +53,7 @@
     box-shadow: none;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .dropdown-menu .active a, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .dropdown-menu .active a, .navbar-default > .navbar-header > .navbar-toggle:hover,  .navbar-default > .navbar-header > .navbar-toggle:focus, .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     background-color: #97310E !important;
 }
@@ -62,7 +66,7 @@
     height: auto;
 }
 
-.navbar-header > .navbar-toggle, .navbar-header > .navbar-toggle:hover {
+.navbar-default > .navbar-header > .navbar-toggle, .navbar-default > .navbar-header > .navbar-toggle:hover, .navbar-default > .navbar-header > .navbar-toggle:focus {
     margin-top: 8px;
     border: 1px solid #97310E !important;
 }
