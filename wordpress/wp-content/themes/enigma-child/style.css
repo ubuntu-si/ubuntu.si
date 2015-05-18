@@ -12,12 +12,7 @@
  Text Domain:  ubuntu-si-wp
 */
 
-.navbar-header {
-    float:right;
-}
-
 #enigma_nav_top {
-    background-color: #77216F;
     margin: 0 5px 10px 5px;
     border-radius: 4px;
 }
@@ -27,14 +22,17 @@
     padding-right: 15px;
 }
 
-.navigation_menu {
-    width: inherit;
-    border-top: none;
+#enigma_nav_top, .navbar-header > .navbar-toggle {
+    background-color: #77216F !important;
 }
 
 #menu {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.navbar-header {
+    float:right;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -64,10 +62,15 @@
     height: auto;
 }
 
-.navbar-toggle, .navbar-toggle:hover {
+.navbar-header > .navbar-toggle, .navbar-header > .navbar-toggle:hover {
     margin-top: 8px;
+    border: 1px solid #97310E !important;
 }
 
+.navigation_menu {
+    width: inherit;
+    border-top: none;
+}
 
 @media only screen and (min-width: 767px) {
     .navbar-nav {
