@@ -19,13 +19,24 @@
 #enigma_nav_top {
     background-color: #77216F;
     margin: 0 5px 10px 5px;
+    border-radius: 4px;
 }
 
 .navigation_menu {
     width: inherit;
+    border-top: none;
 }
 
 #menu {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.navbar-nav {
+    height: 50px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
 }
