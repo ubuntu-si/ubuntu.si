@@ -30,8 +30,7 @@ endif;
 <body <?php body_class(); ?>>
 <div>
 	<!-- Navigation  menus -->
-	<div class="navigation_menu "  data-spy="affix" data-offset-top="95" id="enigma_nav_top">
-		<span id="header_shadow"></span>
+	<div class="navigation_menu" data-offset-top="95" id="enigma_nav_top">
 		<div class="container navbar-container" >
 			<nav class="navbar navbar-default " role="navigation">
 				<div class="navbar-header">
