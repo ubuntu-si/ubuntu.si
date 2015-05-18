@@ -11,3 +11,57 @@
  Tags:         beautiful, rich, dynamic, performant, web 2.0, beta
  Text Domain:  ubuntu-si-wp
 */
+
+.navbar-header {
+    float:right;
+}
+
+#enigma_nav_top {
+    background-color: #77216F;
+    margin: 0 5px 10px 5px;
+    border-radius: 4px;
+}
+
+.navigation_menu {
+    width: inherit;
+    border-top: none;
+}
+
+#menu {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    height: 50px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: none;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    box-shadow: none;
+    background-color: #97310E;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.dropdown-menu .active a {
+    background-color: #97310E;
+}
+
+.navbar-default .navbar-nav > li {
+    margin-right: 0;
+}
