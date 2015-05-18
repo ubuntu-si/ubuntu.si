@@ -11,3 +11,7 @@
  Tags:         beautiful, rich, dynamic, performant, web 2.0, beta
  Text Domain:  ubuntu-si-wp
 */
+
+.navbar-header {
+ float:right;
+}
