@@ -47,6 +47,8 @@
     text-transform: none;
     color: #FFFFFF;
     padding: 15px;
+    width: auto;
+    font-weight: inherit;
 }
 
 .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
