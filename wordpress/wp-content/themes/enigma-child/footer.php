@@ -37,7 +37,7 @@
 							</a>
 						</li>
 						<li class="rss">
-							<a href="https://www.ubuntu.si/forum/discussions/comments/all/feed.rss" target="_blank">
+							<a href="https://www.ubuntu.si/feed/" target="_blank">
 								<i class="fa fa-rss">
 								</i>
 							</a>
