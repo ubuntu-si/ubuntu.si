@@ -112,6 +112,11 @@
 .enigma_footer_social_div a {
 	color: #77216F;
 }
+
+.enigma_footer_social_div .social-icons li:hover a {
+	color: #F5F5F5;
+}
+
 .social-icons {
 	display: block;
 	text-align: center;
@@ -155,11 +160,11 @@
 }
 .social-icons li.youtube {
 	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, transparent 50%, #E8E8E8 50%);
+	background-image: linear-gradient(to bottom, transparent 50%, #B31217 50%);
 }
 .social-icons li.youtube:hover {
 	background-position: 0 -100%;
-	background-color: #E8E8E8;
+	background-color: #B31217;
 }
 .social-icons li.rss {
 	background-size: 100% 200%;
