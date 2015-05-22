@@ -5,12 +5,13 @@ The Community webpage
 
 * Wordpress TO-DO list:
 
-           - create enigma child theme
-           - remove header
-           - menu should be like forum menu
+           - [✓] create enigma child theme
+           - [✓] remove header
+           - [✓] menu should be like forum menu
+           - remove header and sidebar on subpages
            - news should be before "our services", we will show 3 latest news and we wont be using any rotation for that
            - "our services" will include 1. latest forum posts, 2. interesting links (pdfs etc), 3. quick download links for .ISOs.
-           - thats it for now
+           - AT THE END: disable comments
 
 
 * what we have done on the forum side:
