@@ -11,7 +11,8 @@ The Community webpage
            - remove header and sidebar on subpages
            - news should be before "our services", we will show 3 latest news and we wont be using any rotation for that
            - "our services" will include 1. latest forum posts, 2. interesting links (pdfs etc), 3. quick download links for .ISOs.
-           - AT THE END: disable comments
+           - AT THE END: disable comments in wordpress options
+           - AT THE END: disable portfolio in theme options
 
 
 * what we have done on the forum side:
