@@ -1,11 +1,11 @@
 /*
  Theme Name:   Ubuntu Slovenija Wordpress Theme
  Theme URI:    http://ubuntu.si/
- Description:  Child theme for Ubuntu.si, based on the Enigma theme
- Author:       Andrej Mernik
- Author URI:   http://andrej.mernik.eu
+ Description:  Child theme for Ubuntu.si based on the Enigma theme
+ Author:       Andrej Mernik, Dražen M.
+ Author URI:   http://andrej.mernik.eu, http://ubuntu.si
  Template:     enigma
- Version:      0.0.2
+ Version:      0.0.3
  License:      GNU General Public License v3 or later
  License URI:  http://www.gnu.org/licenses/gpl.html
  Tags:         beautiful, rich, dynamic, responsive, web 2.0, beta
@@ -13,75 +13,61 @@
 */
 
 #enigma_nav_top {
-    margin: 0 5px 10px 5px;
-    border-radius: 4px;
+  margin: 0 5px 10px 5px;
+  border-radius: 4px;
 }
-
 #enigma_nav_top.container {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
 #enigma_nav_top, .navbar-default > .navbar-header > .navbar-toggle {
-    background-color: #77216F !important;
+  background-color: #77216F !important;
 }
-
 #logo {
-    padding: 15px;
+  padding: 15px;
 }
-
 #menu {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
 .navbar-header {
-    float:right;
+  float:right;
 }
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
-
 .navbar-default .navbar-nav > li > a {
-    text-transform: none;
-    color: #FFFFFF;
-    padding: 15px;
-    width: auto;
-    font-weight: inherit;
+  text-transform: none;
+  color: #FFFFFF;
+  padding: 15px;
+  width: auto;
+  font-weight: inherit;
 }
-
 .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .dropdown-menu .active a, .navbar-default > .navbar-header > .navbar-toggle:hover,  .navbar-default > .navbar-header > .navbar-toggle:focus, .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #97310E !important;
+  background-color: #97310E !important;
 }
-
 .navbar-default .navbar-nav > li {
-    margin-right: 0;
+  margin-right: 0;
 }
-
 .navbar-collapse ul li a {
-    height: auto;
+  height: auto;
 }
-
 .navbar-default > .navbar-header > .navbar-toggle, .navbar-default > .navbar-header > .navbar-toggle:hover, .navbar-default > .navbar-header > .navbar-toggle:focus {
-    margin-top: 8px;
-    border: 1px solid #97310E !important;
+  margin-top: 8px;
+  border: 1px solid #97310E !important;
 }
-
 .navigation_menu {
-    width: inherit;
-    border-top: none;
+  width: inherit;
+  border-top: none;
 }
-
 @media only screen and (min-width: 767px) {
-    .navbar-nav {
-        height: 50px;
-    }
+  .navbar-nav {
+      height: 50px;
+  }
 }
 /* Footer */
 .enigma_footer_area p a {
@@ -112,17 +98,15 @@
 .enigma_footer_social_div a {
 	color: #77216F;
 }
-
 .enigma_footer_social_div .social-icons li:hover a {
 	color: #F5F5F5;
 }
-
 .social-icons {
 	display: block;
 	text-align: center;
 	margin-bottom: 5px ;
 }
-.social-icons li { 
+.social-icons li {
 	font-size: 20px;
 	/* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6); */
 	display: inline-block;
@@ -174,3 +158,4 @@
 	background-position: 0 -100%;
 	background-color: #f26522;
 }
+/* social icons end */
