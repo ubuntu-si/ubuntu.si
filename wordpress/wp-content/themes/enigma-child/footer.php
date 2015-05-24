@@ -4,10 +4,10 @@
 <div class="enigma_footer_area">
 	<div class="container">
 		<div class="col-md-12">
-			<p class="enigma_footer_copyright_info wl_rtl" >
+			<div class="enigma_footer_copyright_info wl_rtl" >
 				<span id="trademark-notice">Ubuntu in Canonical sta registrirani blagovni znamki podjetja Canonical Ltd.</span>
 				<span id="copyright"><a href="https://wordpress.org/themes/enigma/">Enigma</a> + <a href="https://wordpress.org/">WordPress</a> = <i class="fa fa-heart"></i></span>
-			</p>
+			</div>
 
 			<div class="enigma_footer_social_div">
 				<i class="footer-icons hidden-xs">
