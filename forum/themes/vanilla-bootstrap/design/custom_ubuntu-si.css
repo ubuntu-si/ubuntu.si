@@ -266,7 +266,7 @@ h1 {
 }
 
 /* nicer tag colors */
-.HasNew { 
+.HasNew {
   font-size: 85% !important;
   background-color: #4daf4a !important;
 }
@@ -280,73 +280,93 @@ h1 {
 
 /* visually separate non clickable items */
 ul.PanelCategories li.Heading {
-  background-color: #F5F5F5; 
+  background-color: #F5F5F5;
 }
 /* end of Andrej M. suggestions */
 
 /* social icons */
-.social-icons {
-	display: block;
-	text-align: center;
-	margin-bottom: 5px !important;
+.page-footer a {
+  color: #77216F;
 }
-.social-icons li { 
-	font-size: 18px;
-	/* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6); */
-	display: inline-block;
-	height: 30px;
-	margin-right: 5px;
-	width: 30px;
-	text-align: center;
-	transition: background .5s ease-in-out;
-	border: 2px solid #ffffff;
-	cursor: pointer;
+.page-footer .social-icons li:hover a {
+  color: #F5F5F5;
+}
+.social-icons {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px !important;
+}
+.social-icons li {
+  font-size: 20px;
+  display: inline-block;
+  height: 30px;
+  margin-right: 5px;
+  width: 35px;
+  text-align: center;
+  transition: background .5s ease-in-out;
+  border: 2px solid #ffffff;
+  cursor: pointer;
 }
 .social-icons li.facebook {
-	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, transparent 50%, #4C66A4 50%);
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, transparent 50%, #4C66A4 50%);
 }
 .social-icons li.facebook:hover {
-	background-position: 0 -100%;
-	background-color: #4C66A4;
+  background-position: 0 -100%;
+  background-color: #4C66A4;
 }
 .social-icons li.twitter {
-	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, transparent 50%, #55acee 50%);
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, transparent 50%, #55acee 50%);
 }
 .social-icons li.twitter:hover {
-	background-position: 0 -100%;
-	background-color: #55acee;
+  background-position: 0 -100%;
+  background-color: #55acee;
 }
 .social-icons li.google-plus {
-	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, transparent 50%, #dd4b39 50%);
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, transparent 50%, #dd4b39 50%);
 }
 .social-icons li.google-plus:hover {
-	background-position: 0 -100%;
-	background-color: #dd4b39;
+  background-position: 0 -100%;
+  background-color: #dd4b39;
 }
 .social-icons li.youtube {
-	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, transparent 50%, #E8E8E8 50%);
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, transparent 50%, #B31217 50%);
 }
 .social-icons li.youtube:hover {
-	background-position: 0 -100%;
-	background-color: #E8E8E8;
+  background-position: 0 -100%;
+  background-color: #B31217;
 }
 .social-icons li.rss {
-	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, transparent 50%, #f26522 50%);
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, transparent 50%, #f26522 50%);
 }
 .social-icons li.rss:hover {
-	background-position: 0 -100%;
-	background-color: #f26522;
+  background-position: 0 -100%;
+  background-color: #f26522;
 }
+/* social icons end */
+
 .page-footer {
 	color: #777 !important;
 }
 .Heart {
 	color: #dd4814 !important;
+}
+.Item .Meta a.Quote {
+	color: white;
+}
+/* URGENT CHANGE
+.BlockColumn .BlockTitle, .BlockColumn .Meta {
+	display: block !important;
+	width: 100% !important;
+}
+* */
+/* registration related alert for confirming email addr*/
+.alert_email {
+	color: red;
 }
 /* mobile specific */
 .Banner ul {
