@@ -15,6 +15,7 @@ The Community webpage
            - AT THE END: disable comments in wordpress options
            - AT THE END: disable portfolio in theme options
            - AT THE END: enable Home blog posts in theme options otherwise
+           - locale.php in wp-include needs translated abbreviations in order to our news date to show in slovenian.
 
 
 * what we have done on the forum side:
