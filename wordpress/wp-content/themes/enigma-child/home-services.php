@@ -95,6 +95,9 @@
       </div>
       <div class="col-md-4 service">
         <div class="enigma_service_area appear-animation bounceIn appear-animation-visible">
+					<div class="enigma_service_iocn pull-left">
+						<i class="fa fa-link"></i>
+          </div>
           <div class="other_links enigma_service_detail media-body">
           <h3>Druge zanimive povezave</h3>
           <ul>
