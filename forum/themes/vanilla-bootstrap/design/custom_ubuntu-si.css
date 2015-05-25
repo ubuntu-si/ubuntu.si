@@ -26,13 +26,13 @@
 	padding: 0.3em 0.6em 0.4em !important;
 }
 .Discussions .ItemDiscussion {
-  padding: 0px 10px 10px 10px !important;
+  padding: 0 10px 10px 10px !important;
 }
 .CheckBoxLabel {
 	display: block;
 }
 .HomepageTitle {
-	margin: 0px 0px 0px !important;
+	margin: 0 0 0 !important;
 	padding-bottom: 10px !important;
 }
 .Buttons .Cancel {
@@ -45,7 +45,7 @@
 	margin-right: 5px;
 }
 .ButtonBarMarkupHint {
-	margin-top: 0px !important;
+	margin-top: 0 !important;
 }
 
 .navbar-header #logo {
@@ -84,7 +84,7 @@
 */
 a.ForgotPassword {
 	display: block;
-	margin-left: 0px !important;
+	margin-left: 0 !important;
 	margin-top: 5px;
 }
 .PasswordStrength.Score-0 .StrengthText {
@@ -101,7 +101,8 @@ a.ForgotPassword {
 	float: right;
 }
 .sticky-footer {
-  padding: 10px !important;
+  min-height: 35px !important;
+  margin-top: 0 !important;
 }
 .vanilla_footer_copyright_info {
   color: #77216F;
@@ -210,7 +211,7 @@ dl dt, dl dd {
   display: block !important;
 }
 dl dt {
-  margin-left: 0px !important;
+  margin-left: 0 !important;
 }
 #cookiesTOS {
 	color: red;
@@ -351,6 +352,10 @@ ul.PanelCategories li.Heading {
 
 .page-footer {
 	color: #777 !important;
+  padding-top: 10px !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 .Heart {
   color: #77216F !important;
@@ -380,7 +385,7 @@ ul.PanelCategories li.Heading {
 	color: #3B5998 !important;
 }
 #Foot {
-	margin-top: 0px !important;
+	margin-top: 0 !important;
 }
 @media screen and (max-device-width:480px){
     .Banner ul li a {
@@ -388,5 +393,5 @@ ul.PanelCategories li.Heading {
   }
 }
 #Frame #Body #Content .Discussion .ItemDiscussion {
-  padding: 0px !important;
+  padding: 0 !important;
 }
