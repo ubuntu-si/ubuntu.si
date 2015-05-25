@@ -72,7 +72,7 @@ body {
     height: 50px;
   }
 }
-.carousel-text {
+.carousel-text, .carousel-text h1 {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /* Footer */
