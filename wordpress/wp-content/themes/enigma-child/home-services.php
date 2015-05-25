@@ -1,34 +1,32 @@
 <!-- service section -->
 <?php $wl_theme_options = weblizar_get_options(); ?>
 <div class="enigma_service">
-<?php if($wl_theme_options['home_service_heading'] !='') { ?>
-<div class="container">
-	<div class="row">
-		<div class="col-sm-12">
-			<div class="enigma_heading_title">
-				<h3>Preberite še</h3>		
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="enigma_heading_title">
+					<h2>Preberite še</h2>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>	
-<?php } ?>
-<div class="container">
-		<div class="row isotope" id="isotope-service-container">		
-			<div class=" col-md-4 service">
+	<div class="container">
+		<div class="row isotope" id="isotope-service-container">
+			<div class="col-md-4 service">
 				<div class="enigma_service_area appear-animation bounceIn appear-animation-visible">
 					<div class="enigma_service_iocn pull-left">
 							<i class="fa fa-rss"></i>
 					</div>
-					<div class="enigma_service_detail media-body">
-						<?php _e( 'Zadnje novice', 'my-text-domain' ); ?>
+					<div class="wordpress_feed enigma_service_detail media-body">
+						<h3>Zadnje novice</h3>
 						<?php // Get RSS Feed(s)
 						include_once( ABSPATH . WPINC . '/feed.php' );
 						// Get a SimplePie feed object from the specified feed source.
 						$rss = fetch_feed( 'https://www.ubuntu.si/feed/' );
 						$maxitems = 0;
 						if ( ! is_wp_error( $rss ) ) : // Checks that the object is created correctly
-							// Figure out how many total items there are, but limit it to 5. 
-							$maxitems = $rss->get_item_quantity( 5 ); 
+							// Figure out how many total items there are, but limit it to 5.
+							$maxitems = $rss->get_item_quantity( 5 );
 							// Build an array of all the items, starting with element 0 (first element).
 							$rss_items = $rss->get_items( 0, $maxitems );
 						endif;
@@ -47,17 +45,17 @@
 									</li>
 								<?php endforeach; ?>
 							<?php endif; ?>
-						</ul>					
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div class=" col-md-4 service">
+			<div class="col-md-4 service">
 				<div class="enigma_service_area appear-animation bounceIn appear-animation-visible">
 					<div class="enigma_service_iocn pull-left">
 							<i class="fa fa-rss"></i>
 					</div>
-					<div class="enigma_service_detail media-body">
-						<?php _e( 'Zadnja sporočila s foruma', 'my-text-domain' ); ?>
+					<div class="forum_feed enigma_service_detail media-body">
+						<h3>Zadnja sporočila s foruma</h3>
 						<?php // Get RSS Feed(s)
 						include_once( ABSPATH . WPINC . '/feed.php' );
 
@@ -68,8 +66,8 @@
 
 						if ( ! is_wp_error( $rss ) ) : // Checks that the object is created correctly
 
-							// Figure out how many total items there are, but limit it to 5. 
-							$maxitems = $rss->get_item_quantity( 5 ); 
+							// Figure out how many total items there are, but limit it to 5.
+							$maxitems = $rss->get_item_quantity( 5 );
 
 							// Build an array of all the items, starting with element 0 (first element).
 							$rss_items = $rss->get_items( 0, $maxitems );
@@ -91,14 +89,14 @@
 									</li>
 								<?php endforeach; ?>
 							<?php endif; ?>
-						</ul>					
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div class=" col-md-4 service">
+			<div class="col-md-4 service">
 				<div class="enigma_service_area appear-animation bounceIn appear-animation-visible">
-					<div class="enigma_service_detail media-body">
-					Zanimive povezave
+					<div class="other_links enigma_service_detail media-body">
+					<h3>Druge zanimive povezave</h3>
 					<ul>
 						<li>Prva povezava (ogled)</li>
 						<li>Druga povezava (predstavitev)</li>
@@ -110,5 +108,5 @@
 			</div>
 		</div>
 	</div>
-</div>	 
+</div>
 <!-- /Service section -->
