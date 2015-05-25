@@ -97,19 +97,19 @@ a.ForgotPassword {
 .search-form {
 	margin-bottom: 20px;
 }
-/* .footer-icons {
-	margin-left: 30%;
+ .footer-icons {
+	float: right;
 }
-.footer-icons a .icons {
-  padding-right: 5px;
-}
-* */
 .sticky-footer {
   padding: 10px !important;
 }
-.trademark-notice {
-	font-size: 75%;
-	text-align: center;
+.vanilla_footer_copyright_info {
+  color: #77216F;
+  font-size: 75%;
+  float: left;
+}
+#copyright {
+  margin-left: 150px;
 }
 .container .pull-left, .container .pull-right {
 	font-size: 90%;
