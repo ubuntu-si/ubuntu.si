@@ -15,6 +15,7 @@ The Community webpage
            - [ ] disable pingbacks and comments display on pages
            - [ ] remove comment icon from posts
            - [ ] remove Category: BlaBla from pages
+           - [ ] fix date display on subpages, make it orange
            - AT THE END: disable comments in wordpress options
            - AT THE END: disable portfolio in theme options
            - AT THE END: enable Home blog posts in theme options otherwise
