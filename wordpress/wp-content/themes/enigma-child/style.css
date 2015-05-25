@@ -184,3 +184,37 @@
 .enigma_heading_title h3 {
   text-transform: none;
 }
+.enigma_blog_read_btn {
+  font-size: 15px;
+  border: 2px solid #77216F;
+  background-image: linear-gradient(to bottom, #77216F 50%, #fff 50%);
+}
+.enigma_blog_read_btn:hover {
+  color: #77216F;
+}
+.enigma_blog_thumb_wrapper {
+  border-bottom: 5px solid #77216F;
+}
+.enigma_service_iocn {
+  border: 0px solid #dd4814;
+  background-image: linear-gradient(to bottom, #dd4814 50%, #fff 50%);
+}
+.enigma_service_area:hover .enigma_service_iocn i {
+  color: #77216F;
+}
+.enigma_blog_thumb_date li i {
+  color: #dd4814;
+}
+.enigma_heading_title h3 {
+  border-bottom: 4px solid #77216F;
+}
+.enigma_service .enigma_heading_title h2 {
+  border-bottom: 4px solid #77216F;
+  display: inline-block;
+}
+.enigma_blog_thumb_wrapper h2 a, a {
+  color: #77216F;
+}
+a:hover {
+  color: inherit;
+}
