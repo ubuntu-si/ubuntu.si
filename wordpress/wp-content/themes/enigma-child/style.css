@@ -11,7 +11,9 @@
  Tags:         beautiful, rich, dynamic, responsive, web 2.0, beta
  Text Domain:  ubuntu-si-wp
 */
-
+body {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 #enigma_nav_top {
   margin: 0 5px 10px 5px;
   border-radius: 4px;
@@ -42,6 +44,7 @@
   padding: 15px;
   width: auto;
   font-weight: inherit;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
   box-shadow: none;
@@ -68,6 +71,9 @@
   .navbar-nav {
     height: 50px;
   }
+}
+.carousel-text {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /* Footer */
 .enigma_footer_area span a {
@@ -207,10 +213,12 @@
 }
 .enigma_heading_title h3 {
   border-bottom: 4px solid #77216F;
+  font-family:"Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .enigma_service .enigma_heading_title h2 {
   border-bottom: 4px solid #77216F;
   display: inline-block;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .enigma_blog_thumb_wrapper h2 a, a {
   color: #77216F;
