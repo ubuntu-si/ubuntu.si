@@ -70,17 +70,17 @@
   }
 }
 /* Footer */
-.enigma_footer_area p a {
+.enigma_footer_area span a {
 	color: #77216F;
 	text-decoration: none;
 }
-.enigma_footer_area p a:hover {
+.enigma_footer_area span a:hover {
 	color: #77216F;
 }
 .fa-heart {
 	color: #77216F;
 }
-.enigma_footer_area p {
+.enigma_footer_area span {
 	color: #77216F;
 	font-size: 75% !important;
 }
@@ -166,4 +166,15 @@
 }
 .enigma_post_container {
 	margin-top: 20px;
+}
+.enigma_service {
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+.enigma_blog_area {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.enigma_blog_area .enigma_heading_title {
+  margin: 0px 0 10px;
 }
