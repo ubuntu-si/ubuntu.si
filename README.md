@@ -10,10 +10,11 @@ The Community webpage
            - [✓] menu should be like forum menu
            - [✓] remove header with breadcrums and
            - [✓] sidebar on subpages
-           - news should be before "our services", we will show 3 latest news and we wont be using any rotation for that
-           - "our services" will include 1. latest forum posts, 2. interesting links (pdfs etc), 3. quick download links for .ISOs.
+           - [✓] news should be before "our services", we will show 3 latest news and we wont be using any rotation for that
+           - [✓] "our services" will include 1. latest forum posts, 2. interesting links (pdfs etc), 3. quick download links for .ISOs.
            - AT THE END: disable comments in wordpress options
            - AT THE END: disable portfolio in theme options
+           - AT THE END: enable Home blog posts in theme options otherwise
 
 
 * what we have done on the forum side:
