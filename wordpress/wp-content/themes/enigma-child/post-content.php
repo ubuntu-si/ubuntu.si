@@ -7,7 +7,6 @@
 		<span class="date"><?php echo get_the_date(); ?></span>
 		<?php endif; ?>
 		</li>
-		<li class="enigma_post_author"><?php echo get_avatar(get_the_author_meta( 'ID' ),96); ?></li>
 		<li class="enigma_blog_comment"><?php echo wp2vanilla_post_comments(); ?></li>
 	</ul>
 	<div class="post-content-wrap">
