@@ -247,7 +247,7 @@ a:hover {
   background: transparent;
   color: #dd4814;
 }
-.enigma_blog_comment a {
+.enigma_blog_comment a, .enigma_blog_comment:hover i {
   color: #dd4814;
 }
 .enigma_blog_comment a:hover i, .enigma_blog_comment a:active i {
