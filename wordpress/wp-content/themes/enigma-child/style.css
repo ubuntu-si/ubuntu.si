@@ -243,3 +243,12 @@ a:hover {
 .enigma_fuul_blog_detail_padding h2 {
   color: #dd4814;
 }
+.enigma_blog_comment {
+  background: transparent;
+  color: #dd4814;
+}
+.enigma_blog_comment a {
+  color: #dd4814;}
+.enigma_blog_comment a:hover i, .enigma_blog_comment a:active i {
+  color: #77216F;
+}
