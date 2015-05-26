@@ -3,6 +3,8 @@
 		<li class="enigma_post_date">
 		<?php if ( ('d M  y') == get_option( 'date_format' ) ) : ?>
 		<span class="date"><?php echo get_the_date('d'); ?></span><h6><?php echo get_the_date('M  y'); ?></h6>
+		<?php elseif ( ('j. n. Y') == get_option( 'date_format' ) ) : ?>
+			<span class="date"><?php echo get_the_date('Y'); ?></span><h6><?php echo get_the_date('j. n'); ?></h6>
 		<?php else : ?>
 		<span class="date"><?php echo get_the_date(); ?></span>
 		<?php endif; ?>

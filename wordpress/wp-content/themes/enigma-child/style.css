@@ -248,7 +248,17 @@ a:hover {
   color: #dd4814;
 }
 .enigma_blog_comment a {
-  color: #dd4814;}
+  color: #dd4814;
+}
 .enigma_blog_comment a:hover i, .enigma_blog_comment a:active i {
   color: #77216F;
+}
+.enigma_post_date span.date {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.blog-date-left >.enigma_post_date {
+  background: #77216F;
+  border-radius: 4px;
 }
