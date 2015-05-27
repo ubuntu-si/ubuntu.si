@@ -260,7 +260,7 @@ a:hover {
   line-height: 35px;
 }
 .blog-date-left >.enigma_post_date {
-  background: #77216F;
+  background: #dd4814;
   border-radius: 4px;
 }
 .blog-date-left >.enigma_post_date:hover {
@@ -297,7 +297,4 @@ li.enigma_post_author {
 .enigma_post_date span.date {
   font-size: 25px;
   line-height: 25px;
-}
-.blog-date-left >.enigma_post_date {
-  background: #dd4814;
 }
