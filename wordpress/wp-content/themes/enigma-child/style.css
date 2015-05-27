@@ -285,3 +285,13 @@ li.enigma_post_author {
 #wblizar_nav > .nav-next {
   text-align: right;
 }
+
+.enigma_sidebar_widget {
+  border-left: 1px solid #77216F;
+  border-right: 1px solid #77216F;
+  border-bottom: 1px solid #77216F;
+}
+
+.enigma_sidebar_widget_title {
+  background: #77216F none repeat scroll 0 0;
+}
