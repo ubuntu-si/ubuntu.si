@@ -298,3 +298,10 @@ li.enigma_post_author {
   font-size: 25px;
   line-height: 25px;
 }
+.enigma_scrollup {
+  opacity: 1;
+  background: #77216F;
+}
+.enigma_scrollup:hover {
+  background: #dd4814;
+}
