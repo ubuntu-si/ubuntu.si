@@ -16,7 +16,7 @@ function wp2vanilla_post_comments()
     if ( empty($vanilla_id) || !$vanilla_id )
         return null;
 
-    return '<div class="enigma_blog_comment"><a href="' . home_url("forum") . '/discussion/' . $vanilla_id . '/" title="' . __('Komentiraj') . '"><i class="fa fa-comments-o"></a></i></div>';
+    return '<a href="' . home_url("forum") . '/discussion/' . $vanilla_id . '/" title="' . __('Komentiraj') . '"><i class="fa fa-comments-o"></a></i>';
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );

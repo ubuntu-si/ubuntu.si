@@ -3,21 +3,19 @@
 		<li class="enigma_post_date">
 		<?php if ( ('d M  y') == get_option( 'date_format' ) ) : ?>
 		<span class="date"><?php echo get_the_date('d'); ?></span><h6><?php echo get_the_date('M  y'); ?></h6>
-		<?php elseif ( ('j. n. Y') == get_option( 'date_format' ) ) : ?>
-			<span class="date"><?php echo get_the_date('Y'); ?></span><h6><?php echo get_the_date('j. n'); ?></h6>
 		<?php else : ?>
-		<span class="date"><?php echo get_the_date(); ?></span>
+		<span class="date"><?php echo get_the_date('j. M, Y'); ?></span>
 		<?php endif; ?>
 		</li>
-		<li class="enigma_post_author"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title="<?php the_author(); ?>"><i class="fa fa-user"></i></a></li>
-		<li class="enigma_blog_comment"><?php echo wp2vanilla_post_comments(); ?></li>
+		<li class="enigma_post_author"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title="<?php the_author(); ?>"><i class="fa fa-user"></i><?php the_author(); ?></a></li>
+		<li class="enigma_blog_comment"><?php echo wp2vanilla_post_comments(); ?>Komentiraj</li>
 	</ul>
 	<div class="post-content-wrap">
-		<?php if(has_post_thumbnail()): 
+		<?php if(has_post_thumbnail()):
 		$img = array('class' => 'enigma_img_responsive'); ?>
-		<div class="enigma_blog_thumb_wrapper_showcase">						
+		<div class="enigma_blog_thumb_wrapper_showcase">
 			<div class="enigma_blog-img">
-			<?php the_post_thumbnail('blog_2c_thumb',$img); ?>						
+			<?php the_post_thumbnail('blog_2c_thumb',$img); ?>
 			</div>
 			<?php if (is_home()) : ?>
 			<div class="enigma_blog_thumb_wrapper_showcase_overlay">
@@ -32,7 +30,7 @@
 		<?php endif; ?>
 		<div class="enigma_fuul_blog_detail_padding">
 		<h2><?php if(!is_single()) {?><a href="<?php the_permalink(); ?>"><?php } ?><?php the_title(); ?></a></h2>
-		<?php the_content( __( 'Read More' , 'weblizar' ) ); 
+		<?php the_content( __( 'Read More' , 'weblizar' ) );
 		$defaults = array(
               'before'           => '<div class="enigma_blog_pagination"><div class="enigma_blog_pagi">' . __( 'Pages:','weblizar'  ),
               'after'            => '</div></div>',
@@ -48,7 +46,7 @@
 	          wp_link_pages( $defaults ); ?>
 		</div>
 	</div>
-</div>	
+</div>
 <div class="push-right">
 <hr class="blog-sep header-sep">
 </div>
