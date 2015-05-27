@@ -5,7 +5,7 @@
  Author:       <a href="http://andrej.mernik.eu">Andrej Mernik</a> &amp; <a href="http://ubuntu.si">Dražen M.</a>
  Author URI:   http://ubuntu.si
  Template:     enigma
- Version:      0.0.5
+ Version:      0.0.6
  License:      GNU General Public License v3 or later
  License URI:  http://www.gnu.org/licenses/gpl.html
  Tags:         beautiful, rich, dynamic, responsive, web 2.0, beta
@@ -261,4 +261,37 @@ a:hover {
 .blog-date-left >.enigma_post_date {
   background: #77216F;
   border-radius: 4px;
+}
+
+.enigma_post_author i {
+  font-size: 68px;
+}
+li.enigma_post_author {
+  padding: 10px;
+}
+
+.enigma_post_author a, .enigma_post_author:hover i {
+  color: #dd4814;
+}
+.enigma_post_author a:hover i, .enigma_post_author a:active i {
+  color: #77216F;
+}
+
+#wblizar_nav > .nav-previous, #wblizar_nav > .nav-next {
+  display: inline-block;
+  width: 49%;
+  padding-top: 0;
+}
+#wblizar_nav > .nav-next {
+  text-align: right;
+}
+
+.enigma_sidebar_widget {
+  border-left: 1px solid #77216F;
+  border-right: 1px solid #77216F;
+  border-bottom: 1px solid #77216F;
+}
+
+.enigma_sidebar_widget_title {
+  background: #77216F none repeat scroll 0 0;
 }
