@@ -276,3 +276,12 @@ li.enigma_post_author {
 .enigma_post_author a:hover i, .enigma_post_author a:active i {
   color: #77216F;
 }
+
+#wblizar_nav > .nav-previous, #wblizar_nav > .nav-next {
+  display: inline-block;
+  width: 49%;
+  padding-top: 0;
+}
+#wblizar_nav > .nav-next {
+  text-align: right;
+}
