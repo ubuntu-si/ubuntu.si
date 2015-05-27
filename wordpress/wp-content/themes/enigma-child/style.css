@@ -262,3 +262,17 @@ a:hover {
   background: #77216F;
   border-radius: 4px;
 }
+
+.enigma_post_author i {
+  font-size: 68px;
+}
+li.enigma_post_author {
+  padding: 10px;
+}
+
+.enigma_post_author a, .enigma_post_author:hover i {
+  color: #dd4814;
+}
+.enigma_post_author a:hover i, .enigma_post_author a:active i {
+  color: #77216F;
+}
