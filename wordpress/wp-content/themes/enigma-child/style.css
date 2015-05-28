@@ -260,11 +260,8 @@ a:hover {
   line-height: 35px;
 }
 .blog-date-left >.enigma_post_date {
-  background: #dd4814;
-  border-radius: 4px;
-}
-.blog-date-left >.enigma_post_date:hover {
   background: #77216F;
+  border-radius: 4px;
 }
 .enigma_post_author i {
   font-size: 68px;
