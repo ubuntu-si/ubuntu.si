@@ -305,3 +305,6 @@ li.enigma_post_author {
 .enigma_scrollup:hover {
   background: #dd4814;
 }
+.blog-date-left li {
+  width: 80px;
+}
