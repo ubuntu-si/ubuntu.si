@@ -239,13 +239,15 @@ a:hover {
   font-size: 15px;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
 .enigma_fuul_blog_detail_padding h2 {
-  color: #dd4814;
+  color: #77216F;
 }
 .enigma_blog_comment {
   background: transparent;
   color: #dd4814;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  padding-top: 20px;
 }
 .enigma_blog_comment a, .enigma_blog_comment:hover i {
   color: #dd4814;
@@ -257,26 +259,22 @@ a:hover {
   font-size: 25px;
   line-height: 35px;
 }
-
 .blog-date-left >.enigma_post_date {
   background: #77216F;
   border-radius: 4px;
 }
-
 .enigma_post_author i {
   font-size: 68px;
 }
 li.enigma_post_author {
   padding: 10px;
 }
-
 .enigma_post_author a, .enigma_post_author:hover i {
   color: #dd4814;
 }
 .enigma_post_author a:hover i, .enigma_post_author a:active i {
   color: #77216F;
 }
-
 #wblizar_nav > .nav-previous, #wblizar_nav > .nav-next {
   display: inline-block;
   width: 49%;
@@ -285,13 +283,25 @@ li.enigma_post_author {
 #wblizar_nav > .nav-next {
   text-align: right;
 }
-
 .enigma_sidebar_widget {
   border-left: 1px solid #77216F;
   border-right: 1px solid #77216F;
   border-bottom: 1px solid #77216F;
 }
-
 .enigma_sidebar_widget_title {
   background: #77216F none repeat scroll 0 0;
+}
+.enigma_post_date span.date {
+  font-size: 25px;
+  line-height: 25px;
+}
+.enigma_scrollup {
+  opacity: 1;
+  background: #77216F;
+}
+.enigma_scrollup:hover {
+  background: #dd4814;
+}
+.blog-date-left li {
+  width: 80px;
 }
