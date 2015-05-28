@@ -18,6 +18,9 @@ body {
 p {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 #enigma_nav_top {
   margin: 0 5px 10px 5px;
   border-radius: 4px;
@@ -304,4 +307,29 @@ li.enigma_post_author {
 }
 .blog-date-left li {
   width: 80px;
+}
+.enigma_fuul_blog_detail_padding h2 a, .enigma_fuul_blog_detail_padding h2 {
+  color: #77216F;
+}
+.enigma_header_breadcrum_title {
+  margin-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.enigma_blog_pagination > .enigma_blog_pagi a {
+  color: #FFFFFF;
+  background-color: #77216F;
+  background-image: inherit;
+  border: none !important;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.enigma_sidebar_link p, .enigma_sidebar_widget ul li, .enigma_sidebar_link p a, .enigma_sidebar_widget ul li a{
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.enigma_sidebar_link p a:hover, .enigma_sidebar_widget ul li a:hover {
+  color: #77216F;
+}
+.enigma_sidebar_widget_title h2 {
+  font: normal normal 18px Ubuntu;
+  text-transform: none;
 }
