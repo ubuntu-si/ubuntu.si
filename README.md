@@ -16,10 +16,12 @@ The Community webpage
            - [✓] adjust comment icon from posts
            - [✓] remove Category: BlaBla from pages
            - [✓] fix date display on subpages, make it orange
-           - AT THE END: disable comments in wordpress options
-           - AT THE END: disable portfolio in theme options
-           - AT THE END: enable Home blog posts in theme options otherwise
-           - locale.php in wp-include needs translated abbreviations in order to our news date to show in slovenian.
+           - [x] AT THE END: disable comments in wordpress options
+           - [x] AT THE END: disable portfolio in theme options
+           - [x] AT THE END: enable Home blog posts in theme options otherwise
+           - [x] locale.php in wp-include needs translated abbreviations in order to our news date to show in slovenian - only if needed
+           - [x] AT THE END: increase duration of carousel slideshow to 5s (5000ms) in caroufredsel-element.js
+           - [x] AT THE END: In the theme options set path to namizje_ubuntu.png, iskanje_ubuntu.png and programi_ubuntu.png and add text.
 
 
 * what we have done on the forum side:
