@@ -1,11 +1,3 @@
-@media only screen and (min-width: 100px) and (max-width:980px )
-{	#parent_menu { float: right; padding-right: 10%; margin-top: -25px; }
-	#navbar-header { float:none; padding-right:5%;  }
-	.navbar-collapse ul li a { height:38px;}
-	.navbar-default .navbar-nav > li > a { width:80%; }
-	ul.dropdown-menu > li > a { width:80%; }
-	
-}
 @media (min-width:1200px) {
 	.enigma_gallery_page .col-md-3{
 	width:25%;
@@ -21,9 +13,14 @@
 	border-bottom: 2px solid #F7F5F5;
 	z-index: 9999;
 	}
+	
 	.carousel-caption {
-	top: 35%;
+	top: 25%;
 	}
+	.boxed .carousel-caption {
+	top: 20%;
+	}
+	
 }
 
 @media (min-width:992px) and (max-width:1199px) {
@@ -72,12 +69,6 @@
 	
 }	
 @media only screen and (min-width: 767px) and (max-width: 992px) {
-#parent_menu { float: right; padding-right: 10%; margin-top: -25px; }
-	#navbar-header { float:none; padding-right:5%;  }
-	.navbar-collapse ul li a { height:38px;}
-	.navbar-default .navbar-nav > li > a { width:80%; }
-	ul.dropdown-menu > li > a { width:80%; }
-	
 .logo{
 	text-align:center;
 	padding-top:15px;
@@ -227,12 +218,17 @@
 	.carousel-indicators{
 		display:none;
 	}
+	.carousel-text .enigma_blog_read_btn{
+		display:none;
+	}
+	.carousel-caption {
+	top: 20%;
+	}
 }
 
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.logo img{ margin-left:35%; }
-.navbar-header #parent_menu .fa{float:right;}
+
 .logo{
 	text-align:center;
 	padding-top:15px;
@@ -363,27 +359,53 @@
 	.carousel-indicators{
 		display:none;
 	}
-	
 	.carousel-text .enigma_blog_read_btn{
-	display:none;
+		display:none;
 	}
 	.carousel-caption {
-	top: 25%;
+	top: 20%;
 	}
 } 
 
 @media only screen and (min-width: 200px) and (max-width: 600px) {
-.logo img{ margin-left:35%; }
+
+	/*.carousel-list li {	display:none; } */	
+.carousel-text h1 {
+margin: 0 0 0px 0;
+padding: 5px;
+font-size: 7px;
+font-family: 'Open Sans', sans-serif;
+color: #fff;
+text-transform: uppercase;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+line-height: .line-height: 8px;;
+}
+.carousel-text .enigma_blog_read_btn {
+font-size: 7px;
+display: inline-block;
+padding: 3px;;
+}
+
+
 	.carousel-list li {
-	display:none;
+	font-size: 7px;
+overflow: hidden;
+padding: 5px;
+line-height: 8px;
+display: block;
+	color: #fff;
+	font-size: 8px;
+	line-height:8px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	font-family: 'Abel',sans-serif;
+	text-transform: uppercase;
+	}
 	
-	}
-	.carousel-caption{
+	/* .carousel-caption{
 	top:10px;
-	}
-	.carousel-text h1 {
-	font-size: 1.0em;
-	}
+	} */
+	
 	
 	/*** blog full width **/
 	.enigma_sidebar_left_side{
@@ -452,11 +474,8 @@
 	.carousel-indicators{
 		display:none;
 	}
-	.carousel-text .enigma_blog_read_btn{
-	display:none;
-	}
 	.carousel-caption {
-	top: 35%;
+	top: 20%;
 	}
 }
 @media only screen and (min-width: 480px) and (max-width: 600px) {
@@ -472,10 +491,10 @@
 	 .carousel-indicators{
 		display:none;
 	}
-.navbar-header #parent_menu .fa{float:right;}
+
 }
 @media only screen and (min-width: 200px) and (max-width: 480px) {
-.navbar-header #parent_menu .fa{float:right;}
+
 .logo{
 	text-align:center;
 	padding-top:15px;
@@ -496,11 +515,18 @@
 	padding-left: 0px;
 	}
 	.carousel-text h1 {
-	font-size: 1.0em;
+	margin-top: -10px;
+	font-size: 0.8em;
 	}
+	/* .carousel-list li {	display:none;	} */
 	.carousel-list li {
-	display:none;
-	
+	color: #fff;
+	font-size: 8px;
+	line-height:8px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	font-family: 'Abel',sans-serif;
+	text-transform: uppercase;
 	}
 	
 	.carousel-caption{
@@ -628,15 +654,7 @@
 	margin-bottom: 0;
 	float: left;
 	}
-}
-@media only screen and (min-width: 767px){	
-	#parent_menu { display:none; }
-	.navbar-nav{ height:70px; }
-	.nav .navbar-nav ul li.current-menu-parent { height:72px;}
-	/* #trueHeader ul li.current_page_ancestor{ background-color:#13afeb; height:72px; } */
-	.nav .navbar-nav ul li.current_page_ancestor a.dropdown-toggle{color:#fff !important; }
-	.nav .navbar-nav ul li.active{ height:72px;}
-	.nav .navbar-nav ul li ul.dropdown-menu li.active { height:38px; }
-	.nav .navbar-nav ul li.dropdown-submenu{ height:38px;}
-	.nav .navbar-nav ul li.active ul.dropdown-menu li a{ height:38px !important; color:#575757 !important; }
+	.carousel-text .enigma_blog_read_btn{
+		display:none;
+	}
 }
