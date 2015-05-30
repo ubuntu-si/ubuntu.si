@@ -7,7 +7,7 @@
                     responsive: true,
                    scroll : {
 						items : 1,
-						duration : 2000,
+						duration : 5000,
 						timeoutDuration : 2000
 					},
                     circular: true,
