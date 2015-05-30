@@ -74,10 +74,11 @@
           <div class="other_links enigma_service_detail media-body">
           <h3>Druge zanimive povezave</h3>
           <ul>
-            <li><a target="_blank" href="https://www.ubuntu.si/ogled/sl/">Oglejte si kako zgleda Ubuntu</a></li>
-            <li><a target="_blank" href="https://www.ubuntu.si/predstavitev/">Predstavitev Ubuntu</a></li>
+            <li><a target="_blank" href="//www.ubuntu.si/vodnik/14.04/">Namizni vodnik Ubuntu</a></li>
+            <li><a target="_blank" href="//www.ubuntu.si/ogled/sl/">Oglejte si kako je videti Ubuntu</a></li>
+            <li><a target="_blank" href="//www.ubuntu.si/predstavitev/">Predstavitev Ubuntu</a></li>
             <li><a target="_blank" href="http://matej.owca.info/linux/Linux_na_namizju.pdf">PDF knjiga Linux na namizju</a></li>
-            <li><a target="_blank" href="//www.ubuntu.si/povezave/">...</a></li>
+            <li><a target="_blank" href="//www.ubuntu.si/povezave/">Več povezav</a></li>
           </ul>
           </div>
         </div>

@@ -93,6 +93,9 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-text, .carousel-text h1 {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.carousel-list li {
+  background: rgba(0,0,0,0.6);
+}
 /* Footer */
 .enigma_footer_area span a {
   color: #77216F;
@@ -193,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .enigma_service {
   padding-bottom: 0px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 .enigma_blog_area {
   padding-top: 10px;
@@ -343,4 +346,10 @@ li.enigma_post_author {
 }
 .carousel {
   margin-bottom: 20px;
+}
+.enigma_service .enigma_heading_title {
+  margin-bottom: 25px;
+}
+.enigma_service .enigma_heading_title h2 {
+  margin-top: 0px;
 }
