@@ -291,6 +291,22 @@ a:hover {
   background: #77216F;
   border-radius: 4px;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .enigma_post_author{
+    width: 60px;
+    padding-top: 6px;
+    padding-left:2px;
+    padding-right:2px;
+    padding-bottom: 6px;
+  }
+  .enigma_post_author i {
+    font-size: 30px;
+    line-height: 25px;
+    display: block;
+  }
+}
+
 /* post-content end */
 #wblizar_nav > .nav-previous, #wblizar_nav > .nav-next {
   display: inline-block;
