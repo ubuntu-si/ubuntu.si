@@ -275,6 +275,8 @@ a:hover {
 }
 .enigma_post_author i {
   font-size: 68px;
+  line-height: 55px;
+  transition: all 0.4s ease 0s;
 }
 .enigma_post_date span.date {
   font-size: 25px;
