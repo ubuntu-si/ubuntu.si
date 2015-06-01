@@ -261,15 +261,12 @@ a:hover {
   color: #77216F;
 }
 /* post-content start */
-.enigma_post_author {
-  padding: 10px;
-}
 .enigma_blog_comment, .enigma_post_author {
   background: transparent;
   color: #dd4814;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: normal;
-  padding-top: 20px !important;
+  padding: 10px;
 }
 .enigma_blog_comment a, .enigma_blog_comment:hover i, .enigma_post_author a, .enigma_post_author:hover i {
   color: #dd4814;
