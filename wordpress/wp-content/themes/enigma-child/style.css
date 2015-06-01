@@ -21,7 +21,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-/* navbar */
+/* navbar start */
 #enigma_nav_top {
   margin: 0 5px 10px 5px;
   border-top-left-radius: 4px;
@@ -87,8 +87,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 50px;
   }
 }
-/* navbar */
+/* navbar end */
 
+/* carousel start */
 .carousel {
   margin-left: 5px;
   margin-right: 5px;
@@ -101,7 +102,9 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-list li {
   background: rgba(0,0,0,0.6);
 }
-/* Footer */
+/* carousel end */
+
+/* footer start */
 .enigma_footer_area span a {
   color: #77216F;
   text-decoration: none;
@@ -126,7 +129,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f5f5f5;
   border-top: #e3e3e3 solid 1px;
 }
-/* social icons */
+/* footer end */
+
+/* social icons start */
 .enigma_footer_social_div a {
   color: #77216F;
 }
@@ -190,6 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f26522;
 }
 /* social icons end */
+
 .enigma_container {
   margin-top: 30px;
 }
@@ -267,9 +273,6 @@ a:hover {
   font-size: 15px;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.enigma_fuul_blog_detail_padding h2 {
-  color: #77216F;
-}
 
 /* post-content start */
 .blog-date-left li {
@@ -332,6 +335,12 @@ a:hover {
 #wblizar_nav > .nav-next {
   text-align: right;
 }
+.enigma_fuul_blog_detail_padding h2 a, .enigma_fuul_blog_detail_padding h2 {
+  color: #77216F;
+}
+/* post-content end */
+
+/* sidebar start */
 .enigma_sidebar_widget {
   border-left: 1px solid #77216F;
   border-right: 1px solid #77216F;
@@ -340,8 +349,20 @@ a:hover {
 .enigma_sidebar_widget_title {
   background: #77216F none repeat scroll 0 0;
 }
-/* post-content end */
 
+.enigma_sidebar_link p, .enigma_sidebar_widget ul li, .enigma_sidebar_link p a, .enigma_sidebar_widget ul li a{
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.enigma_sidebar_link p a:hover, .enigma_sidebar_widget ul li a:hover {
+  color: #77216F;
+}
+.enigma_sidebar_widget_title h2 {
+  font: normal normal 18px Ubuntu;
+  text-transform: none;
+}
+/* sidebar end */
+
+/* to top button start */
 .enigma_scrollup {
   opacity: 1;
   background: #77216F;
@@ -350,10 +371,8 @@ a:hover {
   background: #dd4814;
   opacity: 1;
 }
+/* to top button end */
 
-.enigma_fuul_blog_detail_padding h2 a, .enigma_fuul_blog_detail_padding h2 {
-  color: #77216F;
-}
 .enigma_header_breadcrum_title {
   margin-bottom: 20px;
   padding-top: 0px;
@@ -366,13 +385,4 @@ a:hover {
   border: none !important;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.enigma_sidebar_link p, .enigma_sidebar_widget ul li, .enigma_sidebar_link p a, .enigma_sidebar_widget ul li a{
-  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-.enigma_sidebar_link p a:hover, .enigma_sidebar_widget ul li a:hover {
-  color: #77216F;
-}
-.enigma_sidebar_widget_title h2 {
-  font: normal normal 18px Ubuntu;
-  text-transform: none;
-}
+
