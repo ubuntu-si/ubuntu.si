@@ -7,7 +7,7 @@
 		<span class="date"><?php echo get_the_date('j. M, Y'); ?></span>
 		<?php endif; ?>
 		</li>
-		<li class="enigma_post_author"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title="<?php the_author(); ?>"><i class="fa fa-user"></i></a><small><?php the_author(); ?></small></li>
+		<li class="enigma_post_author"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title="<?php the_author(); ?>"><i class="fa fa-user"></i></a><br /><small><?php the_author(); ?></small></li>
 		<li class="enigma_blog_comment"><?php echo wp2vanilla_post_comments(); ?><small>Komentiraj</small></li>
 	</ul>
 	<div class="post-content-wrap">
