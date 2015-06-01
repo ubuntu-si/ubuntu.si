@@ -261,6 +261,13 @@ a:hover {
   color: #77216F;
 }
 /* post-content start */
+.blog-date-left li {
+  width: 80px;
+}
+.blog-date-left >.enigma_post_date {
+  background: #77216F;
+  border-radius: 4px;
+}
 .enigma_blog_comment, .enigma_post_author {
   background: transparent;
   color: #dd4814;
@@ -279,16 +286,14 @@ a:hover {
   line-height: 55px;
   transition: all 0.4s ease 0s;
 }
-
 .enigma_post_date span.date {
   font-size: 25px;
   line-height: 35px;
 }
-.blog-date-left >.enigma_post_date {
-  background: #77216F;
-  border-radius: 4px;
+.enigma_post_date span.date {
+  font-size: 25px;
+  line-height: 25px;
 }
-
 @media only screen and (min-width: 200px) and (max-width: 480px) {
   .enigma_post_author{
     width: 60px;
@@ -302,9 +307,11 @@ a:hover {
     line-height: 25px;
     display: block;
   }
+  .enigma_post_date span.date {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
-
-/* post-content end */
 #wblizar_nav > .nav-previous, #wblizar_nav > .nav-next {
   display: inline-block;
   width: 49%;
@@ -321,10 +328,8 @@ a:hover {
 .enigma_sidebar_widget_title {
   background: #77216F none repeat scroll 0 0;
 }
-.enigma_post_date span.date {
-  font-size: 25px;
-  line-height: 25px;
-}
+/* post-content end */
+
 .enigma_scrollup {
   opacity: 1;
   background: #77216F;
@@ -333,9 +338,7 @@ a:hover {
   background: #dd4814;
   opacity: 1;
 }
-.blog-date-left li {
-  width: 80px;
-}
+
 .enigma_fuul_blog_detail_padding h2 a, .enigma_fuul_blog_detail_padding h2 {
   color: #77216F;
 }
