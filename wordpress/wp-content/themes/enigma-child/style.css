@@ -21,7 +21,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+/* navbar */
 #enigma_nav_top {
   margin: 0 5px 10px 5px;
   border-top-left-radius: 4px;
@@ -87,10 +87,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 50px;
   }
 }
+/* navbar */
+
 .carousel {
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 20px;
 }
+
 .carousel-text, .carousel-text h1 {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -243,7 +247,13 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 4px solid #77216F;
   display: inline-block;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: 0px;
 }
+
+.enigma_service .enigma_heading_title {
+  margin-bottom: 25px;
+}
+
 .enigma_blog_thumb_wrapper h2 a, a {
   color: #77216F;
 }
@@ -260,6 +270,7 @@ a:hover {
 .enigma_fuul_blog_detail_padding h2 {
   color: #77216F;
 }
+
 /* post-content start */
 .blog-date-left li {
   width: 80px;
@@ -363,13 +374,4 @@ a:hover {
 .enigma_sidebar_widget_title h2 {
   font: normal normal 18px Ubuntu;
   text-transform: none;
-}
-.carousel {
-  margin-bottom: 20px;
-}
-.enigma_service .enigma_heading_title {
-  margin-bottom: 25px;
-}
-.enigma_service .enigma_heading_title h2 {
-  margin-top: 0px;
 }
