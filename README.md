@@ -16,6 +16,8 @@ The Community webpage
            - [✓] adjust comment icon from posts
            - [✓] remove Category: BlaBla from pages
            - [✓] fix date display on subpages, make it orange
+           - [ ] update /kaj-je-ubuntu/ http://www.ubuntu.com/desktop, create subpages for features, tour, presentation
+           - [ ] update /skupnost/
            - [x] AT THE END: disable comments in wordpress options
            - [x] AT THE END: disable portfolio in theme options
            - [x] AT THE END: enable Home blog posts in theme options otherwise
