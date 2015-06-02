@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 .enigma_footer_social_div a {
   color: #77216F;
 }
-.enigma_footer_social_div .social-icons li:hover a {
+.enigma_footer_social_div .social-icons li a {
   color: #F5F5F5;
 }
 .social-icons {
@@ -151,46 +151,26 @@ h1, h2, h3, h4, h5, h6 {
   width: 35px;
   text-align: center;
   transition: background .5s ease-in-out;
-  border: 2px solid #ffffff;
+  border-radius: 4px;
   cursor: pointer;
 }
 .social-icons li.facebook {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, transparent 50%, #4C66A4 50%);
-}
-.social-icons li.facebook:hover {
   background-position: 0 -100%;
   background-color: #4C66A4;
 }
 .social-icons li.twitter {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, transparent 50%, #55acee 50%);
-}
-.social-icons li.twitter:hover {
   background-position: 0 -100%;
   background-color: #55acee;
 }
 .social-icons li.google-plus {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, transparent 50%, #dd4b39 50%);
-}
-.social-icons li.google-plus:hover {
   background-position: 0 -100%;
   background-color: #dd4b39;
 }
 .social-icons li.youtube {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, transparent 50%, #B31217 50%);
-}
-.social-icons li.youtube:hover {
   background-position: 0 -100%;
   background-color: #B31217;
 }
 .social-icons li.rss {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, transparent 50%, #f26522 50%);
-}
-.social-icons li.rss:hover {
   background-position: 0 -100%;
   background-color: #f26522;
 }
@@ -349,6 +329,7 @@ a:hover {
 .enigma_sidebar_widget_title {
   background: #77216F none repeat scroll 0 0;
 }
+
 .enigma_sidebar_link p, .enigma_sidebar_widget ul li, .enigma_sidebar_link p a, .enigma_sidebar_widget ul li a{
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
