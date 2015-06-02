@@ -137,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .enigma_footer_social_div .social-icons li a {
   color: #F5F5F5;
+  display: block;
 }
 .social-icons {
   display: block;
