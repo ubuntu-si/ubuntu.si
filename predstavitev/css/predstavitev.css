@@ -1,0 +1,319 @@
+/* mostly based on impress.js .css
+ * 
+ * style refresh*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #f37936;
+}
+h2 {
+	text-align: left;
+	font-size: 40px;
+	color: #f37936;
+}
+table,td,th,tr {
+	border: 2px solid black;
+}
+table {
+	border-collapse:collapse;
+}
+th {
+height: 50px;
+width: 250px;
+}
+tr {
+text-align: center;
+}
+/*
+   pisava in ozadje
+*/
+
+body {
+    font-family: 'Ubuntu', latin-ext;
+    min-height: 750px;
+    min-width: 900px;
+    
+    background: rgb(99, 46, 72);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(99, 46, 72)), to(rgb(99, 46, 72)));
+    background: -webkit-radial-gradient(rgb(99, 46, 72), rgb(99, 46, 90));
+    background:    -moz-radial-gradient(rgb(99, 46, 72), rgb(99, 46, 90));
+    background:     -ms-radial-gradient(rgb(99, 46, 72), rgb(99, 46, 90));
+    background:      -o-radial-gradient(rgb(99, 46, 72), rgb(99, 46, 90));
+    background:         radial-gradient(rgb(99, 46, 72), rgb(99, 46, 90));    
+}
+
+/*
+    design
+*/
+b, strong { 
+	color:#f37936;
+}
+i, em { font-style: italic }
+a {
+    color: red;
+    text-decoration: none;
+    padding: 0 0.1em;
+    background: rgba(255,255,255,0.5);
+    border-radius: 0.2em;
+}
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+#linus img {
+	float: left;
+}
+#mark img {
+	float: left;
+}
+#prosojnica6 img {
+	width: 700px;
+	height: 450px;
+}
+#prosojnica7 img {
+	width: 700px;
+	height: 450px;	
+}
+#prosojnica8 img {
+	width: 700px;
+	height: 450px;	
+}
+#prosojnica16 img {
+	float: none;
+	width: 300px;
+	height: 90px;	
+}
+.fallback-message {
+    font-family: Ubuntu;
+    line-height: 1.3;
+    
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:       border-box;
+    
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    line-height: 1.5;
+}
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active { opacity: 1 }
+
+/*
+    These 'slide' step styles were heavily inspired by HTML5 Slides:
+    http://html5slides.googlecode.com/svn/trunk/styles.css
+*/
+.slide {
+    display: block;
+
+    width: 800px;
+    height: 720px;
+    padding: 20px 60px;
+
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: -1px;
+}
+
+.slide q {
+    display: block;
+    font-size: 25px;
+    line-height: 25px;
+
+    margin-top: 60px;
+}
+
+.slide q strong {
+    white-space: nowrap;
+}
+
+#overview { display: none }
+
+.impress-on-overview .step {
+    opacity: 1;
+    cursor: pointer;
+}
+.namig {
+    /* velikost ter skrijemo namig*/
+    display: none;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    
+    background: #f37936;
+    color: #EEE;
+    text-align: center;
+    
+    font-size: 50px;
+    padding: 20px;
+    
+    z-index: 100;
+    
+    opacity: 0;
+    
+    -webkit-transform: translateY(400px);
+    -moz-transform:    translateY(400px);
+    -ms-transform:     translateY(400px);
+    -o-transform:      translateY(400px);
+    transform:         translateY(400px);
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
+    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
+    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
+    transition:         opacity 1s,         transform 0.5s 1s;
+}
+
+/* prikažemo namig*/
+.impress-enabled .namig { display: block }
+
+.impress-on-prosojnica .namig {
+
+    opacity: 1;
+    
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+ /* tukaj se naštima po koliko sekundah se namig pokaže*/
+    -webkit-transition: opacity 0.5s 2s, -webkit-transform 0.5s 1.5s;
+    -moz-transition:    opacity 0.5s 2s,    -moz-transform 0.5s 1.5s;
+    -ms-transition:     opacity 0.5s 2s,     -ms-transform 0.5s 1.5s;
+    -o-transition:      opacity 0.5s 2s,      -o-transform 0.5s 1.5s;
+    transition:         opacity 0.5s 2s,         transform 0.5s 1.5s;
+}
+/* zahvala */
+.zahvala {
+    /* velikost ter skrijemo zahvalo*/
+    display: none;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 20px;
+    
+    background: #f37936;
+    color: #EEE;
+    text-align: center;
+    
+    font-size: 50px;
+    padding: 20px;
+    
+    z-index: 100;
+    
+    opacity: 0;
+    
+    -webkit-transform: translateY(400px);
+    -moz-transform:    translateY(400px);
+    -ms-transform:     translateY(400px);
+    -o-transform:      translateY(400px);
+    transform:         translateY(400px);
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
+    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
+    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
+    transition:         opacity 1s,         transform 0.5s 1s;
+}
+
+/* prikažemo namig*/
+.impress-enabled .zahvala { display: block }
+
+.impress-on-overview .zahvala {
+
+    opacity: 1;
+    
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+ /* tukaj se naštima po koliko sekundah se namig pokaže*/
+    -webkit-transition: opacity 0.5s 2s, -webkit-transform 0.5s 1.5s;
+    -moz-transition:    opacity 0.5s 2s,    -moz-transform 0.5s 1.5s;
+    -ms-transition:     opacity 0.5s 2s,     -ms-transform 0.5s 1.5s;
+    -o-transition:      opacity 0.5s 2s,      -o-transform 0.5s 1.5s;
+    transition:         opacity 0.5s 2s,         transform 0.5s 1.5s;
+}
