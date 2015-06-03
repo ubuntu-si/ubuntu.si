@@ -11,3 +11,4 @@ wp-content/cache/
 wp-content/backups/
 sitemap.xml.gz
 wp-config.php
+wp-content/themes/enigma-child/node_modules/
