@@ -30,11 +30,11 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-blockquote, q {
+blockquote, .slide div {
     quotes: none;
 }
 blockquote:before, blockquote:after,
-q:before, q:after {
+.slide div:before, .slide div:after {
     content: '';
     content: none;
 }
@@ -186,7 +186,7 @@ a:focus {
     letter-spacing: -1px;
 }
 
-.slide q {
+.slide div {
     display: block;
     font-size: 25px;
     line-height: 25px;
@@ -194,7 +194,7 @@ a:focus {
     margin-top: 60px;
 }
 
-.slide q strong {
+.slide div strong {
     white-space: nowrap;
 }
 
