@@ -1,0 +1,77 @@
+.enigma_blog_post_content p {
+  font-size: 15px;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.enigma_post_container {
+  margin-top: 20px;
+}
+.blog-date-left li {
+  width: 80px;
+}
+.blog-date-left >.enigma_post_date {
+  background: #77216F;
+  border-radius: 4px;
+}
+.enigma_post_author {
+  padding: 10px;
+}
+.enigma_blog_comment, .enigma_post_author {
+  background: transparent;
+  color: #dd4814;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
+.enigma_blog_comment a, .enigma_blog_comment:hover i, .enigma_post_author a, .enigma_post_author:hover i {
+  color: #dd4814;
+}
+.enigma_blog_comment a:hover i, .enigma_blog_comment a:active i, .enigma_post_author a:hover i, .enigma_post_author a:active i {
+  color: #77216F;
+}
+.enigma_post_author i {
+  font-size: 68px;
+  line-height: 55px;
+  transition: all 0.4s ease 0s;
+}
+.enigma_post_date span.date {
+  font-size: 25px;
+  line-height: 35px;
+}
+.enigma_post_date span.date {
+  font-size: 25px;
+  line-height: 25px;
+}
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .enigma_post_author {
+    width: 60px;
+    padding-top: 6px;
+    padding-left:2px;
+    padding-right:2px;
+    padding-bottom: 6px;
+  }
+  .enigma_post_author i {
+    font-size: 30px;
+    line-height: 25px;
+  }
+  .enigma_post_date span.date {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+#wblizar_nav > .nav-previous, #wblizar_nav > .nav-next {
+  display: inline-block;
+  width: 49%;
+  padding-top: 0;
+}
+#wblizar_nav > .nav-next {
+  text-align: right;
+}
+.enigma_fuul_blog_detail_padding h2 a, .enigma_fuul_blog_detail_padding h2 {
+  color: #77216F;
+}
+.enigma_blog_pagination > .enigma_blog_pagi a {
+  color: #FFFFFF;
+  background-color: #77216F;
+  background-image: inherit;
+  border: none !important;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}

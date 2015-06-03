@@ -183,9 +183,6 @@ h1, h2, h3, h4, h5, h6 {
 .enigma_blog_wrapper {
   margin-bottom: 0;
 }
-.enigma_post_container {
-  margin-top: 20px;
-}
 .enigma_service {
   padding-bottom: 0;
   padding-top: 0;
@@ -250,12 +247,15 @@ h1, h2, h3, h4, h5, h6 {
 a:hover {
   color: inherit;
 }
+
+/* post-content start */
 .enigma_blog_post_content p {
   font-size: 15px;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
-/* post-content start */
+.enigma_post_container {
+  margin-top: 20px;
+}
 .blog-date-left li {
   width: 80px;
 }

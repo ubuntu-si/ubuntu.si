@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Ubuntu Slovenija Wordpress Theme
+ Theme URI:    http://ubuntu.si/
+ Description:  Child theme for Ubuntu.si based on the Enigma theme
+ Author:       <a href="http://andrej.mernik.eu">Andrej Mernik</a> &amp; <a href="http://ubuntu.si">Dražen M.</a>
+ Author URI:   http://ubuntu.si
+ Template:     enigma
+ Version:      0.0.7
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl.html
+ Tags:         beautiful, rich, dynamic, responsive, web 2.0, beta
+ Text Domain:  ubuntu-si-wp
+*/
+body {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+p {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a:hover {
+  color: inherit;
+}
+/* misc stuff */
+/* to top button start */
+.enigma_scrollup {
+  opacity: 1;
+  background: #77216F;
+}
+.enigma_scrollup:hover {
+  background: #dd4814;
+  opacity: 1;
+}
+/* to top button end */
+
+.enigma_header_breadcrum_title {
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
