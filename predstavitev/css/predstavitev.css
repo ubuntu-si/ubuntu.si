@@ -98,28 +98,18 @@ a:hover,
 a:focus {
 	text-decoration: underline;
 }
-#linus img {
-	float: left;
+
+#linus img, #mark img {
+    float: left;
+    margin-right: 10px;
 }
-#mark img {
-	float: left;
-}
-#prosojnica6 img {
-	width: 700px;
-	height: 450px;
-}
-#prosojnica7 img {
-	width: 700px;
-	height: 450px;	
-}
-#prosojnica8 img {
-	width: 700px;
-	height: 450px;	
+#prosojnica6 img, #prosojnica7 img, #prosojnica8 img {
+	width: 100%;
+    margin-top: 10px;
 }
 #prosojnica16 img {
 	float: none;
-	width: 300px;
-	height: 90px;	
+	width: 100%;
 }
 .fallback-message {
     font-family: Ubuntu;
