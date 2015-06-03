@@ -21,7 +21,136 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-/* navbar start */
+a:hover {
+  color: inherit;
+}
+/* misc stuff */
+/* to top button start */
+.enigma_scrollup {
+  opacity: 1;
+  background: #77216F;
+}
+.enigma_scrollup:hover {
+  background: #dd4814;
+  opacity: 1;
+}
+/* to top button end */
+.enigma_header_breadcrum_title {
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.carousel {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+.carousel-text, .carousel-text h1 {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.carousel-list li {
+  background: rgba(0,0,0,0.6);
+}
+.enigma_blog_read_btn {
+  color: #FFFFFF !important;
+  font-size: 15px;
+  border: 2px solid #77216F;
+  background-image: linear-gradient(to bottom, #77216F 50%, #fff 50%);
+}
+.enigma_blog_read_btn:hover {
+  color: #77216F !important;
+}
+
+.enigma_blog_wrapper {
+  margin-bottom: 0;
+}
+.enigma_blog_area {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.enigma_blog_area .enigma_heading_title {
+  margin: 0 0 10px;
+}
+.enigma_blog_thumb_wrapper p {
+  font-size: 14px;
+}
+.enigma_blog_thumb_wrapper {
+  border-bottom: 5px solid #77216F;
+}
+.enigma_blog_thumb_date li i {
+  color: #dd4814;
+}
+.enigma_blog_thumb_wrapper h2 a, a {
+  color: #77216F;
+}
+.enigma_blog_thumb_wrapper h2 a:hover, .enigma_blog_thumb_wrapper h2:hover a {
+  color: inherit;
+}
+.enigma_blog_read_btn {
+  color: #FFFFFF !important;
+  font-size: 15px;
+  border: 2px solid #77216F;
+  background-image: linear-gradient(to bottom, #77216F 50%, #fff 50%);
+}
+.enigma_blog_read_btn:hover {
+  color: #77216F !important;
+}
+.enigma_heading_title h3 {
+  text-transform: none;
+  color: #666;
+}
+.enigma_heading_title h3 {
+  border-bottom: 4px solid #77216F;
+  font-family:"Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.enigma_service_iocn {
+  border: 0 solid #dd4814;
+  background-image: linear-gradient(to bottom, #dd4814 50%, #fff 50%);
+}
+.enigma_service_area:hover .enigma_service_iocn i {
+  color: #77216F;
+}
+.enigma_service .enigma_heading_title h2 {
+  border-bottom: 4px solid #77216F;
+  display: inline-block;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: 0;
+}
+.enigma_service .enigma_heading_title {
+  margin-bottom: 25px;
+}
+.enigma_service {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.enigma_footer_area span a {
+  color: #77216F;
+  text-decoration: none;
+}
+.enigma_footer_area span a:hover {
+  color: #77216F;
+}
+.fa-heart {
+  color: #77216F;
+}
+.enigma_footer_area span {
+  color: #77216F;
+  font-size: 75% !important;
+}
+#trademark-notice {
+  color: #77216F;
+}
+#copyright {
+  margin-left: 150px;
+}
+.enigma_footer_area {
+  background-color: #f5f5f5;
+  border-top: #e3e3e3 solid 1px;
+}
+
 #enigma_nav_top {
   margin: 0 5px 10px 5px;
   border-top-left-radius: 4px;
@@ -87,168 +216,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 50px;
   }
 }
-/* navbar end */
 
-/* carousel start */
-.carousel {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 20px;
-}
-
-.carousel-text, .carousel-text h1 {
-  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-.carousel-list li {
-  background: rgba(0,0,0,0.6);
-}
-/* carousel end */
-
-/* footer start */
-.enigma_footer_area span a {
-  color: #77216F;
-  text-decoration: none;
-}
-.enigma_footer_area span a:hover {
-  color: #77216F;
-}
-.fa-heart {
-  color: #77216F;
-}
-.enigma_footer_area span {
-  color: #77216F;
-  font-size: 75% !important;
-}
-#trademark-notice {
-  color: #77216F;
-}
-#copyright {
-  margin-left: 150px;
-}
-.enigma_footer_area {
-  background-color: #f5f5f5;
-  border-top: #e3e3e3 solid 1px;
-}
-/* footer end */
-
-/* social icons start */
-.enigma_footer_social_div a {
-  color: #77216F;
-}
-.enigma_footer_social_div .social-icons li a {
-  color: #F5F5F5;
-  display: block;
-}
-.social-icons {
-  display: block;
-  text-align: center;
-  margin-bottom: 5px ;
-}
-.social-icons li {
-  font-size: 20px;
-  display: inline-block;
-  height: 30px;
-  margin-right: 5px;
-  width: 35px;
-  text-align: center;
-  transition: background .5s ease-in-out;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.social-icons li.facebook {
-  background-position: 0 -100%;
-  background-color: #4C66A4;
-}
-.social-icons li.twitter {
-  background-position: 0 -100%;
-  background-color: #55acee;
-}
-.social-icons li.google-plus {
-  background-position: 0 -100%;
-  background-color: #dd4b39;
-}
-.social-icons li.youtube {
-  background-position: 0 -100%;
-  background-color: #B31217;
-}
-.social-icons li.rss {
-  background-position: 0 -100%;
-  background-color: #f26522;
-}
-/* social icons end */
-
-.enigma_container {
-  margin-top: 30px;
-}
-.enigma_blog_wrapper {
-  margin-bottom: 0;
-}
-.enigma_service {
-  padding-bottom: 0;
-  padding-top: 0;
-}
-.enigma_blog_area {
-  padding-top: 10px;
-  padding-bottom: 0;
-}
-.enigma_blog_area .enigma_heading_title {
-  margin: 0 0 10px;
-}
-.enigma_blog_thumb_wrapper p {
-  font-size: 14px;
-}
-.enigma_heading_title h3 {
-  text-transform: none;
-  color: #666;
-}
-.enigma_blog_read_btn {
-  color: #FFFFFF !important;
-  font-size: 15px;
-  border: 2px solid #77216F;
-  background-image: linear-gradient(to bottom, #77216F 50%, #fff 50%);
-}
-.enigma_blog_read_btn:hover {
-  color: #77216F !important;
-}
-.enigma_blog_thumb_wrapper {
-  border-bottom: 5px solid #77216F;
-}
-.enigma_service_iocn {
-  border: 0 solid #dd4814;
-  background-image: linear-gradient(to bottom, #dd4814 50%, #fff 50%);
-}
-.enigma_service_area:hover .enigma_service_iocn i {
-  color: #77216F;
-}
-.enigma_blog_thumb_date li i {
-  color: #dd4814;
-}
-.enigma_heading_title h3 {
-  border-bottom: 4px solid #77216F;
-  font-family:"Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-.enigma_service .enigma_heading_title h2 {
-  border-bottom: 4px solid #77216F;
-  display: inline-block;
-  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin-top: 0;
-}
-
-.enigma_service .enigma_heading_title {
-  margin-bottom: 25px;
-}
-
-.enigma_blog_thumb_wrapper h2 a, a {
-  color: #77216F;
-}
-.enigma_blog_thumb_wrapper h2 a:hover, .enigma_blog_thumb_wrapper h2:hover a {
-  color: inherit;
-}
-a:hover {
-  color: inherit;
-}
-
-/* post-content start */
 .enigma_blog_post_content p {
   font-size: 15px;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -319,9 +287,14 @@ a:hover {
 .enigma_fuul_blog_detail_padding h2 a, .enigma_fuul_blog_detail_padding h2 {
   color: #77216F;
 }
-/* post-content end */
+.enigma_blog_pagination > .enigma_blog_pagi a {
+  color: #FFFFFF;
+  background-color: #77216F;
+  background-image: inherit;
+  border: none !important;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
-/* sidebar start */
 .enigma_sidebar_widget {
   border-left: 1px solid #77216F;
   border-right: 1px solid #77216F;
@@ -330,7 +303,6 @@ a:hover {
 .enigma_sidebar_widget_title {
   background: #77216F none repeat scroll 0 0;
 }
-
 .enigma_sidebar_link p, .enigma_sidebar_widget ul li, .enigma_sidebar_link p a, .enigma_sidebar_widget ul li a{
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -341,28 +313,47 @@ a:hover {
   font: normal normal 18px Ubuntu;
   text-transform: none;
 }
-/* sidebar end */
 
-/* to top button start */
-.enigma_scrollup {
-  opacity: 1;
-  background: #77216F;
+.enigma_footer_social_div a {
+  color: #77216F;
 }
-.enigma_scrollup:hover {
-  background: #dd4814;
-  opacity: 1;
+.enigma_footer_social_div .social-icons li a {
+  color: #F5F5F5;
+  display: block;
 }
-/* to top button end */
-
-.enigma_header_breadcrum_title {
-  margin-bottom: 20px;
-  padding-top: 0;
-  padding-bottom: 0;
+.social-icons {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px ;
 }
-.enigma_blog_pagination > .enigma_blog_pagi a {
-  color: #FFFFFF;
-  background-color: #77216F;
-  background-image: inherit;
-  border: none !important;
-  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+.social-icons li {
+  font-size: 20px;
+  display: inline-block;
+  height: 30px;
+  margin-right: 5px;
+  width: 35px;
+  text-align: center;
+  transition: background .5s ease-in-out;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.social-icons li.facebook {
+  background-position: 0 -100%;
+  background-color: #4C66A4;
+}
+.social-icons li.twitter {
+  background-position: 0 -100%;
+  background-color: #55acee;
+}
+.social-icons li.google-plus {
+  background-position: 0 -100%;
+  background-color: #dd4b39;
+}
+.social-icons li.youtube {
+  background-position: 0 -100%;
+  background-color: #B31217;
+}
+.social-icons li.rss {
+  background-position: 0 -100%;
+  background-color: #f26522;
 }
