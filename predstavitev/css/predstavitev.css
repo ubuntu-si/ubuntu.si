@@ -308,6 +308,6 @@ a:focus {
     transition:         opacity 0.5s 2s,         transform 0.5s 1.5s;
 }
 
-li, p {
+li {
     margin: 1em 0;
 }
