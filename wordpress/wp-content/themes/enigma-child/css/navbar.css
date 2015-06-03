@@ -1,0 +1,65 @@
+#enigma_nav_top {
+  margin: 0 5px 10px 5px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#enigma_nav_top.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#enigma_nav_top, .navbar-default > .navbar-header > .navbar-toggle {
+  background-color: #77216F !important;
+}
+#logo {
+  padding: 15px;
+}
+#menu {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-header {
+  float:right;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  box-shadow: none;
+  background-color: #DD4814;
+}
+.navbar-default .navbar-nav > li > a {
+  text-transform: none;
+  color: #FFFFFF;
+  padding: 15px;
+  width: auto;
+  font-weight: inherit;
+  font-size: 14px;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
+  box-shadow: none;
+  font-size: 14px;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .dropdown-menu .active a, .navbar-default > .navbar-header > .navbar-toggle:hover,  .navbar-default > .navbar-header > .navbar-toggle:focus, .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #DD4814 !important;
+  font-size: 14px;
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-default .navbar-nav > li {
+  margin-right: 0;
+}
+.navbar-collapse ul li a {
+  height: auto;
+}
+.navbar-default > .navbar-header > .navbar-toggle, .navbar-default > .navbar-header > .navbar-toggle:hover, .navbar-default > .navbar-header > .navbar-toggle:focus {
+  margin-top: 8px;
+  border: 1px solid #97310E !important;
+}
+.navigation_menu {
+  width: inherit;
+  border-top: none;
+}
+@media only screen and (min-width: 767px) {
+  .navbar-nav {
+    height: 50px;
+  }
+}

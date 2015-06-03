@@ -1,0 +1,18 @@
+.enigma_sidebar_widget {
+  border-left: 1px solid #77216F;
+  border-right: 1px solid #77216F;
+  border-bottom: 1px solid #77216F;
+}
+.enigma_sidebar_widget_title {
+  background: #77216F none repeat scroll 0 0;
+}
+.enigma_sidebar_link p, .enigma_sidebar_widget ul li, .enigma_sidebar_link p a, .enigma_sidebar_widget ul li a{
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.enigma_sidebar_link p a:hover, .enigma_sidebar_widget ul li a:hover {
+  color: #77216F;
+}
+.enigma_sidebar_widget_title h2 {
+  font: normal normal 18px Ubuntu;
+  text-transform: none;
+}

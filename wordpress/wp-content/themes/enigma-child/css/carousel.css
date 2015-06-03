@@ -1,0 +1,20 @@
+.carousel {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+.carousel-text, .carousel-text h1 {
+  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.carousel-list li {
+  background: rgba(0,0,0,0.6);
+}
+.enigma_blog_read_btn {
+  color: #FFFFFF !important;
+  font-size: 15px;
+  border: 2px solid #77216F;
+  background-image: linear-gradient(to bottom, #77216F 50%, #fff 50%);
+}
+.enigma_blog_read_btn:hover {
+  color: #77216F !important;
+}
