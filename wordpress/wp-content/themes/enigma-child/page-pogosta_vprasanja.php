@@ -8,9 +8,9 @@ get_header(); ?>
 				<h2>Katero različico Ubuntu-ja naj namestim?</h2>
 				<p>Ubuntu obstaja v večih različicah, ki so prilagojene za določeno strojno opremo, ponujajo različne videze in
 					privzeto nameščene programe, so v koraku s časom ali pa bolj stabilne, itd. Izbira je vedno dobrodošla, vendar lahko zmede uporabnike, ki niso tehnološko podkovani, zato smo pripravili kratek vprašalnik, ki vam bo pomagal izbrati pravo različico Ubuntu-ja.</p>
-				<div id="ubuntu_vprasalnik">
+				<div id="vprasalnik_glavno">
 				<form>
-					<div class="row" id="razlicica">
+					<div class="row" id="vprasalnik_razlicica">
 						<h3>Imate pri sistemu raje stabilnost ali najnovejše programe?</h3>
 						<div class="col-md-6">
 							<div class="panel panel-default">
@@ -34,7 +34,7 @@ get_header(); ?>
 						</div>
 					</div>
 
-					<div class="row" id="starost">
+					<div class="row" id="vprasalnik_starost">
 						<h3>Koliko je star vaš računalnik?</h3>
 						<div class="col-md-6">
 							<div class="panel panel-default">
@@ -58,7 +58,7 @@ get_header(); ?>
 						</div>
 					</div>
 
-					<div class="row" id="zmogljivost">
+					<div class="row" id="vprasalnik_zmogljivost">
 						<h3>Ali vam je bolj pomemben videz ali hitrost delovanja?</h3>
 						<div class="col-md-6">
 							<div class="panel panel-default">
@@ -82,7 +82,7 @@ get_header(); ?>
 						</div>
 					</div>
 
-					<div class="row" id="namizje">
+					<div class="row" id="vprasalnik_namizje">
 						<h3>Ali želite popolno prilagodljivost programov ali vam je ljubša enostavnost?</h3>
 						<div class="col-md-6">
 							<div class="panel panel-default">
@@ -105,6 +105,17 @@ get_header(); ?>
 							</div>
 						</div>
 					</div>
+
+					<div id="vprasalnik_izbor">
+						<h3>Glede na vaše odgovore vam priporočamo:</h3>
+						<!-- osvetljene ikone s povezavi do prejemov -->
+					</div>
+
+					<div id="vprasalnik_krmarjenje">
+						<button type="button" class="btn btn-primary">Nazaj</button>
+						<button type="button" class="btn btn-primary">Naprej</button>
+					</div>
+
 
 				</form>
 				</div>
