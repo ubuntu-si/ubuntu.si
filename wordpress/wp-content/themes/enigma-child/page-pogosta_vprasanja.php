@@ -15,7 +15,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="razlicica" value="lts" checked /> Stabilnost</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_razlicica" value="lts" checked /> Stabilnost</h3>
 								</div>
 								<div class="panel-body">
 									Različica Ubuntu z dolgotrajno podporo (LTS) daje poudarek na stabilnosti. Pet let od datuma izdaje boste lahko prejemali varnostne popravke in popravke hroščev, ne bo pa novih zmožnosti in novih različic programov z novimi zmožnostmi.
@@ -25,7 +25,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="razlicica" value="rel" /> Najnovejši programi</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_razlicica" value="rel" /> Najnovejši programi</h3>
 								</div>
 								<div class="panel-body">
 									Najnovejša različica Ubuntu daje poudarek na najnovejše programe in zmožnosti, zato je lahko manj stabilna od različice LTS. Varnostne popravke in popravke hroščev boste lahko prejemali le 9 mesecev, potem pa je priporočena nadgradnja.
@@ -39,7 +39,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="starost" value="64bit" checked /> Manj kot 10 let</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_starost" value="64bit" checked /> Manj kot 10 let</h3>
 								</div>
 								<div class="panel-body">
 									Vsi novejši procesorji (Athlon 64/Intel Core 2 in novejši) podpirajo 64-bitno različico nabora ukazov x86, ki omogoča bolj učinkovito obdelavo velikih količin pomnilnika RAM. Prednost 64-bitne različice Ubuntu se pokaže, če imate nameščenega veliko pomnilnika (npr. 4 GB) in imate naenkrat odprtih veliko programov. Preizkusi so pokazali, da naj bi bila 64-bitna različica hitrejša tudi, če je pomnilnika malo.
@@ -49,7 +49,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="starost" value="32bit" /> Več kot 10 let</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_starost" value="32bit" /> Več kot 10 let</h3>
 								</div>
 								<div class="panel-body">
 									Računalniki starejši od 10 let večinoma nimajo 64-bitnih procesorjev, saj je bila takrat ta tehnologija šele v povojih, zato na njih ni mogoče poganjati 64-bitne različice Ubuntu. Prve različice 32-bitnega Ubuntu-ja niso omogočale naslavljanje več kot 4 GB pomnilnika, novejši odtisi pa imajo vgrajeno razširitev PAE, ki omogoča naslavljanje do 64 GB pomnilnika.
@@ -63,7 +63,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="zmogljivost" value="videz" checked /> Videz</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_zmogljivost" value="videz" checked /> Videz</h3>
 								</div>
 								<div class="panel-body">
 									Ubuntu ima kar nekaj namiznih okolij, ki so očem prijazna in se prilagajajo modernim smernicam glede izgleda namiznega okolja. Taka namizna okolja ponavadi zahtevajo več sistemskih virov, hiter procesor in/ali hitro grafično kartico. To možnost lahko izberete tudi, če imate počasnejši računalnik in vas manjša odzivnost namizne okolja ne moti.
@@ -73,7 +73,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="zmogljivost" value="hitrost" /> Hitrost delovanja</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_zmogljivost" value="hitrost" /> Hitrost delovanja</h3>
 								</div>
 								<div class="panel-body">
 									Veliko ljudi uporablja računalnik za nezahtevna pisarniška opravila in brskanje po spletu, zato imajo tudi počasnejše ali malo starejše računalnike. Za njih obstajajo oskubljena namizja, ki so jih razvijalci optimizirali za čimmanjšo porabo virov in hitro delovanje na počasnejših računalnikih. Namizna okolja so sicer odzivna, niso pa tako lepa na pogled.
@@ -87,7 +87,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="namizje" value="enostavnost" checked /> Enostavnost</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_namizje" value="enostavnost" checked /> Enostavnost</h3>
 								</div>
 								<div class="panel-body">
 									Namizni okolji Unity in GNOME sta namenjeni uporabnikom, ki se ne želijo poglabljati v nastavitve in prilagajati privzeto nameščenih programov. Odlikuje ju enostavnost uporabe, ki gre na račun določenih zmožnosti. Napredno nastavljanje je na voljo preko urejevalnikov nastavitvenih datotek.
@@ -97,7 +97,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="namizje" value="prilagodljivost" /> Prilagodljivost</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_namizje" value="prilagodljivost" /> Prilagodljivost</h3>
 								</div>
 								<div class="panel-body">
 									Namizno okolje KDE zmogljivo in popolnoma prilagodljivo namizje. Večino nastavljanja namizja in programov lahko opravite kar iz nastavitvenih menijev, ki pa lahko s svojo obsežnostjo določene uporabnike zmedejo. Programi, ki so del KDE so zelo zmogljivi in so primerni za naprednejše uporabnike.
@@ -112,8 +112,9 @@ get_header(); ?>
 					</div>
 
 					<div id="vprasalnik_krmarjenje">
-						<button type="button" class="btn btn-primary">Nazaj</button>
-						<button type="button" class="btn btn-primary">Naprej</button>
+						<button type="button" class="btn btn-primary" id="vprasalnik_nazaj">Nazaj</button>
+						<button type="button" class="btn btn-primary" id="vprasalnik_naprej">Naprej</button>
+						<button type="button" class="btn btn-primary" id="vprasalnik_znova">Znova</button>
 					</div>
 
 
@@ -124,5 +125,5 @@ get_header(); ?>
 	<?php get_template_part('post','page'); ?>
 	</div>
 	</div>
-</div>	
+</div>
 <?php get_footer(); ?>
