@@ -14,15 +14,6 @@ jQuery(function($){
         }
     }
 
-    function preveri_razvejitev(list, razvejitev)
-    {
-        // preveri, če bo naslednji klik ze dosegel konec
-        if (($.inArray($('input:radio[name=' + list + ']:checked').val(), razvejitev)) > -1 ) {
-            return true;
-        }
-        return false;
-    }
-
     function pripravi_izbor(vprasalnik_listi) {
         var distribucije = [];
         var razlicica = $('input:radio[name=' + vprasalnik_listi[0] + ']:checked').val();
@@ -65,7 +56,7 @@ jQuery(function($){
         if (vprasalnik_indeks < vprasalnik_listi.length) {
             // preveri, ce smo na razvejitvi
             preklopi_list(vprasalnik_indeks);
-            if (preveri_razvejitev(vprasalnik_listi[vprasalnik_indeks], vprasalnik_razvejitev)) {
+            if (($.inArray($('input:radio[name=' + vprasalnik_listi[vprasalnik_indeks] + ']:checked').val(), vprasalnik_razvejitev)) > -1) {
                 // prisli smo do razvejitve, zato skoci na zadnjo stran
                 vprasalnik_indeks = vprasalnik_listi.length - 1;
                 $( 'button#vprasalnik_nazaj, button#vprasalnik_naprej').hide();
@@ -80,6 +71,7 @@ jQuery(function($){
     });
 
     $( 'button#vprasalnik_znova').click(function() {
+        preklopi_list(vprasalnik_indeks);
         vprasalnik_indeks = 0;
         preklopi_list(vprasalnik_indeks);
         $( 'button#vprasalnik_nazaj, button#vprasalnik_naprej').show();
