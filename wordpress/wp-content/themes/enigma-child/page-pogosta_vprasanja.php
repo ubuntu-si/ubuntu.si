@@ -82,6 +82,30 @@ get_header(); ?>
 						</div>
 					</div>
 
+					<div class="row" id="namizje">
+						<h3>Ali želite popolno prilagodljivost programov ali vam je ljubša enostavnost?</h3>
+						<div class="col-md-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title"><input type="radio" name="namizje" value="enostavnost" checked /> Enostavnost</h3>
+								</div>
+								<div class="panel-body">
+									Namizni okolji Unity in GNOME sta namenjeni uporabnikom, ki se ne želijo poglabljati v nastavitve in prilagajati privzeto nameščenih programov. Odlikuje ju enostavnost uporabe, ki gre na račun določenih zmožnosti. Napredno nastavljanje je na voljo preko urejevalnikov nastavitvenih datotek.
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title"><input type="radio" name="namizje" value="prilagodljivost" /> Prilagodljivost</h3>
+								</div>
+								<div class="panel-body">
+									Namizno okolje KDE zmogljivo in popolnoma prilagodljivo namizje. Večino nastavljanja namizja in programov lahko opravite kar iz nastavitvenih menijev, ki pa lahko s svojo obsežnostjo določene uporabnike zmedejo. Programi, ki so del KDE so zelo zmogljivi in so primerni za naprednejše uporabnike.
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</form>
 				</div>
 			</div>
