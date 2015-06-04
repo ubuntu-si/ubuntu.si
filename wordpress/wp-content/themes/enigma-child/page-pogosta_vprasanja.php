@@ -11,7 +11,7 @@ get_header(); ?>
 				<div id="ubuntu_vprasalnik">
 				<form>
 					<div class="row" id="razlicica">
-						<h3>Kaj vam je pri sistemu ljubše?</h3>
+						<h3>Imate pri sistemu raje stabilnost ali najnovejše programe?</h3>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
@@ -53,6 +53,30 @@ get_header(); ?>
 								</div>
 								<div class="panel-body">
 									Računalniki starejši od 10 let večinoma nimajo 64-bitnih procesorjev, saj je bila takrat ta tehnologija šele v povojih, zato na njih ni mogoče poganjati 64-bitne različice Ubuntu. Prve različice 32-bitnega Ubuntu-ja niso omogočale naslavljanje več kot 4 GB pomnilnika, novejši odtisi pa imajo vgrajeno razširitev PAE, ki omogoča naslavljanje do 64 GB pomnilnika.
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row" id="zmogljivost">
+						<h3>Ali vam je bolj pomemben videz ali hitrost delovanja?</h3>
+						<div class="col-md-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title"><input type="radio" name="zmogljivost" value="videz" checked /> Videz</h3>
+								</div>
+								<div class="panel-body">
+									Ubuntu ima kar nekaj namiznih okolij, ki so očem prijazna in se prilagajajo modernim smernicam glede izgleda namiznega okolja. Taka namizna okolja ponavadi zahtevajo več sistemskih virov, hiter procesor in/ali hitro grafično kartico. To možnost lahko izberete tudi, če imate počasnejši računalnik in vas manjša odzivnost namizne okolja ne moti.
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title"><input type="radio" name="zmogljivost" value="hitrost" /> Hitrost delovanja</h3>
+								</div>
+								<div class="panel-body">
+									Veliko ljudi uporablja računalnik za nezahtevna pisarniška opravila in brskanje po spletu, zato imajo tudi počasnejše ali malo starejše računalnike. Za njih obstajajo oskubljena namizja, ki so jih razvijalci optimizirali za čimmanjšo porabo virov in hitro delovanje na počasnejših računalnikih. Namizna okolja so sicer odzivna, niso pa tako lepa na pogled.
 								</div>
 							</div>
 						</div>
