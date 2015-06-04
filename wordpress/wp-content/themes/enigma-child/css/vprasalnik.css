@@ -1,0 +1,7 @@
+#vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova, #vprasalnik_izbor a {
+    display: none;
+}
+
+#vprasalnik_razlicica:target, #vprasalnik_starost:target, #vprasalnik_zmogljivost:target, #vprasalnik_namizje:target, #vprasalnik_izbor:target {
+    display: block;
+}

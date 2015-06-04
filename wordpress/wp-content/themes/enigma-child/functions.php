@@ -1,8 +1,8 @@
 <?php
-function theme_enqueue_styles()
+function theme_enqueue_custom()
 {
-    # load parent theme styles
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array('jquery') );
 }
 
 function wp2vanilla_post_comments()
@@ -19,5 +19,5 @@ function wp2vanilla_post_comments()
     return '<a href="' . home_url("forum") . '/discussion/' . $vanilla_id . '/" title="' . __('Komentiraj') . '"><i class="fa fa-comments-o"></a></i>';
 }
 
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_custom' );
 ?>
