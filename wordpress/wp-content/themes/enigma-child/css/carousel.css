@@ -9,12 +9,3 @@
 .carousel-list li {
   background: rgba(0,0,0,0.6);
 }
-.enigma_blog_read_btn {
-  color: #FFFFFF !important;
-  font-size: 15px;
-  border: 2px solid #77216F;
-  background-image: linear-gradient(to bottom, #77216F 50%, #fff 50%);
-}
-.enigma_blog_read_btn:hover {
-  color: #77216F !important;
-}

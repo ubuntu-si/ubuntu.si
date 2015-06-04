@@ -40,6 +40,21 @@ a:hover {
   padding-top: 0;
   padding-bottom: 0;
 }
+/* povezave buttons (collapse) */
+.povezave_btn {
+  border-radius: 0;
+  background-color: #77216F !important;
+  border-color: #77216F;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  border-color: #77216F !important;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: none;
+  outline-offset: 0;
+  background-color: #fff;
+  color: #fff;
+}
 
 .carousel {
   margin-left: 5px;
@@ -51,15 +66,6 @@ a:hover {
 }
 .carousel-list li {
   background: rgba(0,0,0,0.6);
-}
-.enigma_blog_read_btn {
-  color: #FFFFFF !important;
-  font-size: 15px;
-  border: 2px solid #77216F;
-  background-image: linear-gradient(to bottom, #77216F 50%, #fff 50%);
-}
-.enigma_blog_read_btn:hover {
-  color: #77216F !important;
 }
 
 .enigma_blog_wrapper {
