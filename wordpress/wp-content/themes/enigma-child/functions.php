@@ -2,7 +2,7 @@
 function theme_enqueue_custom()
 {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-    wp_enqueue_script( 'custom-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery') );
+    wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array('jquery') );
 }
 
 function wp2vanilla_post_comments()
