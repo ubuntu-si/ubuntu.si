@@ -1,0 +1,32 @@
+/* povezave buttons (collapse) */
+.povezave_btn {
+  border-radius: 0;
+  background-color: #77216F !important;
+  border-color: #77216F;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  border-color: #77216F !important;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: none;
+  outline-offset: 0;
+  background-color: #fff;
+  color: #fff;
+}
+.povezave_btn img {
+  margin-right: 5px;
+}
+.fa-download, .fa-cloud-download {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.collapse .well .row li {
+  display: block;
+}
+.collapse .well .row ul {
+  padding: 0;
+}
+.page-id-7 div.collapse:target {
+    display: block;
+}
+/* povezave buttons (collapse) end */
