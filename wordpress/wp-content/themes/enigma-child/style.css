@@ -368,6 +368,6 @@ a:hover {
     display: none;
 }
 
-#vprasalnik_razlicica:target, #vprasalnik_starost:target, #vprasalnik_zmogljivost:target, #vprasalnik_namizje:target, #vprasalnik_izbor:target {
-    display: block;
+#vprasalnik_krmarjenje {
+    float: right;
 }

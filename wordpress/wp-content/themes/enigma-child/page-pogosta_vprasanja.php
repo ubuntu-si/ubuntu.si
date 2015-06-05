@@ -112,9 +112,9 @@ get_header(); ?>
 					</div>
 
 					<div id="vprasalnik_krmarjenje">
-						<button type="button" class="btn btn-primary" id="vprasalnik_nazaj">Nazaj</button>
-						<button type="button" class="btn btn-primary" id="vprasalnik_naprej">Naprej</button>
-						<button type="button" class="btn btn-primary" id="vprasalnik_znova">Znova</button>
+						<button type="button" class="btn btn-primary enigma_blog_read_btn" id="vprasalnik_nazaj">Nazaj</button>
+						<button type="button" class="btn btn-primary enigma_blog_read_btn" id="vprasalnik_naprej">Naprej</button>
+						<button type="button" class="btn btn-primary enigma_blog_read_btn" id="vprasalnik_znova">Znova</button>
 					</div>
 
 
