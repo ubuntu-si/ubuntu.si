@@ -107,12 +107,12 @@ get_header(); ?>
 
 					<div id="vprasalnik_izbor">
 						<h3>Glede na vaše odgovore vam priporočamo:</h3>
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_logo_100px.png" alt="Ubuntu" title="Ubuntu" id="ubuntu" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kubuntu_logo_100px.png" alt="Kubuntu" title="Kubuntu" id="kubuntu" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/xubuntu_logo_100px.png" alt="Xubuntu" title="Xubuntu" id="xubuntu" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lubuntu_logo_100px.png" alt="Lubuntu" title="Lubuntu" id="lubuntu" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_gnome_logo_100px.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="ubuntu_gnome" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_mate_logo_100px.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="ubuntu_mate" class="disabled" />
+						<figure id="ubuntu"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_logo_100px.png" alt="Ubuntu" title="Ubuntu" class="disabled" /><figcaption>&nbsp;</figcaption></figure>
+						<figure id="kubuntu"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kubuntu_logo_100px.png" alt="Kubuntu" title="Kubuntu" class="disabled" /><figcaption>&nbsp;</figcaption></figure>
+						<figure id="xubuntu"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/xubuntu_logo_100px.png" alt="Xubuntu" title="Xubuntu" class="disabled" /><figcaption>&nbsp;</figcaption></figure>
+						<figure id="lubuntu"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lubuntu_logo_100px.png" alt="Lubuntu" title="Lubuntu" class="disabled" /><figcaption>&nbsp;</figcaption></figure>
+						<figure id="ubuntu_gnome"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_gnome_logo_100px.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" class="disabled" /><figcaption>&nbsp;</figcaption></figure>
+						<figure id="ubuntu_mate"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_mate_logo_100px.png" alt="Ubuntu MATE" title="Ubuntu MATE" class="disabled" /><figcaption>&nbsp;</figcaption></figure>
 					</div>
 
 					<div id="vprasalnik_krmarjenje">

@@ -31,10 +31,12 @@ jQuery(function($){
         }
 
         $.each( distribucije, function( indeks, vrednost ){
-            var izbrana_ikona = $( 'div#vprasalnik_izbor img#' + vrednost);
+            var izbrana_ikona = $( 'div#vprasalnik_izbor figure#' + vrednost + ' img');
+            var izbran_napis = $( 'div#vprasalnik_izbor figure#' + vrednost + ' figcaption');
             izbrana_ikona.removeClass('disabled');
             izbrana_ikona.attr('title', izbrana_ikona.attr('title') + ' ' + starost);
             izbrana_ikona.wrap('<a href="/povezave/#' + vrednost + '_' + razlicica + '"></a>');
+            izbran_napis.append(starost);
         });
     }
 

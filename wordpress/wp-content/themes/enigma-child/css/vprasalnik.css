@@ -1,16 +1,17 @@
 #vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova {
     display: none;
 }
-
 #vprasalnik_krmarjenje button#vprasalnik_naprej, #vprasalnik_krmarjenje button#vprasalnik_znova  {
     float: right;
 }
-
 #vprasalnik_krmarjenje button#vprasalnik_nazaj {
     float: left;
 }
-
 #vprasalnik_izbor img.disabled {
     opacity: 0.1;
     filter: alpha(opacity=10);
+}
+#vprasalnik_izbor figure {
+    display: inline-block;
+    text-align: center;
 }
