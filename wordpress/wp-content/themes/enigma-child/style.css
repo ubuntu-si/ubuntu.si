@@ -364,7 +364,7 @@ a:hover {
   background-color: #f26522;
 }
 
-#vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova, #vprasalnik_izbor a {
+#vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova {
     display: none;
 }
 

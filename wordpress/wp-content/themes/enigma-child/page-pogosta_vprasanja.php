@@ -107,11 +107,11 @@ get_header(); ?>
 
 					<div id="vprasalnik_izbor">
 						<h3>Glede na vaše odgovore vam priporočamo:</h3>
-						<img src="/wordpress/wp-content/uploads/dostopen.png" id="ubuntu" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" id="kubuntu" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" id="xubuntu" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" id="lubuntu" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" id="gnome" class="disabled" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Ubuntu" title="Ubuntu" id="ubuntu" class="disabled" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Kubuntu" title="Kubuntu" id="kubuntu" class="disabled" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Xubuntu" title="Xubuntu" id="xubuntu" class="disabled" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Lubuntu" title="Lubuntu" id="lubuntu" class="disabled" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="gnome" class="disabled" />
 					</div>
 
 					<div id="vprasalnik_krmarjenje">

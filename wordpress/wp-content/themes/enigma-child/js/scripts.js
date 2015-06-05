@@ -3,8 +3,7 @@ jQuery(function($){
     var vprasalnik_razvejitev = ['32bit', 'hitrost', 'prilagodljivost', 'enostavnost']; // gumb naprej naj kaze na konec
     var vprasalnik_indeks = 0;
 
-    function preklopi_list(indeks)
-    {
+    function preklopi_list(indeks) {
         // preklopi vidnost lista
         var list = $( 'div#' + vprasalnik_listi[indeks]);
         if (list.css('display') == 'none') {
@@ -32,16 +31,18 @@ jQuery(function($){
         }
 
         $.each( distribucije, function( indeks, vrednost ){
-            alert(vrednost + '_' +  razlicica + '_' + starost);
+            var izbrana_ikona = $( 'div#vprasalnik_izbor img#' + vrednost);
+            izbrana_ikona.removeClass('disabled')
+            izbrana_ikona.wrap('<a href="/povezave/#' + vrednost + '_' + starost + '_' + razlicica + '"></a>');
         });
     }
 
     $( 'div#vprasalnik_glavno' ).ready(function() {
-        $( 'div#vprasalnik_razlicica').show();
-        $( 'button#vprasalnik_nazaj').addClass('disabled');
+        $( 'div#vprasalnik_razlicica' ).show();
+        $( 'button#vprasalnik_nazaj' ).addClass('disabled');
     });
 
-    $( 'button#vprasalnik_nazaj').click(function() {
+    $( 'button#vprasalnik_nazaj' ).click(function() {
         if (vprasalnik_indeks == 1) {
             $( 'button#vprasalnik_nazaj').addClass('disabled');
         }
@@ -52,30 +53,30 @@ jQuery(function($){
         }
     });
 
-    $( 'button#vprasalnik_naprej').click(function() {
+    $( 'button#vprasalnik_naprej' ).click(function() {
         if (vprasalnik_indeks < vprasalnik_listi.length) {
             // preveri, ce smo na razvejitvi
             preklopi_list(vprasalnik_indeks);
-            if (($.inArray($('input:radio[name=' + vprasalnik_listi[vprasalnik_indeks] + ']:checked').val(), vprasalnik_razvejitev)) > -1) {
+            if (($.inArray($( 'input:radio[name=' + vprasalnik_listi[vprasalnik_indeks] + ']:checked' ).val(), vprasalnik_razvejitev)) > -1) {
                 // prisli smo do razvejitve, zato skoci na zadnjo stran
                 vprasalnik_indeks = vprasalnik_listi.length - 1;
-                $( 'button#vprasalnik_nazaj, button#vprasalnik_naprej').hide();
-                $( 'button#vprasalnik_znova').show();
+                $( 'button#vprasalnik_nazaj, button#vprasalnik_naprej' ).hide();
+                $( 'button#vprasalnik_znova' ).show();
                 pripravi_izbor(vprasalnik_listi);
             } else {
-                $( 'button#vprasalnik_nazaj').removeClass('disabled');
+                $( 'button#vprasalnik_nazaj' ).removeClass('disabled');
                 vprasalnik_indeks++;
             }
             preklopi_list(vprasalnik_indeks);
         }
     });
 
-    $( 'button#vprasalnik_znova').click(function() {
+    $( 'button#vprasalnik_znova' ).click(function() {
         preklopi_list(vprasalnik_indeks);
         vprasalnik_indeks = 0;
         preklopi_list(vprasalnik_indeks);
-        $( 'button#vprasalnik_nazaj, button#vprasalnik_naprej').show();
-        $( 'button#vprasalnik_nazaj').addClass('disabled');
-        $( 'button#vprasalnik_znova').hide();
+        $( 'button#vprasalnik_nazaj, button#vprasalnik_naprej' ).show();
+        $( 'button#vprasalnik_nazaj' ).addClass('disabled');
+        $( 'button#vprasalnik_znova' ).hide();
     });
 });
