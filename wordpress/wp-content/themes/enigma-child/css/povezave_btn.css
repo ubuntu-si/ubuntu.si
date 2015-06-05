@@ -20,10 +20,10 @@
   font-size: 20px;
   margin-left: 10px;
 }
-.collapse .well .row li {
+.collapse .well .row li, .well .row li {
   display: block;
 }
-.collapse .well .row ul {
+.collapse .well .row ul, .well .row ul {
   padding: 0;
 }
 .page-id-7 div.collapse:target {
