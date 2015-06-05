@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 a:hover {
   color: inherit;
 }
-/* misc stuff like good stuff, really good*/
+/* misc stuff */
 /* to top button start */
 .enigma_scrollup {
   opacity: 1;
@@ -55,6 +55,10 @@ a:hover {
   background-color: #fff;
   color: #fff;
 }
+.povezave_btn img {
+  margin-right: 5px;
+}
+/* povezave buttons (collapse) end */
 
 .carousel {
   margin-left: 5px;
