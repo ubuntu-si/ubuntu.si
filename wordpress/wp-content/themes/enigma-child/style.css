@@ -68,6 +68,10 @@ a:hover {
 .collapse .well .row ul {
   padding: 0;
 }
+
+.page-id-7 div.collapse:target {
+    display: block;
+}
 /* povezave buttons (collapse) end */
 
 .carousel {
@@ -382,11 +386,15 @@ a:hover {
     display: none;
 }
 
-#vprasalnik_krmarjenje {
+#vprasalnik_krmarjenje button#vprasalnik_naprej, #vprasalnik_krmarjenje button#vprasalnik_znova  {
     float: right;
 }
 
+#vprasalnik_krmarjenje button#vprasalnik_nazaj {
+    float: left;
+}
+
 #vprasalnik_izbor img.disabled {
-    opacity: 0.3;
-    filter: alpha(opacity=30);
+    opacity: 0.1;
+    filter: alpha(opacity=10);
 }

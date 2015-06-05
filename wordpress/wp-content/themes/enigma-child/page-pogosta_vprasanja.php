@@ -24,7 +24,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="vprasalnik_razlicica" value="rel" /> Najnovejši programi</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_razlicica" value="nov" /> Najnovejši programi</h3>
 								</div>
 								<div class="panel-body">
 									Najnovejša različica Ubuntu daje poudarek na najnovejše programe in zmožnosti, zato je lahko manj stabilna od različice LTS. Varnostne popravke in popravke hroščev boste lahko prejemali le 9 mesecev, potem pa je priporočena nadgradnja.
@@ -38,7 +38,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="vprasalnik_starost" value="64bit" checked /> Manj kot 10 let</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_starost" value="64-bit" checked /> Manj kot 10 let</h3>
 								</div>
 								<div class="panel-body">
 									Vsi novejši procesorji (Athlon 64/Intel Core 2 in novejši) podpirajo 64-bitno različico nabora ukazov x86, ki omogoča bolj učinkovito obdelavo velikih količin pomnilnika RAM. Prednost 64-bitne različice Ubuntu se pokaže, če imate nameščenega veliko pomnilnika (npr. 4 GB) in imate naenkrat odprtih veliko programov. Preizkusi so pokazali, da naj bi bila 64-bitna različica hitrejša tudi, če je pomnilnika malo.
@@ -48,7 +48,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="vprasalnik_starost" value="32bit" /> Več kot 10 let</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_starost" value="32-bit" /> Več kot 10 let</h3>
 								</div>
 								<div class="panel-body">
 									Računalniki starejši od 10 let večinoma nimajo 64-bitnih procesorjev, saj je bila takrat ta tehnologija šele v povojih, zato na njih ni mogoče poganjati 64-bitne različice Ubuntu. Prve različice 32-bitnega Ubuntu-ja niso omogočale naslavljanje več kot 4 GB pomnilnika, novejši odtisi pa imajo vgrajeno razširitev PAE, ki omogoča naslavljanje do 64 GB pomnilnika.
@@ -111,8 +111,8 @@ get_header(); ?>
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kubuntu_logo_100px.png" alt="Kubuntu" title="Kubuntu" id="kubuntu" class="disabled" />
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/xubuntu_logo_100px.png" alt="Xubuntu" title="Xubuntu" id="xubuntu" class="disabled" />
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lubuntu_logo_100px.png" alt="Lubuntu" title="Lubuntu" id="lubuntu" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_gnome_logo_100px.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="gnome" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_mate_logo_100px.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="mate" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_gnome_logo_100px.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="ubuntu_gnome" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_mate_logo_100px.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="ubuntu_mate" class="disabled" />
 					</div>
 
 					<div id="vprasalnik_krmarjenje">
