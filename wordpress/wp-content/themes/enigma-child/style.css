@@ -377,6 +377,6 @@ a:hover {
 }
 
 #vprasalnik_izbor img.disabled {
-    opacity: 0.4;
-    filter: alpha(opacity=40);
+    opacity: 0.3;
+    filter: alpha(opacity=30);
 }

@@ -107,12 +107,12 @@ get_header(); ?>
 
 					<div id="vprasalnik_izbor">
 						<h3>Glede na vaše odgovore vam priporočamo:</h3>
-						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Ubuntu" title="Ubuntu" id="ubuntu" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Kubuntu" title="Kubuntu" id="kubuntu" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Xubuntu" title="Xubuntu" id="xubuntu" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Lubuntu" title="Lubuntu" id="lubuntu" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="gnome" class="disabled" />
-						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="mate" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_logo_100px.png" alt="Ubuntu" title="Ubuntu" id="ubuntu" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kubuntu_logo_100px.png" alt="Kubuntu" title="Kubuntu" id="kubuntu" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/xubuntu_logo_100px.png" alt="Xubuntu" title="Xubuntu" id="xubuntu" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lubuntu_logo_100px.png" alt="Lubuntu" title="Lubuntu" id="lubuntu" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_gnome_logo_100px.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="gnome" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_mate_logo_100px.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="mate" class="disabled" />
 					</div>
 
 					<div id="vprasalnik_krmarjenje">
