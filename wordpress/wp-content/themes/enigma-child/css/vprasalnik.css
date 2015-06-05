@@ -2,8 +2,12 @@
     display: none;
 }
 
-#vprasalnik_krmarjenje {
+#vprasalnik_krmarjenje button#vprasalnik_naprej, #vprasalnik_krmarjenje button#vprasalnik_znova  {
     float: right;
+}
+
+#vprasalnik_krmarjenje button#vprasalnik_nazaj {
+    float: left;
 }
 
 #vprasalnik_izbor img.disabled {
