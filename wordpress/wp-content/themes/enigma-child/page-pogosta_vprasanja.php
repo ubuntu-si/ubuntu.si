@@ -6,8 +6,7 @@ get_header(); ?>
 		<div class="enigma_blog_full">
 			<div class="enigma_blog_post_content">
 				<h2>Katero različico Ubuntu-ja naj namestim?</h2>
-				<p>Ubuntu obstaja v večih različicah, ki so prilagojene za določeno strojno opremo, ponujajo različne videze in
-					privzeto nameščene programe, so v koraku s časom ali pa bolj stabilne, itd. Izbira je vedno dobrodošla, vendar lahko zmede uporabnike, ki niso tehnološko podkovani, zato smo pripravili kratek vprašalnik, ki vam bo pomagal izbrati pravo različico Ubuntu-ja.</p>
+				<p>Ubuntu obstaja v večih različicah, ki so prilagojene za določeno strojno opremo, ponujajo različne izglede in privzeto nameščene programe, so v koraku s časom ali pa bolj stabilne, itd. Izbira je vedno dobrodošla, vendar lahko zmede uporabnike, ki niso tehnološko podkovani, zato smo pripravili kratek vprašalnik, ki vam bo pomagal izbrati pravo različico Ubuntu-ja.</p>
 				<div id="vprasalnik_glavno">
 				<form>
 					<div class="row" id="vprasalnik_razlicica">
@@ -59,11 +58,11 @@ get_header(); ?>
 					</div>
 
 					<div class="row" id="vprasalnik_zmogljivost">
-						<h3>Ali vam je bolj pomemben videz ali hitrost delovanja?</h3>
+						<h3>Ali vam je bolj pomemben izgled ali hitrost delovanja?</h3>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="vprasalnik_zmogljivost" value="videz" checked /> Videz</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_zmogljivost" value="izgled" checked /> Izgled</h3>
 								</div>
 								<div class="panel-body">
 									Ubuntu ima kar nekaj namiznih okolij, ki so očem prijazna in se prilagajajo modernim smernicam glede izgleda namiznega okolja. Taka namizna okolja ponavadi zahtevajo več sistemskih virov, hiter procesor in/ali hitro grafično kartico. To možnost lahko izberete tudi, če imate počasnejši računalnik in vas manjša odzivnost namizne okolja ne moti.
@@ -108,13 +107,18 @@ get_header(); ?>
 
 					<div id="vprasalnik_izbor">
 						<h3>Glede na vaše odgovore vam priporočamo:</h3>
-						<!-- osvetljene ikone s povezavi do prejemov -->
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_logo_100px.png" alt="Ubuntu" title="Ubuntu" id="ubuntu" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kubuntu_logo_100px.png" alt="Kubuntu" title="Kubuntu" id="kubuntu" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/xubuntu_logo_100px.png" alt="Xubuntu" title="Xubuntu" id="xubuntu" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lubuntu_logo_100px.png" alt="Lubuntu" title="Lubuntu" id="lubuntu" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_gnome_logo_100px.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="gnome" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_mate_logo_100px.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="mate" class="disabled" />
 					</div>
 
 					<div id="vprasalnik_krmarjenje">
-						<button type="button" class="btn btn-primary" id="vprasalnik_nazaj">Nazaj</button>
-						<button type="button" class="btn btn-primary" id="vprasalnik_naprej">Naprej</button>
-						<button type="button" class="btn btn-primary" id="vprasalnik_znova">Znova</button>
+						<button type="button" class="btn enigma_blog_read_btn" id="vprasalnik_nazaj">Nazaj</button>
+						<button type="button" class="btn enigma_blog_read_btn" id="vprasalnik_naprej">Naprej</button>
+						<button type="button" class="btn enigma_blog_read_btn" id="vprasalnik_znova">Znova</button>
 					</div>
 
 

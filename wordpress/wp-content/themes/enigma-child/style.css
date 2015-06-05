@@ -378,10 +378,15 @@ a:hover {
   background-color: #f26522;
 }
 
-#vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova, #vprasalnik_izbor a {
+#vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova {
     display: none;
 }
 
-#vprasalnik_razlicica:target, #vprasalnik_starost:target, #vprasalnik_zmogljivost:target, #vprasalnik_namizje:target, #vprasalnik_izbor:target {
-    display: block;
+#vprasalnik_krmarjenje {
+    float: right;
+}
+
+#vprasalnik_izbor img.disabled {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
 }
