@@ -1,6 +1,6 @@
 jQuery(function($){
     var vprasalnik_listi = ['vprasalnik_razlicica', 'vprasalnik_starost', 'vprasalnik_zmogljivost', 'vprasalnik_namizje', 'vprasalnik_izbor']; // listi vprasalnika
-    var vprasalnik_razvejitev = ['32bit', 'hitrost', 'prilagodljivost', 'enostavnost']; // gumb naprej naj kaze na konec
+    var vprasalnik_razvejitev = ['32-bit', 'hitrost', 'prilagodljivost', 'enostavnost']; // gumb naprej naj kaze na konec
     var vprasalnik_indeks = 0;
 
     function preklopi_list(indeks) {
@@ -20,7 +20,7 @@ jQuery(function($){
         var zmogljivost = $('input:radio[name=' + vprasalnik_listi[2] + ']:checked').val();
         var namizje = $('input:radio[name=' + vprasalnik_listi[3] + ']:checked').val();
 
-        if (starost == '32bit') {
+        if (starost == '32-bit') {
             distribucije = ['lubuntu', 'xubuntu']
         } else if (zmogljivost == 'hitrost') {
             distribucije = ['lubuntu', 'xubuntu', 'mate']
@@ -32,7 +32,8 @@ jQuery(function($){
 
         $.each( distribucije, function( indeks, vrednost ){
             var izbrana_ikona = $( 'div#vprasalnik_izbor img#' + vrednost);
-            izbrana_ikona.removeClass('disabled')
+            izbrana_ikona.removeClass('disabled');
+            izbrana_ikona.attr('title', izbrana_ikona.attr('title') + ' ' + starost);
             izbrana_ikona.wrap('<a href="/povezave/#' + vrednost + '_' + starost + '_' + razlicica + '"></a>');
         });
     }
