@@ -371,3 +371,8 @@ a:hover {
 #vprasalnik_krmarjenje {
     float: right;
 }
+
+#vprasalnik_izbor img.disabled {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
