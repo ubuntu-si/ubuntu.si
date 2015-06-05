@@ -72,11 +72,6 @@ jQuery(function($){
     });
 
     $( 'button#vprasalnik_znova' ).click(function() {
-        preklopi_list(vprasalnik_indeks);
-        vprasalnik_indeks = 0;
-        preklopi_list(vprasalnik_indeks);
-        $( 'button#vprasalnik_nazaj, button#vprasalnik_naprej' ).show();
-        $( 'button#vprasalnik_nazaj' ).addClass('disabled');
-        $( 'button#vprasalnik_znova' ).hide();
+        location.reload();
     });
 });
