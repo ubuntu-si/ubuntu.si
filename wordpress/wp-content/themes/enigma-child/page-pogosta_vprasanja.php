@@ -107,7 +107,11 @@ get_header(); ?>
 
 					<div id="vprasalnik_izbor">
 						<h3>Glede na vaše odgovore vam priporočamo:</h3>
-						<!-- osvetljene ikone s povezavi do prejemov -->
+						<img src="/wordpress/wp-content/uploads/dostopen.png" id="vprasalnik_ubuntu" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" id="vprasalnik_kubuntu" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" id="vprasalnik_xubuntu" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" id="vprasalnik_lubuntu" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" id="vprasalnik_gnome" />
 					</div>
 
 					<div id="vprasalnik_krmarjenje">
