@@ -68,4 +68,8 @@ a:hover {
 .collapse .well .row ul {
   padding: 0;
 }
+
+.page-id-7 div.collapse:target {
+    display: block;
+}
 /* povezave buttons (collapse) end */

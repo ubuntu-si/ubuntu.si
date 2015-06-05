@@ -24,7 +24,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title"><input type="radio" name="vprasalnik_razlicica" value="rel" /> Najnovejši programi</h3>
+									<h3 class="panel-title"><input type="radio" name="vprasalnik_razlicica" value="nov" /> Najnovejši programi</h3>
 								</div>
 								<div class="panel-body">
 									Najnovejša različica Ubuntu daje poudarek na najnovejše programe in zmožnosti, zato je lahko manj stabilna od različice LTS. Varnostne popravke in popravke hroščev boste lahko prejemali le 9 mesecev, potem pa je priporočena nadgradnja.
@@ -111,8 +111,8 @@ get_header(); ?>
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kubuntu_logo_100px.png" alt="Kubuntu" title="Kubuntu" id="kubuntu" class="disabled" />
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/xubuntu_logo_100px.png" alt="Xubuntu" title="Xubuntu" id="xubuntu" class="disabled" />
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lubuntu_logo_100px.png" alt="Lubuntu" title="Lubuntu" id="lubuntu" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_gnome_logo_100px.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="gnome" class="disabled" />
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_mate_logo_100px.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="mate" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_gnome_logo_100px.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="ubuntu_gnome" class="disabled" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ubuntu_mate_logo_100px.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="ubuntu_mate" class="disabled" />
 					</div>
 
 					<div id="vprasalnik_krmarjenje">

@@ -23,9 +23,9 @@ jQuery(function($){
         if (starost == '32-bit') {
             distribucije = ['lubuntu', 'xubuntu']
         } else if (zmogljivost == 'hitrost') {
-            distribucije = ['lubuntu', 'xubuntu', 'mate']
+            distribucije = ['lubuntu', 'xubuntu', 'ubuntu_mate']
         } else if (namizje == 'enostavnost') {
-            distribucije = ['ubuntu', 'gnome']
+            distribucije = ['ubuntu', 'ubuntu_gnome']
         } else {
             distribucije = ['kubuntu']
         }
@@ -34,7 +34,7 @@ jQuery(function($){
             var izbrana_ikona = $( 'div#vprasalnik_izbor img#' + vrednost);
             izbrana_ikona.removeClass('disabled');
             izbrana_ikona.attr('title', izbrana_ikona.attr('title') + ' ' + starost);
-            izbrana_ikona.wrap('<a href="/povezave/#' + vrednost + '_' + starost + '_' + razlicica + '"></a>');
+            izbrana_ikona.wrap('<a href="/povezave/#' + vrednost + '_' + razlicica + '"></a>');
         });
     }
 
