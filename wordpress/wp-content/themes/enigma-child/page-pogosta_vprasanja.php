@@ -112,6 +112,7 @@ get_header(); ?>
 						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Xubuntu" title="Xubuntu" id="xubuntu" class="disabled" />
 						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Lubuntu" title="Lubuntu" id="lubuntu" class="disabled" />
 						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Ubuntu GNOME" title="Ubuntu GNOME" id="gnome" class="disabled" />
+						<img src="/wordpress/wp-content/uploads/dostopen.png" alt="Ubuntu MATE" title="Ubuntu MATE" id="mate" class="disabled" />
 					</div>
 
 					<div id="vprasalnik_krmarjenje">

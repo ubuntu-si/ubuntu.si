@@ -23,7 +23,7 @@ jQuery(function($){
         if (starost == '32bit') {
             distribucije = ['lubuntu', 'xubuntu']
         } else if (zmogljivost == 'hitrost') {
-            distribucije = ['lubuntu', 'xubuntu']
+            distribucije = ['lubuntu', 'xubuntu', 'mate']
         } else if (namizje == 'enostavnost') {
             distribucije = ['ubuntu', 'gnome']
         } else {
