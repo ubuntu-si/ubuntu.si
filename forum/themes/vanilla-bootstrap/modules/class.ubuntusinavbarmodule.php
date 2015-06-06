@@ -5,10 +5,10 @@
 class UbuntuSiNavbarModule extends Gdn_Module {
   public function __construct($Sender = '') {
 	parent::__construct($Sender);
-	$db_host = 'changeme';
-	$db_name = 'changeme';
-	$db_username = 'changeme';
-	$db_password = 'changeme';
+	$db_host = Gdn::Config('Database.Host');
+	$db_name = Gdn::Config('Database.Name');
+	$db_username = Gdn::Config('Database.User');
+	$db_password = Gdn::Config('Database.Password');
 
 	$navbar = <<<EOD
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
