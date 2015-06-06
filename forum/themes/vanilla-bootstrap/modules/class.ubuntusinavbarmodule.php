@@ -66,5 +66,6 @@ EOD;
     if($Menu) {
       return $Menu;
     }
+    return null;
   }
 }
