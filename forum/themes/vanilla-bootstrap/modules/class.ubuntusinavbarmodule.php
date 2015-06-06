@@ -34,20 +34,22 @@ EOD;
          if($predmet['post_title'] == '') {
           //če je post_title prazen, gre za stran/post_title
           $sql = $baza->prepare("SELECT guid, post_title FROM wp_postmeta JOIN wp_posts ON wp_postmeta.meta_value=wp_posts.ID WHERE meta_key='_menu_item_object_id' AND post_id=:post_id");
-          $sql->execute(array(':post_id' => $predmet['ID']));
+          $sql->bindValue(':post_id', $predmet['ID'], PDO::PARAM_INT);
+          $sql->execute();
           $rezultat = $sql->fetch();
           $navbar .= '<li><a href="' . $rezultat['guid'].'">'. $rezultat['post_title'].'</a></li>' . "\n";
         } else {
           //v nasprotnem primeru gre za custom item, url poberemo iz wp_postmeta
           $sql = $baza->prepare("SELECT `meta_value` FROM `wp_postmeta` WHERE `meta_key`='_menu_item_url' AND `post_id`= :post_id");
-          $sql->execute(array(':post_id' => $predmet['ID']));
+          $sql->bindValue(':post_id', $predmet['ID'], PDO::PARAM_INT);
+          $sql->execute();
           $rezultat = $sql->fetch();
           $navbar .= '<li><a href="' . $rezultat['meta_value'] . '">' . $predmet['post_title'].'</a></li>' . "\n";
         }
       }
-    } catch (PDOException $e) {
+    } catch (Exception $e) {
       // napaka med vzpostavljanjem povezave
-      echo $e->getMessage();
+      Gdn_ExceptionHandler($e);
     }
 
 	$navbar .= <<<EOD
