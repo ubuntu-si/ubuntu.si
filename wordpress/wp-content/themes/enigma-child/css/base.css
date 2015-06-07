@@ -50,7 +50,7 @@ a:hover {
 #ubuntu-zmoznosti p {
     font-size: 15px;
 }
-
-#ubuntu-zmoznosti button {
-    float: right;
+.page-id-4 button {
+    display: block;
+    margin: 0 auto;
 }
