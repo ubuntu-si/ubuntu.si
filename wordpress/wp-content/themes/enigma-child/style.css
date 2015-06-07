@@ -47,6 +47,14 @@ a:hover {
     float: none;
     margin: 0 auto;
 }
+#ubuntu-zmoznosti p {
+    font-size: 15px;
+}
+
+#ubuntu-zmoznosti button {
+    float: right;
+}
+
 .carousel {
   margin-left: 5px;
   margin-right: 5px;

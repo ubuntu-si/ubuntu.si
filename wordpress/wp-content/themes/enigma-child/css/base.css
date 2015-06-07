@@ -47,3 +47,10 @@ a:hover {
     float: none;
     margin: 0 auto;
 }
+#ubuntu-zmoznosti p {
+    font-size: 15px;
+}
+
+#ubuntu-zmoznosti button {
+    float: right;
+}
