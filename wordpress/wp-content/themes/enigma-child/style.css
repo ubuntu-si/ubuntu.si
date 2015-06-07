@@ -46,10 +46,7 @@ a:hover {
     background-image: url('/wordpress/wp-content/themes/enigma-child/images/ubuntu_zmoznosti.jpg');
     background-repeat: no-repeat;
     float: none;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
 }
 #ubuntu-zmoznosti p {
     font-size: 15px;
