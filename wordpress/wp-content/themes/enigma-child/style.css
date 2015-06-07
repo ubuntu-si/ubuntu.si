@@ -40,7 +40,13 @@ a:hover {
   padding-top: 0;
   padding-bottom: 0;
 }
-
+#ubuntu-zmoznosti {
+    min-height: 574px;
+    background-image: url('/wordpress/wp-content/themes/enigma-child/images/ubuntu_zmoznosti.jpg');
+    background-repeat: no-repeat;
+    float: none;
+    margin: 0 auto;
+}
 .carousel {
   margin-left: 5px;
   margin-right: 5px;
