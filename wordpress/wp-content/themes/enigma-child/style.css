@@ -59,13 +59,17 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.page-id-2754 #zmoznosti-brskalnik {
+#zmoznosti-vsebnik #zmoznosti-brskalnik {
     min-height: 405px;
     background-image: url('/wordpress/wp-content/themes/enigma-child/images/ubuntu_desktop_with_webbrowser.png');
     background-repeat: no-repeat;
 }
-.page-id-2754 #zmoznosti-brskalnik p, .page-id-2754 #zmoznosti-brskalnik h2 {
+#zmoznosti-vsebnik #zmoznosti-brskalnik p, #zmoznosti-vsebnik #zmoznosti-brskalnik h2 {
     color: #FFFFFF;
+}
+#zmoznosti-vsebnik figure img {
+    display: block;
+    margin: 0 auto;
 }
 /* page kaj_je_ubuntu */
 .carousel {
