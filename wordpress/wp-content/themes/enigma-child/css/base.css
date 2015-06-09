@@ -58,7 +58,7 @@ a:hover {
 #zmoznosti-vsebnik .row {
     margin-bottom: 30px;
 }
-#zmoznosti-vsebnik figure img {
+#zmoznosti-vsebnik figure img, #zmoznosti-vsebnik button.enigma_blog_read_btn {
     display: block;
     margin: 0 auto;
 }
