@@ -70,4 +70,7 @@ a:hover {
     display: block;
     margin: 0 auto;
 }
+#zmoznosti-vsebnik figure {
+    text-align: center;
+}
 /* page kaj_je_ubuntu */
