@@ -11,7 +11,7 @@ get_header(); ?>
 				<form>
 					<div class="row" id="vprasalnik_razlicica">
 						<h3>Imate pri sistemu raje stabilnost ali najnovejše programe?</h3>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title"><input type="radio" name="vprasalnik_razlicica" value="lts" checked /> Stabilnost</h3>
@@ -21,7 +21,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title"><input type="radio" name="vprasalnik_razlicica" value="nov" /> Najnovejši programi</h3>
@@ -35,7 +35,7 @@ get_header(); ?>
 
 					<div class="row" id="vprasalnik_starost">
 						<h3>Koliko je star vaš računalnik?</h3>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title"><input type="radio" name="vprasalnik_starost" value="64-bit" checked /> Manj kot 10 let</h3>
@@ -45,7 +45,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title"><input type="radio" name="vprasalnik_starost" value="32-bit" /> Več kot 10 let</h3>
@@ -59,7 +59,7 @@ get_header(); ?>
 
 					<div class="row" id="vprasalnik_zmogljivost">
 						<h3>Ali vam je bolj pomemben izgled ali hitrost delovanja?</h3>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title"><input type="radio" name="vprasalnik_zmogljivost" value="izgled" checked /> Izgled</h3>
@@ -69,7 +69,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title"><input type="radio" name="vprasalnik_zmogljivost" value="hitrost" /> Hitrost delovanja</h3>
@@ -83,7 +83,7 @@ get_header(); ?>
 
 					<div class="row" id="vprasalnik_namizje">
 						<h3>Ali želite popolno prilagodljivost programov ali vam je ljubša enostavnost?</h3>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title"><input type="radio" name="vprasalnik_namizje" value="enostavnost" checked /> Enostavnost</h3>
@@ -93,7 +93,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title"><input type="radio" name="vprasalnik_namizje" value="prilagodljivost" /> Prilagodljivost</h3>

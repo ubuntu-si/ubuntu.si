@@ -1,3 +1,8 @@
+.page-id-2 button.enigma_blog_read_btn {
+    display: block;
+    margin: 0 auto;
+}
+
 #vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova {
     display: none;
 }
