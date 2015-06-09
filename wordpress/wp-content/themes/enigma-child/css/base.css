@@ -51,14 +51,14 @@ a:hover {
 #ubuntu-zmoznosti p {
     font-size: 15px;
 }
-.page-id-4 button.enigma_blog_read_btn {
+.page-id-4 a.enigma_blog_read_btn {
     display: block;
     margin: 0 auto;
 }
 #zmoznosti-vsebnik .row {
     margin-bottom: 30px;
 }
-#zmoznosti-vsebnik figure img, #zmoznosti-vsebnik button.enigma_blog_read_btn {
+#zmoznosti-vsebnik figure img, #zmoznosti-vsebnik a.enigma_blog_read_btn {
     display: block;
     margin: 0 auto;
 }
