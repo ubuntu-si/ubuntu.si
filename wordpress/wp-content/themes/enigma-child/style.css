@@ -55,10 +55,9 @@ a:hover {
     display: block;
     margin: 0 auto;
 }
-.page-id-2754 .row {
+#zmoznosti-vsebnik .row {
     margin-bottom: 30px;
 }
-
 #zmoznosti-vsebnik #zmoznosti-brskalnik {
     min-height: 405px;
     background-image: url('/wordpress/wp-content/themes/enigma-child/images/ubuntu_desktop_with_webbrowser.png');
