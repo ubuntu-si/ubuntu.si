@@ -38,7 +38,7 @@
                 <?php // Loop through each feed item and display each item as a hyperlink. ?>
                 <?php foreach ( $rss_items as $item ) : ?>
                   <li>
-                    <a target="_blank" href="<?php echo esc_url( $item->get_permalink() ); ?>"
+                    <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
                       title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
                       <?php echo esc_html( $item->get_title() ); ?>
                     </a>
@@ -57,11 +57,11 @@
           <div class="forum_feed enigma_service_detail media-body">
             <h3>Priporočamo prejem LTS različic</h3>
             <ul>
-              <li><a target="_blank" href="http://releases.ubuntu.com/14.04/ubuntu-14.04.2-desktop-amd64.iso.torrent">Ubuntu 14.04 LTS</a></li>
-              <li><a target="_blank" href="http://releases.ubuntu.com/14.04/kubuntu-14.04.2-desktop-amd64.iso.torrent">Kubuntu 14.04 LTS</a></li>
-              <li><a target="_blank" href="http://releases.ubuntu.com/14.04/xubuntu-14.04.2-desktop-amd64.iso.torrent">Xubuntu 14.04 LTS</a></li>
-              <li><a target="_blank" href="http://releases.ubuntu.com/14.04/ubuntu-gnome-14.04.2-desktop-amd64.iso.torrent">Ubuntu GNOME 14.04 LTS</a></li>
-              <li><a target="_blank" href="https://ubuntu-mate.org/trusty/ubuntu-mate-14.04.2-LTS-desktop-amd64.iso.torrent">Ubuntu MATE 14.04 LTS</a></li>
+              <li><a href="http://releases.ubuntu.com/14.04/ubuntu-14.04.2-desktop-amd64.iso.torrent">Ubuntu 14.04 LTS</a></li>
+              <li><a href="http://releases.ubuntu.com/14.04/kubuntu-14.04.2-desktop-amd64.iso.torrent">Kubuntu 14.04 LTS</a></li>
+              <li><a href="http://releases.ubuntu.com/14.04/xubuntu-14.04.2-desktop-amd64.iso.torrent">Xubuntu 14.04 LTS</a></li>
+              <li><a href="http://releases.ubuntu.com/14.04/ubuntu-gnome-14.04.2-desktop-amd64.iso.torrent">Ubuntu GNOME 14.04 LTS</a></li>
+              <li><a href="https://ubuntu-mate.org/trusty/ubuntu-mate-14.04.2-LTS-desktop-amd64.iso.torrent">Ubuntu MATE 14.04 LTS</a></li>
             </ul>
           </div>
         </div>
@@ -74,11 +74,11 @@
           <div class="other_links enigma_service_detail media-body">
           <h3>Druge zanimive povezave</h3>
           <ul>
-            <li><a target="_blank" href="//www.ubuntu.si/vodnik/14.04/">Namizni vodnik Ubuntu</a></li>
-            <li><a target="_blank" href="//www.ubuntu.si/ogled/sl/">Oglejte si kako je videti Ubuntu</a></li>
-            <li><a target="_blank" href="//www.ubuntu.si/predstavitev/">Predstavitev Ubuntu</a></li>
-            <li><a target="_blank" href="http://matej.owca.info/linux/Linux_na_namizju.pdf">PDF knjiga Linux na namizju</a></li>
-            <li><a target="_blank" href="//www.ubuntu.si/povezave/">Več povezav</a></li>
+            <li><a href="//www.ubuntu.si/vodnik/14.04/">Namizni vodnik Ubuntu</a></li>
+            <li><a href="//www.ubuntu.si/ogled/sl/">Oglejte si kako je videti Ubuntu</a></li>
+            <li><a href="//www.ubuntu.si/predstavitev/">Predstavitev Ubuntu</a></li>
+            <li><a href="http://matej.owca.info/linux/Linux_na_namizju.pdf">PDF knjiga Linux na namizju</a></li>
+            <li><a href="//www.ubuntu.si/povezave/">Več povezav</a></li>
           </ul>
           </div>
         </div>

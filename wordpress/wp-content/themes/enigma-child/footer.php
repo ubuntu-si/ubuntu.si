@@ -10,7 +10,7 @@
 			</div>
 
 			<div class="enigma_footer_social_div">
-				<i class="footer-icons hidden-xs">
+				<div class="footer-icons hidden-xs">
 					<ul class="social-icons">
 						<li class="facebook">
 							<a href="https://www.facebook.com/UbuntuSlovenija" target="_blank">
@@ -43,7 +43,7 @@
 							</a>
 						</li>
 					</ul>	
-				</i>
+				</div>
 			</div>		
 		</div>		
 	</div>		
