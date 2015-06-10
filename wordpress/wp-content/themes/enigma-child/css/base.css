@@ -47,29 +47,21 @@ code {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* page kaj_je_ubuntu */
-#ubuntu-zmoznosti {
-    min-height: 574px;
-    background-image: url('/wordpress/wp-content/themes/enigma-child/images/ubuntu_zmoznosti.jpg');
-    background-repeat: no-repeat;
-    float: none;
-    margin: 0 auto 30px auto;
+/* error 404 start */
+.error_404 {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 6px 9px black;
 }
-#ubuntu-zmoznosti p {
-    font-size: 15px;
+.error_404 #searchsubmit {
+  background-color: black;
 }
-.page-id-4 button.enigma_blog_read_btn {
-    display: block;
-    margin: 0 auto;
+.error_404 h1 {
+  color: white;
 }
-#zmoznosti-vsebnik .row {
-    margin-bottom: 30px;
+.error_404 #searchform #s {
+  color: black;
 }
-#zmoznosti-vsebnik figure img, #zmoznosti-vsebnik button.enigma_blog_read_btn {
-    display: block;
-    margin: 0 auto;
-}
-#zmoznosti-vsebnik figure {
-    text-align: center;
-}
-/* page kaj_je_ubuntu */
+/* error 404 end */
