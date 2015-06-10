@@ -24,6 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 a:hover {
   color: inherit;
 }
+code {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #77216F;
+    border-left: 5px solid #77216F;
+    white-space: normal;
+}
 /* misc stuff */
 /* to top button start */
 .enigma_scrollup {
