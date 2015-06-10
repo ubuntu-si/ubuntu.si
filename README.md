@@ -20,7 +20,7 @@ The Community webpage
            - [✓] add a js questionary to /pogosta_vprasanja/ to help users decide which distro they need to download, convert the page to sections
            - [✓] update XSL stylesheet for vodniki (did not update XSL but i did update vodnike)
            - [✓] update /skupnost/
-           - [ ] update 404 error pages
+           - [✓] update 404 error pages
            - [x] AT THE END: disable comments in wordpress options
            - [x] AT THE END: disable portfolio in theme options
            - [x] AT THE END: enable Home blog posts in theme options otherwise
