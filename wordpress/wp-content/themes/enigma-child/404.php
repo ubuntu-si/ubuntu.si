@@ -1,26 +1,19 @@
 <?php get_header(); ?>
-<div class="enigma_header_breadcrum_title">	
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1><?php _e('404 Error','weblizar'); ?></h1>
-				<ul class="breadcrumb">
-					<li><a href="<?php echo home_url( '/' ); ?>"><?php _e('Home','weblizar'); ?></a></li>
-					<li><?php _e('404 Error','weblizar'); ?></li>
-				
-				</ul>
-			</div>
-		</div>
-	</div>	
-</div>
 <div class="container">
 	<div class="row enigma_blog_wrapper">
 		<div class="col-md-12 hc_404_error_section">
 			<div class="error_404">
-				<h2><?php _e('404','weblizar'); ?></h2>
-				<h4><?php _e('Whoops... Page Not Found !!!','weblizar'); ?></h4>
-				<p><?php _e('We`re sorry, but the page you are looking for doesn`t exist.','weblizar'); ?></p>
-				<p><a href="<?php echo home_url( '/' ); ?>"><button class="enigma_send_button" type="submit"><?php _e('Go To Homepage','weblizar'); ?></button></a></p>
+				<h1><?php _e('Strani ni bilo mogoče najti','weblizar'); ?></h1>
+				<strong><?php echo $_SERVER['REMOTE_ADDR']; ?>@ubuntu.si:~$</strong> wget https://www.ubuntu.si<?php echo $_SERVER['REQUEST_URI']; ?><br />
+				--<?php echo date('Y-m-d G:i:s') ?>--&nbsp;&nbsp;https://www.ubuntu.si<?php echo $_SERVER['REQUEST_URI']; ?><br />
+				Razreševanje ubuntu.si (ubuntu.si) ... <?php echo $_SERVER['SERVER_ADDR']; ?><br />
+				Povezovanje na ubuntu.si (ubuntu.si)|<?php echo $_SERVER['SERVER_ADDR']; ?>|:<?php echo $_SERVER['SERVER_PORT']; ?> ... povezano.<br />
+				HTTP zahteva poslana, čakanje na odgovor ... 404 Not Found<br />
+				<?php echo date('Y-m-d G:i:s') ?> NAPAKA 404: Not Found.<br />
+				Vsebine žal ni bilo mogoče najti! Poskusite jo poiskati preko vgrajenega iskalnika<br />
+				<form id="searchform" method="get" action="https://www.ubuntu.si/">
+				<strong><?php echo $_SERVER['REMOTE_ADDR']; ?>@ubuntu.si:~$</strong>&nbsp;find / -iname <input id="s" name="s" type="text" placeholder="Vnesite iskalni pojem" size="32" tabindex="1" />2>/dev/null&nbsp; <input id="searchsubmit" name="searchsubmit" type="submit" value="Išči" tabindex="2" />
+				</form>
 			</div>
 		</div>
 	</div>
