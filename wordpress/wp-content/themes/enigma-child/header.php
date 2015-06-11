@@ -41,7 +41,7 @@
 						{ echo get_bloginfo('name'); }
 						else if($wl_theme_options['upload_image_logo']!='')
 						{ ?>
-							<img src="<?php echo $wl_theme_options['upload_image_logo']; ?>" style="height:<?php if($wl_theme_options['height']!='') { echo $wl_theme_options['height']; }  else { echo "80"; } ?>px; width:<?php if($wl_theme_options['width']!='') { echo $wl_theme_options['width']; }  else { echo "200"; } ?>px;" />
+							<img src="<?php echo $wl_theme_options['upload_image_logo']; ?>" style="height:<?php if($wl_theme_options['height']!='') { echo $wl_theme_options['height']; }  else { echo "80"; } ?>px; width:<?php if($wl_theme_options['width']!='') { echo $wl_theme_options['width']; }  else { echo "200"; } ?>px;" alt="Logo" />
 						<?php } else { echo __('Enigma','weblizar'); } ?>
 					</a>
 					<!-- /Logo -->
