@@ -22,7 +22,7 @@
 }
 @media only screen and (max-width: 768px) {
   #logo {
-    padding: 0 15px 0 0;
+    padding: 0 0 0 15px;
   }
   .navbar-default {
     margin-bottom: 0;
