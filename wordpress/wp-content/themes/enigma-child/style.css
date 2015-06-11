@@ -76,7 +76,7 @@ code {
   margin-right: 5px;
   margin-bottom: 20px;
 }
-.carousel-text, .carousel-text h1 {
+.carousel-text, .carousel-text h1, .carousel-list li {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .carousel-list li {
