@@ -30,7 +30,7 @@ code {
     margin: 10px auto;
     border: 1px solid #77216F;
     border-left: 5px solid #77216F;
-    white-space: normal;
+    white-space: pre-wrap;
 }
 .push-right {
   display: none;
