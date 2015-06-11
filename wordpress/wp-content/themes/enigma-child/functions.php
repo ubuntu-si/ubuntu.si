@@ -2,6 +2,7 @@
 function theme_enqueue_custom()
 {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'Ubuntu','//fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin' );
     wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array('jquery') );
 }
 function theme_dequeue_custom()
