@@ -20,6 +20,17 @@
 .navbar-header {
   float:right;
 }
+@media only screen and (max-width: 768px) {
+  #logo {
+    padding: 0 15px 0 0;
+  }
+  .navbar-default {
+    margin-bottom: 0;
+  }
+  .navbar-header {
+    float: none;
+  }
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   box-shadow: none;
   background-color: #DD4814;
