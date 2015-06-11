@@ -44,7 +44,7 @@ EOD;
           $sql->bindValue(':post_id', $predmet['ID'], PDO::PARAM_INT);
           $sql->execute();
           $rezultat = $sql->fetch();
-          $navbar .= '<li><a href="' . $rezultat['meta_value'] . '">' . $predmet['post_title'].'</a></li>' . "\n";
+          $navbar .= '<li' . (($rezultat['meta_value'] == '/forum/') ? ' class="active"' : '') . '><a href="' . $rezultat['meta_value'] . '">' . $predmet['post_title'].'</a></li>' . "\n";
         }
       }
     } catch (Exception $e) {
