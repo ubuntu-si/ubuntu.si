@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 a:hover {
   color: inherit;
 }
+/* misc stuff start*/
 code {
     display: block;
     margin: 10px auto;
@@ -31,7 +32,16 @@ code {
     border-left: 5px solid #77216F;
     white-space: normal;
 }
-/* misc stuff */
+.push-right {
+  display: none;
+}
+.enigma_header_breadcrum_title {
+  margin: 0 5px 20px 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: #f5f5f5;
+}
+/* misc stuff end */
 /* to top button start */
 .enigma_scrollup {
   opacity: 1;
@@ -42,11 +52,6 @@ code {
   opacity: 1;
 }
 /* to top button end */
-.enigma_header_breadcrum_title {
-  margin-bottom: 20px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
 /* error 404 start */
 .error_404 {
   background-color: black;
