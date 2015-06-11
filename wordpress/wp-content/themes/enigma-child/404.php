@@ -3,7 +3,7 @@
 	<div class="row enigma_blog_wrapper">
 		<div class="col-md-12 hc_404_error_section">
 			<div class="error_404">
-				<h1><?php _e('Strani ni bilo mogoče najti','weblizar'); ?></h1>
+				<h1><?php _e('404 Error','weblizar'); ?></h1>
 				<strong><?php echo $_SERVER['REMOTE_ADDR']; ?>@ubuntu.si:~$</strong> wget https://www.ubuntu.si<?php echo $_SERVER['REQUEST_URI']; ?><br />
 				--<?php echo date('Y-m-d G:i:s') ?>--&nbsp;&nbsp;https://www.ubuntu.si<?php echo $_SERVER['REQUEST_URI']; ?><br />
 				Razreševanje ubuntu.si (ubuntu.si) ... <?php echo $_SERVER['SERVER_ADDR']; ?><br />
