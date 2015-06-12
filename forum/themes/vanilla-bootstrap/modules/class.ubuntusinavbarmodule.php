@@ -29,6 +29,7 @@ class UbuntuSiNavbarModule extends Gdn_Module {
 EOD;
 		try {
       $baza = new PDO('mysql:host=' . $db_host . ';dbname=' . $db_name . ';charset=utf8', $db_username, $db_password);
+      $baza->exec("set names utf8");
       $baza->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       foreach ($baza->query("SELECT ID,post_title FROM wp_posts WHERE post_type='nav_menu_item' ORDER BY menu_order") as $predmet) {
          if($predmet['post_title'] == '') {
