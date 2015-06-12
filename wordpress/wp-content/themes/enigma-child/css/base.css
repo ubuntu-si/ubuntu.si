@@ -26,11 +26,13 @@ a:hover {
 }
 /* misc stuff start*/
 code {
-    display: block;
-    margin: 10px auto;
-    border: 1px solid #77216F;
-    border-left: 5px solid #77216F;
-    white-space: pre-wrap;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #77216F;
+  border-left: 5px solid #77216F;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  color: #333;
 }
 .push-right {
   display: none;
