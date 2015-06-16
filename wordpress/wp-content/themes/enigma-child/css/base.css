@@ -43,6 +43,9 @@ code {
   padding-bottom: 0;
   background: #f5f5f5;
 }
+.table-responsive > .table > tbody > tr > td {
+  white-space: normal;
+}
 /* misc stuff end */
 /* to top button start */
 .enigma_scrollup {
