@@ -379,3 +379,10 @@ ul.PanelCategories li.Heading {
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a {
 	background-color: #DD4814 !important;
 }
+/* wider posts - especially noticable on mobile when width is important */
+.MessageList .Item {
+  margin-left: 0 !important;
+}
+.MessageForm {
+  margin-left: 0 !important;
+}
