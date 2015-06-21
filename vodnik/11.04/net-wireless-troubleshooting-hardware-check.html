@@ -1,0 +1,125 @@
+<html dir="ltr" lang="sl-SI">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Preverite svojo strojno opremo</title>
+<link rel="stylesheet" type="text/css" href="../vodnik_1404.css">
+<link rel="stylesheet" type="text/css" href="../vodnik_1404.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div id="wrapper" class="hfeed">
+<div id="header">
+<div id="branding">
+<div id="blog-title"><span><a rel="home" title="Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu" href="http://ubuntu.crabdance.com/wordpress/">Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu</a></span></div>
+<h1 id="blog-description"></h1>
+</div>
+<div id="access"><div id="loco-header-menu"><ul id="primary-header-menu"><li class="widget-container widget_nav_menu" id="nav_menu-3"><div class="menu-glavni-meni-container"><ul class="menu" id="menu-glavni-meni">
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="/">Novice</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="/punbb/">Forum</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.ubuntu.si/wordpress/kaj-je-ubuntu/">Kaj je Ubuntu?</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://www.ubuntu.si/wordpress/pogosta_vprasanja/">Pogosta vprašanja</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://www.ubuntu.si/wordpress/skupnost/">Skupnost</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://www.ubuntu.si/wordpress/povezave/">Povezave</a></li>
+</ul></div></li></ul></div></div>
+</div>
+<div id="main"><div id="container"><div id="content">
+<!-- Piwik Image Tracker --><img src="https://piwik-ubuntusi.rhcloud.com/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" /><!-- End Piwik -->
+
+					
+					
+					</script><div class="links nextlinks">
+<a class="nextlinks-prev" href="net-wireless-troubleshooting-hardware-info.html" title="Zberite podatke o svoji strojni opremi">Nazaj</a>  |  <a class="nextlinks-next" href="net-wireless-troubleshooting-device-drivers.html" title="Preverite gonilnike za svojo napravo">Naprej</a>
+</div>
+<div class="hgroup"><h1 class="title"><span class="title">Preverite svojo strojno opremo</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">Preverimo, če vaš računalnik prepozna vaš brezžični vmesnik.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps">
+<p class="p">Odprite okno <span class=" app">terminala</span> in vnesite <span class=" cmd">sudo lshw -C network</span>.</p>
+<p class="p">V primeru, da odziva ne dobite, boste morda na svoj računalnik morali namestiti program <span class=" app">lshw</span>. Namestite ga lahko z vnosom <span class=" code">sudo apt-get install lshw</span>.</p>
+</li>
+<li class="steps">
+<p class="p">Preberite izhod tega ukaza in preverite odsek <span class=" em">Brezžični vmesnik</span>. V primeru da je vaš brezžični prilagodilnik zaznan, bi moral izhod videti podoben temu:</p>
+<div class="example"><div class="code"><pre class="contents ">*-network
+       description: Wireless interface
+       product: PRO/Wireless 3945ABG [Golan] Network Connection
+       vendor: Intel Corporation
+       physical id: 0
+       bus info: pci@0000:03:00.0
+       logical name: wlan0
+       version: 02
+       serial: 00:1b:77:11:5a:a7
+       width: 32 bits
+       clock: 33MHz
+       capabilities: pm msi pciexpress bus_master cap_list ethernet physical wireless
+       configuration: broadcast=yes driver=iwl3945 driverversion=2.6.38.2-9.fc15.i686
+       firmware=15.32.2.9 ip=192.168.1.42 latency=0 link=yes multicast=yes
+       wireless=IEEE 802.11abg
+       resources: irq:46 memory:edf00000-edf00fff</pre></div></div>
+</li>
+</ol></div></div></div>
+<p class="p">V primeru da je brezžična naprava izpisana, nadaljujte na <span class=" link"><a href="net-wireless-troubleshooting-device-drivers.html" title="Preverite gonilnike za svojo napravo">stran z gonilniki naprav</a></span>.</p>
+<p class="p">V primeru da brezžična naprava ni napisana vam bodo naslednji koraki pomagali najti podrobnosti o strojni opremi.</p>
+</div>
+<div id="net-wireless-hardware-check2" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Nadaljnja preverjanja brezžične strojne opreme</span></h2></div>
+<div class="region">
+<div class="contents">
+<p class="p">Ker vašega brezžičnega prilagodilnika s prejšnjim ukazom ni bilo mogoče najti, boste morali izvesti nadaljnje korake, da bo vaš računalnik prepozna vaš prilagodilnik.</p>
+<p class="p">Ti koraki so odvisni od vrste naprave, ki jo uporabljate. Oglejte si odsek, ki je pomemben za vrsto brezžičnega prilagodilnika, ki ga uporabljate s svojim računalnikom: PCI(notranji), USB ali PCMCIA.</p>
+<div class="note" title="Opomba"><div class="inner"><div class="region"><div class="contents"><p class="p">Najbolj pogosti so notranji prilagodilniki PCI, ki jih je mogoče najti na prenosnikih, ki so bili narejeni v zadnjih nekaj letih. Prilagodilniki PCMCIA so zunanji prilagodilniki v slogu kartic in so pogostejši v starejših prenosnikih.</p></div></div></div></div>
+</div>
+<div id="net-wireless-hardware-pcicheck" class="sect"><div class="inner">
+<div class="hgroup"><h3 class="title"><span class="title">Preverjanje za PCI (notranjo) napravo</span></h3></div>
+<div class="region"><div class="contents">
+<p class="p">Za preverjanje, če lahko vaš računalnik prepozna vaš brezžični prilagodilnik PCI, v okno terminala vnesite <span class=" cmd">sudo lspci</span>. V terminalu se bo izpisal seznam naprav PCI, ki so bile najdene na vašem računalniku.</p>
+<p class="p">Izpis bo morda težko prebrati. Iščite ime in številko modela svojega brezžičnega prilagodilnika. Tukaj je prikazano, kako je lahko videti izpis PCI.</p>
+<div class="example"><p class="p"><span class=" code">Network controller: Intel Corporation PRO/Wireless 3945ABG [Golan] Network Connection</span></p></div>
+<p class="p">V primeru da je prejšnji ukaz prepoznal vašo napravo, čestitamo. Nadaljujte na strani <span class=" link"><a href="net-wireless-troubleshooting-device-drivers.html" title="Preverite gonilnike za svojo napravo">Gonilniki naprav</a></span>. V primeru da zgornji ukaz ne pokaže izpisa povezanega z vašim brezžičnim gonilnikom, si oglejte navodila na dnu te strani.</p>
+</div></div>
+</div></div>
+<div id="net-wireless-hard-ware-usbcheck" class="sect"><div class="inner">
+<div class="hgroup"><h3 class="title"><span class="title">Preverjanje za napravo USB</span></h3></div>
+<div class="region"><div class="contents">
+<p class="p">Za preverjanje, če vaš računalnik prepozna brezžični prilagodilnik USB, v okno terminala vnesite <span class=" cmd">sudo lsusb</span>. Terminal bo prikazal seznam naprav USB, ki ste jih našli na svojem računalniku.</p>
+<p class="p">Izpis bo morda težko prebrati. Iščite ime in številko modela svojega brezžičnega prilagodilnika USB. Tukaj je prikazano, kako je lahko videti izpis ukaza <span class=" cmd">lsusb</span>:</p>
+<div class="example"><p class="p"><span class=" code">Bus 005 Device 009: ID 12d1:140b Huawei Technologies Co., Ltd. EC1260 Wireless Data Modem HSD USB Card</span></p></div>
+<p class="p">V primeru da je prejšnji ukaz prepoznal vašo napravo, čestitamo. Nadaljujte na strani <span class=" link"><a href="net-wireless-troubleshooting-device-drivers.html" title="Preverite gonilnike za svojo napravo">Gonilniki naprav</a></span>. V primeru da zgornji ukaz ne pokaže izpisa povezanega z vašim brezžičnim gonilnikom, si oglejte navodila na dnu te strani.</p>
+</div></div>
+</div></div>
+<div id="net-wireless-hard-ware-pcmciacheck" class="sect"><div class="inner">
+<div class="hgroup"><h3 class="title"><span class="title">Preverjanje za napravo PCMCIA</span></h3></div>
+<div class="region"><div class="contents">
+<p class="p">Ali vaš računalnik prepozna prilagodilnik PCMCIA lahko preverite z izvedbo naslednjih korakov:</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Zaženite svoj računalnik <span class=" em">brez</span> vklopljenega brezžičnega prilagodilnika.</p></li>
+<li class="steps"><p class="p">Prijavi se če/ob pozivu.</p></li>
+<li class="steps">
+<p class="p">Ko se namizje naloži, odprite okno terminala in vanj vnesite naslednji ukaz:</p>
+<p class="p"><span class=" cmd">sudo tail -f /var/log/messages</span></p>
+</li>
+<li class="steps"><p class="p">Vnesite svoj brezžični prilagodilnik v razpoložljivo mesto.</p></li>
+<li class="steps"><p class="p">Ponovite ukaz zgoraj in preverite, če med njima obstaja kakšna razlika.</p></li>
+</ol></div></div></div>
+<p class="p">V primeru da je prejšnji ukaz prepoznal vašo napravo, nadaljujte na stran <span class=" link"><a href="net-wireless-troubleshooting-device-drivers.html" title="Preverite gonilnike za svojo napravo">Gonilniki naprav</a></span></p>
+<div class="note" title="Opomba"><div class="inner"><div class="region"><div class="contents">
+<p class="p">V primeru da vaše naprave ne prepozna noben od zgornjih ukaz to morda pomeni, da vaša naprava ne deluje ali pa da vaš operacijski sistem naprave ne podpira.</p>
+<p class="p">Za dodatno pomoč objavite sporočilo na uporabniškem forumu za svoj operacijski sistem (ne primer forumi Fedora, OpenSUSE ali Ubuntu) ali objavite sporočilo na ustreznem dopisnem seznamu.</p>
+</div></div></div></div>
+<div class="links serieslinks"><div class="inner"><div class="region"><ul>
+<li class="links"><a href="net-wireless-troubleshooting.html" title="Odpravljanje težav z brezžičnimi povezavami">Odpravljanje težav z brezžičnimi povezavami</a></li>
+<li class="links"><a href="net-wireless-troubleshooting-initial-check.html" title="Izvajanje začetnega preverjanja">Izvajanje začetnega preverjanja</a></li>
+<li class="links"><a href="net-wireless-troubleshooting-hardware-info.html" title="Zberite podatke o svoji strojni opremi">Zberite podatke o svoji strojni opremi</a></li>
+<li class="links">Preverite svojo strojno opremo</li>
+<li class="links"><a href="net-wireless-troubleshooting-device-drivers.html" title="Preverite gonilnike za svojo napravo">Preverite gonilnike za svojo napravo</a></li>
+</ul></div></div></div>
+</div></div>
+</div></div>
+</div>
+</div></div>
+</div>
+<div class="clear"></div>
+</div></div></div>
+<div id="footer"><img src="https://piwik-ubuntusi.rhcloud.com/piwik.php?idsite=1amp;rec=1" style="border:0"><div id="siteinfo"><p>Material v tem dokumentu je na voljo pod prosto licenco. To je prevod dokumentacije Ubuntu, ki jo je sestavila <a href="https://wiki.ubuntu.com/DocumentationTeam">Ubuntu dokumentacijska ekpa za Ubuntu</a>. V slovenščino jo je prevedla skupina <a href="https://wiki.lugos.si/slovenjenje:ubuntu">Ubuntu prevajalcev</a>. Za poročanje napak v prevodih v tej dokumentaciji ali Ubuntuju pošljite sporočilo na <a href="mailto:ubuntu-l10n-slv@lists.ubuntu.com?subject=Prijava%20napak%20v%20prevodih">dopisni seznam</a>.</p></div></div>
+</div></body>
+</html>

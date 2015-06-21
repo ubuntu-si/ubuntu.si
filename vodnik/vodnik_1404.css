@@ -1,0 +1,532 @@
+/*** uncss> filename: https://www.ubuntu.si/vodnik/14.04/sl.css ***/
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+  direction: ltr;
+}
+
+div.hgroup {
+  margin: 1em 0 0.5em 0;
+  color: #333333;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  line-height: 1.72em;
+}
+
+div,
+p {
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+div.contents > *:first-child,
+li > *:first-child {
+  margin-top: 0;
+}
+
+div.inner,
+div.region,
+div.contents {
+  margin-top: 0;
+}
+
+div.clear {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 1em 0 0 0;
+  margin-left: 2.4em;
+  padding: 0;
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #dd4814;
+}
+
+a:visited {
+  color: #dd4814;
+}
+
+a:hover {
+  border-bottom: dotted 1px #ccc1c1;
+}
+
+p a {
+  border-bottom: dotted 1px #ccc1c1;
+}
+
+a img {
+  border: none;
+}
+
+@media only screen and (max-width: 400px) {
+  li {
+    margin-left: 1.44em;
+  }
+}
+
+div.desc {
+  margin: 0 0 0.2em 0;
+}
+
+div.links .desc {
+  color: #333333;
+}
+
+div.links ul {
+  margin: 0;
+  padding: 0;
+}
+
+li.links {
+  margin: 0.5em 0 0.5em 0;
+  padding: 0;
+  padding-left: 1em;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 400px) {
+  div.links {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  li.links {
+    padding: 0;
+  }
+}
+
+div.mouseovers {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  margin: 0;
+  float: left;
+}
+
+ul.mouseovers li {
+  margin: 0;
+}
+
+ul.mouseovers a {
+  display: inline-block;
+  padding: 4px 1.2em 4px 1.2em;
+  border-bottom: none;
+}
+
+ul.mouseovers a:hover {
+  text-decoration: none;
+  background: #f7f6f5;
+}
+
+ul.mouseovers a img {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  ul.mouseovers a {
+    display: block;
+    padding: 12px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  div.mouseovers {
+    display: none;
+  }
+}
+
+div.links-grid {
+  display: inline-block;
+  clear: both
+  margin-top: 1em;
+  width: 30%;
+  margin-right: 2%;
+  vertical-align: top;
+}
+
+div.links-grid-link {
+  margin: 0;
+  font-weight: bold;
+}
+
+div.links-grid > div.desc {
+  margin: 0;
+  color: #333333;
+}
+
+@media only screen and (max-width: 400px) {
+  div.links-grid {
+    width: 47%;
+  }
+}
+
+div.links .desc a {
+  color: inherit;
+}
+
+div.links .desc a:hover {
+  color: #dd4814;
+}
+
+a.bold {
+  font-weight: bold;
+}
+
+/* Based on light-moin-theme from https://code.launchpad.net/ubuntu-website/light-moin-theme
+   Some tweaks and adaptation for xsl by Matthew East for Ubuntu Documentation Team
+   ubuntu-doc@lists.ubuntu.com */
+
+/* Don't forget to set a foreground and background color
+ on the 'html' or 'body' element! */
+
+html,
+body,
+div,
+span,
+h1,
+p,
+a,
+img,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: inherit;
+  text-align: left;
+  vertical-align: baseline;
+}
+
+/* span.key is not defined in the yelp html.xsl, but it should be. Define it here because it is required. */
+
+/* overide the yelp html.xsl here. Why? Because the definition of text_light is wrong above, but fixing it breaks a multitude of other things. */
+
+/* overide some of the yelp html.xsl here. Why? Because the definition of gray stuff wrong above, but fixing it breaks a multitude of other things. */
+
+/* insert some space above the links groups on the front page */
+
+div.links-grid-link {
+  margin: 0.8em 0 0 0;
+}
+
+a img,
+:link img,
+:visited img {
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* moin specific overrides go below */
+
+.clear {
+  clear: both;
+}
+
+/*** uncss> filename: https://www.ubuntu.si/wordpress/wp-content/themes/light-wordpress-theme/style.css ***/
+
+/*
+Theme Name: Ubuntu Loco Light Theme
+Theme URI: https://code.launchpad.net/~ubuntu-community-webthemes/ubuntu-community-webthemes/light-wordpress-theme
+Description: A child theme for Ubuntu Loco websites
+Version: 0.3
+Author: Stas Sușcov
+Author URI: http://stas.nerd.ro/
+Template: thematic
+.
+This work, like WordPress, is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+Colors: http://www.colourlovers.com/palette/1140455/Ubuntu_Lucid_Lynx
+.
+*/
+
+/* Reset browser defaults */
+
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+
+@import url('../thematic/library/styles/images.css');
+
+/* Import Ubuntu Web Font */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:regular,bold,italic&subset=latin-ext');
+
+/*
+Real stuff starts here
+*/
+
+/*
+Layout
+*/
+
+#header {
+  height: 62px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #77216F;
+  border: 1px solid #CCC;
+  border-top: none;
+  border-radius: 8px 8px 0px 0px;
+  border-bottom: none;
+}
+
+#branding {
+  width: 230px;
+  height: 62px;
+  float: right;
+  overflow: hidden;
+}
+
+#blog-title span a {
+  display: block;
+  background: transparent url("img/ubuntu-logo.png") no-repeat 0 0;
+  width: 230px;
+  height: 60px;
+  text-indent: -1000px;
+}
+
+#access {
+  width: 730px;
+  height: 62px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#primary-header-menu {
+  margin: 0;
+  list-style: none;
+}
+
+#primary-header-menu li {
+  margin: 0;
+  padding: 0;
+  height: 62px;
+  border-right: 1px solid #77216F;
+}
+
+#primary-header-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#loco-header-menu {
+  margin-right: -1px;
+}
+
+#primary-header-menu ul li {
+  height: 62px;
+  float: left;
+  margin: 0;
+  padding: 0 10px;
+  list-style: none;
+}
+
+#primary-header-menu ul li a {
+  display: block;
+}
+
+#main {
+  margin: 0 0 0 10px;
+  background-color: #FFF;
+  overflow: hidden;
+}
+
+#main {
+  min-height: 600px;
+}
+
+#content {
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+#footer {
+  background: #CCCCCC repeat-x top;
+  margin: 0 auto 10px;
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid #CCCCCC;
+}
+
+#siteinfo {
+  width: 960px;
+  margin: 5px 0 0 10px;
+  text-align: center;
+}
+
+/*
+Typography
+*/
+
+body {
+  font-family: 'Ubuntu','Bitstream Vera Sans','DejaVu Sans', Tahoma, sans-serif;
+}
+
+body {
+  color: #333;
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0 10px;
+}
+
+h1 {
+  font-weight: normal;
+  color: #333333;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+
+a,
+a:active {
+  color: #DD4814;
+}
+
+a:hover {
+  color: #DD4814;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #777777;
+}
+
+#blog-description {
+  font-size: 90%;
+  color: #FFF;
+  line-height: 80%;
+}
+
+#primary-header-menu ul {
+  font-size: 100%;
+}
+
+#primary-header-menu ul li a {
+  line-height: 62px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#content {
+  font-size: 100%;
+}
+
+#siteinfo {
+  font-size: 85%;
+  color: #000000;
+}
+
+/*
+Additional Styles
+*/
+
+p {
+  margin-bottom: 10px;
+}
+
+/*
+CSS3
+*/
+
+#primary-header-menu ul li a {
+  text-shadow: #333 1px 1px 1px;
+}
+
+/*
+Fancyness
+    Buttons from http://www.zurb.com/article/266/super-awesome-buttons-with-css3-and-rgba
+*/
+
+/*
+Slider customization
+    Arrows
+    Captipon
+*/
+
+/*
+Special blocks
+*/
+
+/*
+Light grid support rule
+*/
+
+/*
+Hide WordPress.com Stats Smiley
+*/
+
+/*
+CSS pravila za news-ticker vtičnik
+*/
+
+/*
+CSS pravilo za ubuntu.si/povezave/
+*/
+
+/* CSS pravilo za <code> by dz0ny */
+
+#blog-description {
+  text-indent: 9999px;
+}
+.trails {
+  margin-top: 5px;
+}
+/* CSS za Uporabni programi */

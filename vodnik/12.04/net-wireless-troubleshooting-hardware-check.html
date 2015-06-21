@@ -1,0 +1,127 @@
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="sl-SI">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Odpravljanje težav z brezžičnimi povezavami</title>
+<link rel="stylesheet" type="text/css" href="../vodnik_1404.css">
+<link rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div id="wrapper" class="hfeed">
+<div id="header">
+<div id="branding">
+<div id="blog-title"><span><a rel="home" title="Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu" href="https://www.ubuntu.si/">Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu</a></span></div>
+<h1 id="blog-description"></h1>
+</div>
+<div id="access"><div id="loco-header-menu"><ul id="primary-header-menu"><li class="widget-container widget_nav_menu" id="nav_menu-3"><div class="menu-glavni-meni-container"><ul class="menu" id="menu-glavni-meni">
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="/">Novice</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="/punbb/">Forum</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.ubuntu.si/wordpress/kaj-je-ubuntu/">Kaj je Ubuntu?</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://www.ubuntu.si/wordpress/pogosta_vprasanja/">Pogosta vprašanja</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://www.ubuntu.si/wordpress/skupnost/">Skupnost</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://www.ubuntu.si/wordpress/povezave/">Povezave</a></li>
+</ul></div></li></ul></div></div>
+</div>
+<div id="main"><div id="container"><div id="content">
+<!-- Piwik Image Tracker --><img src="https://piwik-ubuntusi.rhcloud.com/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" /><!-- End Piwik -->
+
+					
+					
+					</script>
+<div class="trails">
+<div class="trail">
+ <a class="trail" href="index.html" title="Namizni vodnik Ubuntu"><span class="media media-image"><img src="figures/ubuntu-logo.png" height="16" width="16" alt="Pomoč"></span> Namizni vodnik Ubuntu</a> » <a class="trail" href="net.html" title="Omreženje, splet, pošta in klepet">Omreženje, splet, pošta in klepet</a> » <a class="trail" href="net-wireless.html" title="Brezžične povezave">Brezžične povezave</a> » <a class="trail" href="net-wireless-troubleshooting.html" title="Odpravljanje težav z brezžičnimi omrežji">Odpravljanje težav z brezžičnimi omrežji</a> » </div>
+<div class="trail">
+ <a class="trail" href="index.html" title="Namizni vodnik Ubuntu"><span class="media media-image"><img src="figures/ubuntu-logo.png" height="16" width="16" alt="Pomoč"></span> Namizni vodnik Ubuntu</a> » <a class="trail" href="hardware.html" title="Strojna oprema in gonilniki">Strojna oprema</a> › <a class="trail" href="hardware.html#problems" title="Pogoste težave">Težave</a> » <a class="trail" href="net-wireless-troubleshooting.html" title="Odpravljanje težav z brezžičnimi omrežji">Odpravljanje težav z brezžičnimi omrežji</a> » </div>
+</div>
+<div class="links nextlinks">
+<a class="nextlinks-prev" href="net-wireless-troubleshooting-hardware-info.html" title="Odpravljanje težav z brezžičnimi omrežji">Nazaj</a>  |  <a class="nextlinks-next" href="net-wireless-troubleshooting-device-drivers.html" title="Odpravljanje težav z brezžičnimi omrežji">Naprej</a>
+</div>
+<div class="hgroup">
+<h1 class="title"><span class="title">Odpravljanje težav z brezžičnimi povezavami</span></h1>
+<h2 class="subtitle">Preverite, da je bila brezžična kartica prepoznana</h2>
+</div>
+<div class="region">
+<div class="contents">
+<p class="p">Čeprav je brezžična kartica priključena na računalnik, je računalnik morda ne prepozna kot omrežno napravo. V tem koraku boste preverili ali je bila naprava pravilno prepoznana.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Odprite Terminal in vpišite <span class=" cmd">sudo lshw -C network</span> in pritisnite <span class=" key"><kbd>Enter</kbd></span>. Če se pojavi sporočilo o napaki, namestite program <span class=" app">lshw</span> na svoj računalnik tako, da vpišete ukazom <span class=" cmd">sudo apt-get install lshw</span> v terminal.</p></li>
+<li class="steps">
+<p class="p">Preberite izhod tega ukaza in preverite odsek <span class=" em">Brezžični vmesnik</span>. V primeru da je vaša brezžična kartica zaznana, bi moral izhod videti podoben temu:</p>
+<div class="code"><pre class="contents ">*-network
+       description: Wireless interface
+       product: PRO/Wireless 3945ABG [Golan] Network Connection
+       vendor: Intel Corporation</pre></div>
+</li>
+<li class="steps">
+<p class="p">V primeru da je brezžična naprava izpisana, nadaljujte na <span class=" link"><a href="net-wireless-troubleshooting-device-drivers.html" title="Odpravljanje težav z brezžičnimi omrežji">stran z gonilniki naprav</a></span>.</p>
+<p class="p">Če brezžična naprava <span class=" em">mi</span> na seznamu, bodo naslednji koraki odvisni od vrste naprave, ki jo uporabljate. Oglejte si odsek, ki je pomemben za vrsto brezžične kartice, ki jo uporabljate: PCI(notranja), USB ali PCMCIA.</p>
+</li>
+</ol></div></div></div>
+</div>
+<div id="pci" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Preverjanje za PCI (notranjo) brezžično napravo</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Najbolj pogoste so notranje kartice PCI, ki jih je mogoče najti na prenosnikih, ki so bili narejeni v zadnjih nekaj letih.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Odprite Terminal, vtipkajte <span class=" cmd">lscpi</span> in pritisnite <span class=" key"><kbd>Enter</kbd></span>.</p></li>
+<li class="steps">
+<p class="p">Oglejte si prikazan seznam naprav in najdite vrstice z <span class=" code">Network controller</span> ali <span class=" code">Ethernet controller</span>. Na ta način je lahko označenih več naprav. Tista, ki ustreza vaši brezžični kartici lahko vključuje besede kot so <span class=" code">wireless</span>, <span class=" code">WLAN</span>, <span class=" code">wifi</span> ali <span class=" code">802.11</span>. Tukaj je primer kako je vnos morda videti:</p>
+<div class="code"><pre class="contents ">Network controller: Intel Corporation PRO/Wireless 3945ABG [Golan] Network Connection</pre></div>
+</li>
+<li class="steps"><p class="p">V primeru da je prejšnji ukaz prepoznal vašo napravo, čestitamo. Nadaljujte na strani <span class=" link"><a href="net-wireless-troubleshooting-device-drivers.html" title="Odpravljanje težav z brezžičnimi omrežji">Gonilniki naprav</a></span>. V primeru da zgornji ukaz ne pokaže izpisa povezanega z vašim brezžičnim gonilnikom, si oglejte <span class=" link"><a href="#not-recognized" title="Brezžična kartica ni bila prepoznana">navodila spodaj</a></span>.</p></li>
+</ol></div></div></div>
+</div></div>
+</div></div>
+<div id="usb" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">USB brezžična kartica</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Brezžične kartice, ki jih vklopite v vrata USB, so manj pogoste. Vklopite jih lahko neposredno v vrata USB ali pa jih povežete preko kabla USB. Kartice 3G/mobilnega širokopasovnega interneta so videti precej podobno kot brezžične (wifi) kartice, zato dvakrat preverite, da nimate 3G kartice. Za preverjanje ali je bila USB brezžična kartica prepoznana:</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Odprite Terminal, vtipkajte <span class=" cmd">lsusb</span> in pritisnite <span class=" key"><kbd>Enter</kbd></span>.</p></li>
+<li class="steps">
+<p class="p">Oglejte si prikazan seznam naprav in poskusite najti karkoli, kar se nanaša na brezžično ali omrežno napravo. Vrstica, ki se nanaša na brezžično kartico, morda vključuje besede kot so <span class=" code">wireless</span>, <span class=" code">WLAN</span>, <span class=" code">wifi</span> ali <span class=" code">802.11</span>. Tukaj je primer kako so lahko videti:</p>
+<div class="code"><pre class="contents ">Bus 005 Device 009: ID 12d1:140b Huawei Technologies Co., Ltd. EC1260 Wireless Data Modem HSD USB Card</pre></div>
+</li>
+<li class="steps"><p class="p">V primeru da je prejšnji ukaz prepoznal vašo napravo, čestitamo. Nadaljujte na strani <span class=" link"><a href="net-wireless-troubleshooting-device-drivers.html" title="Odpravljanje težav z brezžičnimi omrežji">Gonilniki naprav</a></span>. V primeru da zgornji ukaz ne pokaže izpisa povezanega z vašim brezžičnim gonilnikom, si oglejte <span class=" link"><a href="#not-recognized" title="Brezžična kartica ni bila prepoznana">navodila spodaj</a></span>.</p></li>
+</ol></div></div></div>
+</div></div>
+</div></div>
+<div id="pcmcia" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Preverjanje za napravo PCMCIA</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Brezžične kartice PCMCIA so običajno pravokotne kartice, ki ustrezajo reži na strani vašega prenosnika. Pogosto jih lahko najdete v starejših računalnikih. Za preverjanje, če je bila kartica PCMCIA prepoznana:</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Zaženite svoj računalnik <span class=" em">brez</span> vklopljene brezžične kartice.</p></li>
+<li class="steps">
+<p class="p">Odprite Terminal in vpišite naslednje in pritisnite <span class=" key"><kbd>Enter</kbd></span>.</p>
+<div class="code"><pre class="contents ">tail -f /var/log/dmesg</pre></div>
+<p class="p">To bo prikazalo seznam sporočil, povezanih s strojno opremo vašega računalnika, ki se bo samodejno posodobil, če se kaj na vaši strojni opremi spremeni.</p>
+</li>
+<li class="steps"><p class="p">Vstavite svojo brezžično kartico v režo PCMCIA in preverite kaj se spremeni v oknu Terminala. Spremembe bi morale vsebovati podatke o vaši brezžični kartici. Oglejte si jih in preverite, če lahko določite, katero brezžično kartico imate.</p></li>
+<li class="steps"><p class="p">Za zaustavitev poganjanja ukaza iz Terminala pritisnite <span class=" keyseq"><span class=" key"><kbd>Ctrl</kbd></span>+<span class=" key"><kbd>C</kbd></span></span>. Ko ste to storili, lahko Terminal zaprete.</p></li>
+<li class="steps"><p class="p">V primeru da je prejšnji ukaz prepoznal vašo napravo, čestitamo. Nadaljujte na strani <span class=" link"><a href="net-wireless-troubleshooting-device-drivers.html" title="Odpravljanje težav z brezžičnimi omrežji">Gonilniki naprav</a></span>. V primeru da zgornji ukaz ne pokaže izpisa povezanega z vašim brezžičnim gonilnikom, si oglejte navodila na dnu te strani.</p></li>
+</ol></div></div></div>
+</div></div>
+</div></div>
+<div id="not-recognized" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Brezžična kartica ni bila prepoznana</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Če vaš brezžični vmesnik ni bil prepoznan, mogoče ne deluje pravilno ali pa pravi gonilniki niso bili nameščeni.</p>
+<p class="p">Za podrobnejšo pomoč si oglejte možnosti podpore na spletišču svoje distribucije. Te morda vključujejo dopisne seznama in spletne klepete kjer lahko na primer vprašate o svoji brezžični kartici.</p>
+</div></div>
+</div></div>
+<div class="sect sect-links">
+<div class="hgroup"></div>
+<div class="contents"><div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">Več podrobnosti</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="net-wireless-troubleshooting.html" title="Odpravljanje težav z brezžičnimi omrežji">Odpravljanje težav z brezžičnimi omrežji</a><span class="desc"> — Določitev in popravilo težav z brezžičnimi povezavami</span>
+</li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div></div></div>
+<div id="footer"><img src="https://piwik-ubuntusi.rhcloud.com/piwik.php?idsite=1amp;rec=1" style="border:0"><div id="siteinfo"><p>Material v tem dokumentu je na voljo pod prosto licenco. To je prevod dokumentacije Ubuntu, ki jo je sestavila <a href="https://wiki.ubuntu.com/DocumentationTeam">Ubuntu dokumentacijska ekpa za Ubuntu</a>. V slovenščino jo je prevedla skupina <a href="https://wiki.lugos.si/slovenjenje:ubuntu">Ubuntu prevajalcev</a>. Za poročanje napak v prevodih v tej dokumentaciji ali Ubuntuju pošljite sporočilo na <a href="mailto:ubuntu-l10n-slv@lists.ubuntu.com?subject=Prijava%20napak%20v%20prevodih">dopisni seznam</a>.</p></div></div>
+</div></body>
+</html>

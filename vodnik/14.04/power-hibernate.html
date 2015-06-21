@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang=sl>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Kako dam računalnik v mirovanje?</title>
+<link rel="stylesheet" type="text/css" href="../vodnik_1404.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script><link rel="shortcut icon" href="https://www.ubuntu.si/favicon.ico">
+
+</head>
+<body id="home">
+<div id="wrapper" class="hfeed">
+<div id="header">
+<div id="branding">
+<div id="blog-title"><span><a rel="home" title="Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu" href="https://www.ubuntu.si">Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu</a></span></div>
+<h1 id="blog-description"></h1>
+</div>
+<div id="access"><div id="loco-header-menu"><ul id="primary-header-menu"><li class="widget-container widget_nav_menu" id="nav_menu-3"><div class="menu-glavni-meni-container"><ul class="menu" id="menu-glavni-meni">
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://www.ubuntu.si">Novice</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://www.ubuntu.si/punbb/">Forum</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://www.ubuntu.si/kaj-je-ubuntu/">Kaj je Ubuntu?</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://www.ubuntu.si/pogosta_vprasanja/">Pogosta vprašanja</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://www.ubuntu.si/skupnost/">Skupnost</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://www.ubuntu.si/povezave/">Povezave</a></li>
+</ul></div></li></ul></div></div>
+</div>
+<div id="main"><div id="cwt-content" class="clearfix content-area"><div id="page">
+<div class="trails" role="navigation">
+<div class="trail"> » <a class="trail" href="index.html" title="Namizni vodnik Ubuntu"><span class="media"><span class="media media-image"><img src="figures/ubuntu-logo.png" height="16" width="16" class="media media-inline" alt="Pomoč"></span></span> Namizni vodnik Ubuntu</a> » <a class="trail" href="prefs.html" title="Uporabniške in sistemske nastavitve">Nastavitve</a> » <a class="trail" href="power.html" title="Napajanje in baterija">Napajanje in baterija</a> » </div>
+<div class="trail"> » <a class="trail" href="index.html" title="Namizni vodnik Ubuntu"><span class="media"><span class="media media-image"><img src="figures/ubuntu-logo.png" height="16" width="16" class="media media-inline" alt="Pomoč"></span></span> Namizni vodnik Ubuntu</a> » <a class="trail" href="hardware.html" title="Strojna oprema in gonilniki">Strojna oprema</a> » <a class="trail" href="power.html" title="Napajanje in baterija">Napajanje in baterija</a> » </div>
+</div>
+<div id="content">
+<div class="hgroup"><h1 class="title"><span class="title">Kako dam računalnik v mirovanje?</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">Ko je računalnik v <span class="em">mirovanju</span>, se vsi vaši programi ter dokumenti shranijo in računalnik se popolnoma ugasne, tako da ne uporablja energije. Programi in dokumenti bodo še vedno odprti, ko znova vklopite računalnik.</p>
+<p class="p">Na žalost mirovanje v veliko primerih <span class="link"><a href="power-suspendfail.html" title="Zakaj se računalnik ne prižge po tem, ko je šel v pripravljenost?">ne deluje</a></span>, kar lahko povzroči izgubo podatkov, če pričakujete, da se bodo vaši dokumenti in programi ponovno odprli, ko računalnik ponovno vklopite. Zato je mirovanje privzeto onemogočeno.</p>
+</div>
+<div id="test-hibernate" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Preizkus, če mirovanje deluje</span></h2></div>
+<div class="region"><div class="contents">
+<div class="note note-important" title="Pomembno"><div class="inner">
+<div class="title title-note"><h3><span class="title">Pred prehodom v stanje mirovanje vedno shranite svoje delo</span></h3></div>
+<div class="region"><div class="contents"><p class="p">Pred prehodom v mirovanje ali stanje pripravljenosti svoje delo shranite za vsak slučaj, če bi šlo kaj narobe in odprtih programov in dokumentov ob ponovnem vklopu računalnika ne bi bilo mogoče obnoviti.</p></div></div>
+</div></div>
+<p class="p">Za preizkus, če mirovanje deluje na vašem računalniku, lahko uporabite ukazno vrstico.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Odprite <span class="app">Terminal</span> s pritiskom <span class="keyseq"><span class="key"><kbd>Ctrl</kbd></span>+<span class="key"><kbd>Alt</kbd></span>+<span class="key"><kbd>t</kbd></span></span> ali iskanjem <span class="input">terminal</span> v <span class="gui">Pregledni plošči</span>.</p></li>
+<li class="steps">
+<p class="p">Vtipkajte <span class="cmd">sudo pm-hibernate</span> v terminal in pritisnite <span class="key"><kbd>Enter</kbd></span>.</p>
+<p class="p">Ob pozivu vnesite svoje geslo.</p>
+</li>
+<li class="steps">
+<p class="p">Ko se računalnik izklopi, ga ponovno vklopite. Ali so se vaši programi ponovno odprli?</p>
+<p class="p">Če mirovanje ne deluje, preverite, če je velikost vašega izmenjevalnega razdelka vsaj tako velika kot je velikost vašega razpoložljivega pomnilnika (RAM-a).</p>
+</li>
+</ol></div></div></div>
+</div></div>
+</div></div>
+<div id="enable-hibernate" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Omogočitev mirovanja</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Če preizkus mirovanja deluje, lahko nadaljujete z uporabo ukaza <span class="cmd">sudo pm-hibernate</span>.</p>
+<p class="p">Prav tako pa lahko omogočite možnost mirovanja v menijih. Z urejevalnikom besedila ustvarite datoteko <span class="file">/etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla</span>. Dodajte naslednje vrstice v datoteko in jo shranite:</p>
+<div class="code"><pre class="contents ">[Re-enable hibernate by default in upower]
+Identity=unix-user:*
+Action=org.freedesktop.upower.hibernate
+ResultActive=yes
+
+[Re-enable hibernate by default in logind]
+Identity=unix-user:*
+Action=org.freedesktop.login1.hibernate
+ResultActive=yes</pre></div>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">Več podrobnosti</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="power.html" title="Napajanje in baterija">Napajanje in baterija</a><span class="desc"> — <span class="link"><a href="power-suspend.html" title="Kaj se zgodi, ko pošljem računalnik v pripravljenost?">V pripravljenost</a></span>, <span class="link"><a href="power-batterylife.html" title="Poraba manjše količine energije in podaljšanje trajanja baterije">varčevanje z energijo</a></span>, <span class="link"><a href="shell-exit.html#shutdown" title="Izklop ali ponoven zagon">izklop</a></span>, <span class="link"><a href="power-whydim.html" title="Zakaj se moj zaslon po določenem času zatemni?">zatemnitev zaslona</a></span>…</span>
+</li></ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">Pogjejte tudi</span></h2></div>
+<div class="region"><ul>
+<li class="links ">
+<a href="shell-exit.html" title="Odjava, izklop, preklop uporabnikov">Odjava, izklop, preklop uporabnikov</a><span class="desc"> — Naučite se kako se odjavite, preklapljate med uporabniki in še več.</span>
+</li>
+<li class="links ">
+<a href="power-batterylife.html" title="Poraba manjše količine energije in podaljšanje trajanja baterije">Poraba manjše količine energije in podaljšanje trajanja baterije</a><span class="desc"> — Namigi za zmanjšanje električne porabe vašega računalnika.</span>
+</li>
+<li class="links ">
+<a href="power-suspendfail.html" title="Zakaj se računalnik ne prižge po tem, ko je šel v pripravljenost?">Zakaj se računalnik ne prižge po tem, ko je šel v pripravljenost?</a><span class="desc"> — Nekatera strojna oprema računalnikov povzroči težave s stanjem pripravljenosti ali mirovanjem.</span>
+</li>
+</ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div></div></div>
+<div id="footer"><img src="https://piwik-ubuntusi.rhcloud.com/piwik.php?idsite=1amp;rec=1" style="border:0"><div id="siteinfo"><p>Material v tem dokumentu je na voljo pod prosto licenco. To je prevod dokumentacije Ubuntu, ki jo je sestavila <a href="https://wiki.ubuntu.com/DocumentationTeam">Ubuntu dokumentacijska ekpa za Ubuntu</a>. V slovenščino jo je prevedla skupina <a href="https://wiki.lugos.si/slovenjenje:ubuntu">Ubuntu prevajalcev</a>. Za poročanje napak v prevodih v tej dokumentaciji ali Ubuntuju pošljite sporočilo na <a href="mailto:ubuntu-l10n-slv@lists.ubuntu.com?subject=Prijava%20napak%20v%20prevodih">dopisni seznam</a>.</p></div></div>
+</div>
+</body>
+</html>

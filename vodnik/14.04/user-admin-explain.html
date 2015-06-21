@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang=sl>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Kako delujejo skrbniška dovoljenja?</title>
+<link rel="stylesheet" type="text/css" href="../vodnik_1404.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script><link rel="shortcut icon" href="https://www.ubuntu.si/favicon.ico">
+
+</head>
+<body id="home">
+<div id="wrapper" class="hfeed">
+<div id="header">
+<div id="branding">
+<div id="blog-title"><span><a rel="home" title="Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu" href="https://www.ubuntu.si">Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu</a></span></div>
+<h1 id="blog-description"></h1>
+</div>
+<div id="access"><div id="loco-header-menu"><ul id="primary-header-menu"><li class="widget-container widget_nav_menu" id="nav_menu-3"><div class="menu-glavni-meni-container"><ul class="menu" id="menu-glavni-meni">
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://www.ubuntu.si">Novice</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://www.ubuntu.si/punbb/">Forum</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://www.ubuntu.si/kaj-je-ubuntu/">Kaj je Ubuntu?</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://www.ubuntu.si/pogosta_vprasanja/">Pogosta vprašanja</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://www.ubuntu.si/skupnost/">Skupnost</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://www.ubuntu.si/povezave/">Povezave</a></li>
+</ul></div></li></ul></div></div>
+</div>
+<div id="main"><div id="cwt-content" class="clearfix content-area"><div id="page">
+<div class="trails" role="navigation"><div class="trail"> » <a class="trail" href="index.html" title="Namizni vodnik Ubuntu"><span class="media"><span class="media media-image"><img src="figures/ubuntu-logo.png" height="16" width="16" class="media media-inline" alt="Pomoč"></span></span> Namizni vodnik Ubuntu</a> » <a class="trail" href="prefs.html" title="Uporabniške in sistemske nastavitve">Nastavitve</a> » <a class="trail" href="user-accounts.html" title="Uporabniški računi">Uporabniki</a> › <a class="trail" href="user-accounts.html#privileges" title="Uporabniška dovoljenja">Dovoljenja</a> » </div></div>
+<div id="content">
+<div class="hgroup"><h1 class="title"><span class="title">Kako delujejo skrbniška dovoljenja?</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">Vaš računalnik poleg datotek, ki jih ustvarite <span class="em">vi</span>, vsebuje tudi številne datoteke, ki jih sistem potrebuje za pravilno delovanje. V primeru napačnih sprememb teh pomembnih <span class="em">sistemskih datotek</span>, se lahko različne stvari pokvarijo, zato so privzeto zaščitene pred spremembami. Tudi določeni programi spremenijo pomembne dele sistema in so zato zaščiteni.</p>
+<p class="p">Zaščita spremembo datotek ali uporabo programov omogoča le uporabnikom s <span class="em">skrbniškimi dovoljenji</span>. Pri vsakodnevni uporabi vam sistemskih datotek ne bo treba spreminjati ali uporabljati teh programov. Zato privzeto skrbniških dovoljenj nimate.</p>
+<p class="p">Včasih morate te programe uporabiti, zato lahko začasno dobite skrbniške pravice, ki vam omogočajo opravljanje sprememb. V primeru da program potrebuje skrbniške pravice, vas bo vprašal za vaše geslo. Na primer, če želite namestiti novo programsko opremo, vas bo namestilnik paketov (upravljalnik paketov) vprašal za skrbniško geslo, ki mu dovoljuje nameščanje novega programa na sistem. Ko program konča, vam bodo skrbniška dovoljenja ponovno odvzeta.</p>
+<p class="p">Skrbniška dovoljenja so povezana z uporabniškim računom. Nekateri uporabniki lahko imajo skrbniška dovoljenja, drugi pa ne. V primeru da nimate skrbniških dovoljenj, na primer ne boste morali namestiti programov. Nekateri uporabniški računi (na primer račun "root") imajo trajna skrbniška dovoljenja. Skrbniških dovoljenj ne uporabljajte ves čas, saj lahko po nesreči spremenite pomembnega (na primer zahtevano sistemsko datoteko) in kaj pokvarite .</p>
+<p class="p">Na kratko povedano vam skrbniška dovoljenja omogočajo spreminjanje pomembnih delov sistema, ko to potrebujete, ter vam preprečijo, da bi to storili po nesreči.</p>
+<div class="note" title="Opomba"><div class="inner">
+<div class="title title-note"><h2><span class="title">Kaj pomeni "super uporabnik"?</span></h2></div>
+<div class="region"><div class="contents"><p class="p">Drugo ime za uporabnika s skrbniškimi dovoljenji je <span class="em">super uporabnik</span>. To ime obstaja, ker ima super uporabnik več dovoljenj kot običajni uporabniki. Morda boste videli ljudi, ki razpravljajo o stvareh kot so <span class="cmd">su</span> in <span class="cmd">sudo</span>. Ti programi vam začasno dajo pravice "super uporabnika" (skrbnika).</p></div></div>
+</div></div>
+</div>
+<div id="advantages" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Zakaj so skrbniška dovoljenja uporabna?</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Zahtevanje skrbniških dovoljenj od uporabnikov pred pomembnimi sistemskimi spremembami je uporabno, ker pomaga pri preprečevanju namerne ali nenamerne okvare vašega sistema.</p>
+<p class="p">V primeru da bi imeli skrbniška dovoljenja ves čas, bi morda po nesreči spremenili pomembno datoteko ali pognali program, ki po nesreči spremeni nekaj pomembnega. Začasno pridobivanje skrbniških dovoljenj, ko jih potrebujete, zmanjša tveganje teh napak.</p>
+<p class="p">Samo določeni, zaupanja vredni uporabniki bi morali imeti skrbniška dovoljenja.To uporabnikom prepreči odstranjevanje programov, ki jih potrebujete, nameščanje programov, ki jih ne potrebujete ali spreminjanje pomembnih datotek. To je uporabno z vidika varnosti.</p>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">Več podrobnosti</span></h2></div>
+<div class="region"><ul><li class="links "><a href="user-accounts.html#privileges" title="Uporabniška dovoljenja">Uporabniška dovoljenja</a></li></ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">Pogjejte tudi</span></h2></div>
+<div class="region"><ul>
+<li class="links ">
+<a href="net-othersedit.html" title="Drugi uporabniki ne morejo urejati omrežnih povezav">Drugi uporabniki ne morejo urejati omrežnih povezav</a><span class="desc"> — V možnostih omrežne povezave morate odstraniti oznako <span class="gui">Na voljo vsem uporabnikom</span>.</span>
+</li>
+<li class="links ">
+<a href="user-admin-change.html" title="Sprememba kdo ima skrbniška dovoljenja">Sprememba kdo ima skrbniška dovoljenja</a><span class="desc"> — Uporabnike, ki lahko spreminjajo sistem, lahko dodate tako, da jim dodate skrbniška dovoljenja.</span>
+</li>
+</ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div></div></div>
+<div id="footer"><img src="https://piwik-ubuntusi.rhcloud.com/piwik.php?idsite=1amp;rec=1" style="border:0"><div id="siteinfo"><p>Material v tem dokumentu je na voljo pod prosto licenco. To je prevod dokumentacije Ubuntu, ki jo je sestavila <a href="https://wiki.ubuntu.com/DocumentationTeam">Ubuntu dokumentacijska ekpa za Ubuntu</a>. V slovenščino jo je prevedla skupina <a href="https://wiki.lugos.si/slovenjenje:ubuntu">Ubuntu prevajalcev</a>. Za poročanje napak v prevodih v tej dokumentaciji ali Ubuntuju pošljite sporočilo na <a href="mailto:ubuntu-l10n-slv@lists.ubuntu.com?subject=Prijava%20napak%20v%20prevodih">dopisni seznam</a>.</p></div></div>
+</div>
+</body>
+</html>

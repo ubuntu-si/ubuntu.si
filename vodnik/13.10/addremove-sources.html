@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang=sl>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Dodajanje dodatnih programskih skladišč</title>
+<link rel="stylesheet" type="text/css" href="../vodnik_1404.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body id="home">
+<div id="wrapper" class="hfeed">
+<div id="header">
+<div id="branding">
+<div id="blog-title"><span><a rel="home" title="Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu" href="https://www.ubuntu.si">Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu</a></span></div>
+<h1 id="blog-description"></h1>
+</div>
+<div id="access"><div id="loco-header-menu"><ul id="primary-header-menu"><li class="widget-container widget_nav_menu" id="nav_menu-3"><div class="menu-glavni-meni-container"><ul class="menu" id="menu-glavni-meni">
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://www.ubuntu.si">Novice</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://www.ubuntu.si/punbb/">Forum</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://www.ubuntu.si/kaj-je-ubuntu/">Kaj je Ubuntu?</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://www.ubuntu.si/pogosta_vprasanja/">Pogosta vprašanja</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://www.ubuntu.si/skupnost/">Skupnost</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://www.ubuntu.si/povezave/">Povezave</a></li>
+</ul></div></li></ul></div></div>
+</div>
+<div id="main"><div id="cwt-content" class="clearfix content-area"><div id="page">
+<div class="trails"><div class="trail"> » <a class="trail" href="index.html" title="Namizni vodnik Ubuntu"><span class="media media-image"><img src="figures/ubuntu-logo.png" height="16" width="16" alt="Pomoč"></span> Namizni vodnik Ubuntu</a> » <a class="trail" href="shell-overview.html" title="Namizje, programi in okna">Namizje</a> › <a class="trail" href="shell-overview.html#addremove" title="Nameščanje in odstranjevanje programov">Nameščanje in odstranjevanje programov</a> » </div></div>
+<div id="content">
+<div class="hgroup"><h1 class="title"><span class="title">Dodajanje dodatnih programskih skladišč</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">Programi so na voljo iz virov tretjih oseb kot tudi iz privzetih programskih skladišč Ubuntu. V primeru da želite namestiti program iz programskega skladišča tretje osebe, ga morate dodati na Ubuntujev seznam razpoložljivih skladišč.</p>
+<div class="note note-warning" title="Opozorilo"><div class="inner"><div class="region"><div class="contents">
+<p class="p">Dodajte skladišča programske opreme iz virov, ki jim zaupate!</p>
+<p class="p">Skladišč tretjih oseb člani Ubuntu ne preverjajo za varnost ali zanesljivost in morda vsebujejo programe, ki lahko škodljo vašemu računalniku.</p>
+</div></div></div></div>
+<div class="steps"><div class="inner">
+<div class="title title-steps"><h2><span class="title">Namestitev drugih skladišč</span></h2></div>
+<div class="region"><ol class="steps">
+<li class="steps"><p class="p">Kliknite na ikono <span class=" app">Programsko središče Ubuntu</span> v zaganjalniku ali pa ga najdite v iskalni vrstici <span class=" app">Pregledne plošče</span>.</p></li>
+<li class="steps"><p class="p">Ko se Programsko središče Ubuntu zažene, kliknite na <span class=" guiseq"><span class=" gui">Uredi</span> ▸ <span class=" gui">Programski viri</span></span></p></li>
+<li class="steps"><p class="p">Vprašani boste za vnos gesla. Ko boste to storili, preklopite na zavihek <span class=" gui">Drugi programi</span>.</p></li>
+<li class="steps">
+<p class="p">Kliknite <span class=" gui">Dodaj</span> in vnesite vrstico APT za skladišče. Ta bi morala biti na voljo na spletišču odložišča in bi morala biti videti podobno:</p>
+<p class="p"><span class=" code">deb http://archive.ubuntu.com/ubuntu/ saucy main</span></p>
+</li>
+<li class="steps"><p class="p">Kliknite <span class=" gui">Dodaj vir</span> in nato zaprite okno Programskih Virov. Programsko središče Ubuntu bodo preverilo vaše programske vire za posodobitve.</p></li>
+</ol></div>
+</div></div>
+</div>
+<div id="canonical-partner" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Omogočitev skladišča partnerjev Canonicala</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Skladišče partnerjev Canonicala ponuja nekatere lastniške programe, ki so brezplačni, vendar so zaprtokodni. Mednje spadajo programi kot so <span class=" app">Skype</span>, <span class=" app">Adobe Reader</span> in <span class=" app">Adobe Flash Plugin</span>. Programi v tem skladišču se bodo pojavili v rezultatih iskanja Programskega središča Ubuntu, vendar jih ne boste mogli namestiti, dokler to skladišče ni omogočeno.</p>
+<p class="p">Za omogočitev skladišča sledite korakom zgoraj za odprtje zavihka <span class=" gui">Drugi programi</span> v <span class=" app">Programskih virih</span>. V primeru da na seznamu vidite <span class=" gui">Partnerje Canonicala</span>, se prepričajte, da je izbrano in nato zaprite okno Programski viri. V primeru da ga ne vidite, kliknite na <span class=" gui">Dodaj</span> in vnesite:</p>
+<p class="p"><span class=" code">deb http://archive.canonical.com/ubuntu saucy partner</span></p>
+<p class="p">Kliknite <span class=" gui">Dodaj vir</span> in nato zaprite okno Programskih virov. Počakajte trenutek, da Programsko središče Ubuntu prejme podatke o skladiščih.</p>
+</div></div>
+</div></div>
+<div class="sect sect-links">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">Več podrobnosti</span></h2></div>
+<div class="region"><ul><li class="links "><a href="shell-overview.html#addremove" title="Nameščanje in odstranjevanje programov">Nameščanje in odstranjevanje programov</a></li></ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">Poglejte tudi</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="addremove-ppa.html" title="Dodajanje osebnega arhiva paketov (PPA)">Dodajanje osebnega arhiva paketov (PPA)</a><span class="desc"> — Dodajte PPA-je za pomoč pri preizkušanju neizdanih ali posebnih programov.</span>
+</li></ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div></div></div>
+<div id="footer"><img src="https://piwik-ubuntusi.rhcloud.com/piwik.php?idsite=1amp;rec=1" style="border:0"><div id="siteinfo"><p>Material v tem dokumentu je na voljo pod prosto licenco. To je prevod dokumentacije Ubuntu, ki jo je sestavila <a href="https://wiki.ubuntu.com/DocumentationTeam">Ubuntu dokumentacijska ekpa za Ubuntu</a>. V slovenščino jo je prevedla skupina <a href="https://wiki.lugos.si/slovenjenje:ubuntu">Ubuntu prevajalcev</a>. Za poročanje napak v prevodih v tej dokumentaciji ali Ubuntuju pošljite sporočilo na <a href="mailto:ubuntu-l10n-slv@lists.ubuntu.com?subject=Prijava%20napak%20v%20prevodih">dopisni seznam</a>.</p></div></div>
+</div>
+</body>
+</html>
