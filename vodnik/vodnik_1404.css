@@ -319,8 +319,11 @@ Colors: http://www.colourlovers.com/palette/1140455/Ubuntu_Lucid_Lynx
   border: 1px solid #CCCCCC;
 }
 #siteinfo {
-  width: 960px;
+  width: 95%;
   margin: 5px 0 0 10px;
+  text-align: center;
+}
+#siteinfo p {
   text-align: center;
 }
 /* Typography */
@@ -439,19 +442,19 @@ div.note {
 div.note > div.inner {
   margin: 0;
   padding: 0;
-  background-image: url("sl/yelp-note.png");
+  background-image: url("img/yelp-note.png");
   background-position: left top;
   background-repeat: no-repeat;
   min-height: 24px;
 }
 div.note-tip > div.inner {
-  background-image: url("sl/yelp-note-tip.png");
+  background-image: url("img/yelp-note-tip.png");
 }
 div.note-important > div.inner {
-  background-image: url("sl/yelp-note-important.png");
+  background-image: url("img/yelp-note-important.png");
 }
 div.note-warning > div.inner {
-  background-image: url("sl/yelp-note-warning.png");
+  background-image: url("img/yelp-note-warning.png");
 }
 .note .contents {
   margin-left: 50px;
@@ -481,4 +484,19 @@ a.linkdiv:hover {
 }
 div.note > div.inner > div.title {
   margin-left: 30px;
+}
+#cwt-content td, #cwt-content th {
+  border: 1px solid #E9E9E9;
+}
+#cwt-content td, #cwt-content th {
+  margin: 1px;
+  padding: 4px;
+}
+thead td, thead th, tfoot td, tfoot th {
+  font-weight: bold;
+  color: #333333;
+  background-color: #e5e5e3;
+}
+tr.shade {
+  background-color: #f2f2f2;
 }
