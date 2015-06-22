@@ -227,7 +227,7 @@ class QuotesPlugin extends Gdn_Plugin {
     }
 
     /**
-     * Add 'Quote' option to Discussion.
+     * Add 'Quote' option to Discussion. ----- ubuntu.si change ----- from base_AfterFlag_handler to DiscussionController_CommentOptions_Handler ---
      */
     public function DiscussionController_CommentOptions_Handler($Sender, $Args) {
         echo Gdn_Theme::BulletItem('Flags');
