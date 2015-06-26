@@ -5,9 +5,11 @@ function theme_enqueue_custom()
     wp_enqueue_style( 'Ubuntu','//fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin' );
     wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array('jquery') );
 }
+
 function theme_dequeue_custom()
 {
     wp_dequeue_style('OpenSansRegular');
+    wp_dequeue_style('OpenSans');
     wp_dequeue_style('OpenSansBold');
     wp_dequeue_style('OpenSansSemiBold');
     wp_dequeue_style('RobotoRegular');
@@ -15,8 +17,6 @@ function theme_dequeue_custom()
     wp_dequeue_style('RalewaySemiBold');
     wp_dequeue_style('Courgette');
 }
-
-
 
 function wp2vanilla_post_comments()
 {
@@ -32,6 +32,14 @@ function wp2vanilla_post_comments()
     return '<a href="' . home_url("forum") . '/discussion/' . $vanilla_id . '/" title="' . __('Komentiraj') . '"><i class="fa fa-comments-o"></i></a><small>Komentiraj</small>';
 }
 
+function remove_cssjs_ver( $src ) {
+    if( strpos( $src, '?ver=' ) )
+        $src = remove_query_arg( 'ver', $src );
+    return $src;
+}
+
+add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
+add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_custom' );
 add_action( 'wp_enqueue_scripts', 'theme_dequeue_custom', 11);
 ?>
