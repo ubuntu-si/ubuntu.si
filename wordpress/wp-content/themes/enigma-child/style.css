@@ -220,8 +220,7 @@ code {
 
 #enigma_nav_top {
   margin: 0 5px 10px 5px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-radius: 4px;
 }
 #enigma_nav_top.container {
   padding-left: 15px;
@@ -300,7 +299,7 @@ code {
     height: 50px;
   }
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 310px) {
   .navbar-toggle.navbar-back {
     display: none;
   }
