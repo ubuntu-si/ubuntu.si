@@ -7,6 +7,7 @@ get_header(); ?>
 			<div class="enigma_blog_post_content">
 				<h2>Katero različico Ubuntu-ja naj namestim?</h2>
 				<p>Ubuntu obstaja v večih različicah, ki so prilagojene za določeno strojno opremo, ponujajo različne izglede in privzeto nameščene programe, so v koraku s časom ali pa bolj stabilne, itd. Izbira je vedno dobrodošla, vendar lahko zmede uporabnike, ki niso tehnološko podkovani, zato smo pripravili kratek vprašalnik, ki vam bo pomagal izbrati pravo različico Ubuntu-ja.</p>
+				<p id="vprasalnik_nojs">Za delovanje te zmožnosti, morate imeti vklopljen JavaScript.</p>
 				<div id="vprasalnik_glavno">
 				<form>
 					<div class="row" id="vprasalnik_razlicica">

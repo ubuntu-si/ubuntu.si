@@ -42,6 +42,8 @@ jQuery(function($){
 
     $( 'div#vprasalnik_glavno' ).ready(function() {
         $( 'div#vprasalnik_razlicica' ).show();
+        $( 'div#vprasalnik_krmarjenje' ).show();
+        $( 'p#vprasalnik_nojs' ).hide();
         $( 'button#vprasalnik_nazaj' ).addClass('disabled');
     });
 

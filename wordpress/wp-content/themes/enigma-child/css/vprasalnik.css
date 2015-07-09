@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-#vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova {
+#vprasalnik_razlicica, #vprasalnik_starost, #vprasalnik_zmogljivost, #vprasalnik_namizje, #vprasalnik_izbor, #vprasalnik_znova, #vprasalnik_krmarjenje, #vprasalnik_js {
     display: none;
 }
 #vprasalnik_krmarjenje button#vprasalnik_naprej, #vprasalnik_krmarjenje button#vprasalnik_znova  {
