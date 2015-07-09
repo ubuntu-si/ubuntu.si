@@ -26,13 +26,15 @@
 			<nav class="navbar navbar-default " role="navigation">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-
 					  <span class="sr-only"><?php _e('Toggle navigation','weblizar');?></span>
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
 					</button>
-
+					<button type="button" class="navbar-toggle navbar-back" onclick="history.back()">
+						<span class="sr-only"><?php _e('Nazaj','weblizar');?></span>
+						<span class="glyphicon glyphicon-arrow-left"></span>
+					</button>
 					<!-- Logo -->
 
 					<a id="logo" class="hidden-sm" href="<?php echo esc_url(home_url( '/' )); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">

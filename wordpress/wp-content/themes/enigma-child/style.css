@@ -289,6 +289,12 @@ code {
   width: inherit;
   border-top: none;
 }
+.navbar-toggle.navbar-back {
+  color: #FFFFFF;
+  padding: 8px 10px;
+  width: 44px;
+  height: 34px;
+}
 @media only screen and (min-width: 767px) {
   .navbar-nav {
     height: 50px;
