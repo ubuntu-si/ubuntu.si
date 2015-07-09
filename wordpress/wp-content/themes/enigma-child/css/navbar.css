@@ -80,3 +80,8 @@
     height: 50px;
   }
 }
+@media only screen and (max-width: 300px) {
+  .navbar-toggle.navbar-back {
+    display: none;
+  }
+}
