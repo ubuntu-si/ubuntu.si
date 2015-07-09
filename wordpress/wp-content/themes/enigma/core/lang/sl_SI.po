@@ -3926,7 +3926,7 @@ msgstr ""
 
 #: ../guardian-premium/footer.php:41
 msgid "Read more"
-msgstr ""
+msgstr "Preberite več"
 
 #: ../guardian-premium/functions.php:99
 msgid "Header Widget Area"
@@ -4154,7 +4154,7 @@ msgstr ""
 #: ../guardian-premium/service-one-template.php:52
 #: ../guardian-premium/service-one-template.php:60
 msgid " Read More"
-msgstr ""
+msgstr " Preberite več"
 
 #: ../guardian-premium/service-one-template.php:48
 msgid "4 Diffrent Websites"
