@@ -249,8 +249,8 @@ dl dt {
 .Message blockquote.UserQuote, .Message blockquote.Quote {
   font-size: 14px !important;
   margin: 10px auto !important;
-  border: 1px solid #9B9389 !important;
-  border-left: 5px solid #9B9389 !important;
+  border: 1px solid #77216F !important;
+  border-left: 5px solid #77216F !important;
 }
 
 /* better code blocks */
