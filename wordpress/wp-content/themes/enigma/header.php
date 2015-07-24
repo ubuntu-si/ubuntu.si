@@ -16,16 +16,7 @@
 	<link rel="shortcut icon" href="<?php  echo esc_url($wl_theme_options['upload_image_favicon']); ?>" /> 
 	<?php } ?>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
-	<?php 
-	if ( ! function_exists( 'wl_title' ) ) :
-	function wl_title() {
-?>
-<title><?php wp_title( '|', true, 'right' ); ?></title>
-<?php
-	}
-	add_action( 'wp_head', 'wl_title' );
-endif;
-	wp_head(); ?>
+	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 <div>
@@ -37,13 +28,11 @@ endif;
 				<div class="col-md-6 col-sm-12 wl_rtl" >					
 					<div claSS="logo">						
 					<a href="<?php echo esc_url(home_url( '/' )); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<?php 
-					if($wl_theme_options['text_title'] =="1")
-					{ echo get_bloginfo('name'); }
-					else if($wl_theme_options['upload_image_logo']!='') 
-					{ ?>
-					<img class="img-responsive" src="<?php echo $wl_theme_options['upload_image_logo']; ?>" style="height:<?php if($wl_theme_options['height']!='') { echo $wl_theme_options['height']; }  else { "80"; } ?>px; width:<?php if($wl_theme_options['width']!='') { echo $wl_theme_options['width']; }  else { "200"; } ?>px;" />
-					<?php } else { echo __('Enigma','weblizar'); } ?>
+					<?php if($wl_theme_options['upload_image_logo']){ ?>
+						<img class="img-responsive" src="<?php echo $wl_theme_options['upload_image_logo']; ?>" style="height:<?php if($wl_theme_options['height']!='') { echo $wl_theme_options['height']; }  else { "80"; } ?>px; width:<?php if($wl_theme_options['width']!='') { echo $wl_theme_options['width']; }  else { "200"; } ?>px;" />
+						<?php } else {
+							echo get_bloginfo('name');
+						} ?>
 					</a>
 					<p><?php bloginfo( 'description' ); ?></p>
 					</div>

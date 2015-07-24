@@ -132,7 +132,7 @@ function wl_reset_footer_customizations_setting()
 }
 
 function wl_reset_footer_footercall_setting () {
-	
+	$wl_theme_options['fc_home'] = '1';
 	$wl_theme_options['fc_title']="Lorem Ipsum is simply dummy text of the printing and typesetting industry. ";
 	$wl_theme_options['fc_btn_txt']="Weblizar";
 	$wl_theme_options['fc_btn_link']="http://weblizar.com/";

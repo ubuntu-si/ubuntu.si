@@ -150,7 +150,10 @@
 			{
 				$wl_theme_options[$key]=sanitize_text_field($_POST[$key]);	
 			}
-			
+			if($_POST['fc_home']){
+				echo $wl_theme_options['fc_home']=sanitize_text_field($_POST['fc_home']); } 
+				else
+				{ echo $wl_theme_options['fc_home']=""; }
 			update_option('enigma_options', stripslashes_deep($wl_theme_options));
 		}	
 		if($_POST['weblizar_settings_save_footercall'] == 2) 

@@ -14,7 +14,8 @@ if($wl_theme_options['blog_title'] !='') { ?>
 	<div class="container">	
 	<div class="row" id="enigma_blog_section">
 	<?php 	if ( have_posts()) : 			
-			$args = array( 'post_type' => 'post','posts_per_page' => 6);		
+			$posts_count =wp_count_posts()->publish;
+			$args = array( 'post_type' => 'post','posts_per_page' => $posts_count ,'ignore_sticky_posts' => 1);		
 			$post_type_data = new WP_Query( $args );
 			while($post_type_data->have_posts()):
 			$post_type_data->the_post(); ?>
@@ -95,22 +96,4 @@ if($wl_theme_options['blog_title'] !='') { ?>
 				<div id="port-prev" class="enigma_carousel-next" ><i class="fa fa-arrow-right"></i></div>
 	</div>
 	</div>
-</div>
-<div class="enigma_callout_area">
-	<div class="container">
-		<div class="row">
-		<?php if($wl_theme_options['fc_title'] !='') { ?>
-			<div class="col-md-9">
-			<p><i class="fa fa-thumbs-up"></i><?php echo esc_attr($wl_theme_options['fc_title']);?></p>
-			</div>
-			<?php } ?>
-			<?php if($wl_theme_options['fc_btn_txt'] !='') { ?>
-			<div class="col-md-3">
-			<a href="<?php echo esc_url($wl_theme_options['fc_btn_link']); ?>" class="enigma_callout_btn"><?php echo esc_attr($wl_theme_options['fc_btn_txt']); ?></a>
-			</div>
-			<?php } ?>
-		</div>
-		
-	</div>
-	<div class="enigma_callout_shadow"></div>
 </div>

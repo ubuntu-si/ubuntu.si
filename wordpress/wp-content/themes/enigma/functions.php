@@ -9,8 +9,8 @@
 	require( WL_TEMPLATE_DIR_CORE . '/menu/default_menu_walker.php' );
 	require( WL_TEMPLATE_DIR_CORE . '/menu/weblizar_nav_walker.php' );
 	require( WL_TEMPLATE_DIR_CORE . '/scripts/css_js.php' ); //Enquiring Resources here	
-	require( WL_TEMPLATE_DIR_CORE . '/comment-function.php' );
-	require( WL_TEMPLATE_DIR_CORE . '/flickr-widget.php' );
+	require( WL_TEMPLATE_DIR_CORE . '/comment-function.php' );	
+	require(dirname(__FILE__).'/customizer.php');
 	
 	//Sane Defaults
 	function weblizar_default_settings()
@@ -30,7 +30,7 @@
 			'height'=>'55',
 			'width'=>'150',
 			'_frontpage' => '1',
-			'text_title'=>'',
+			'blog_count'=>'3',
 			'upload_image_favicon'=>'',			
 			'custom_css'=>'',
 			'slide_image_1' => $ImageUrl,
@@ -48,10 +48,11 @@
 			'slide_desc_3' => __('Aldus PageMaker including versions of Lorem Ipsum, rutrum turpi', 'weblizar' ),
 			'slide_btn_text_3' => __('Read More', 'weblizar' ),
 			'slide_btn_link_3' => '#',			
-						
+			// Footer Call-Out
+			'fc_home'=>'1',			
 			'fc_title' => __('Lorem Ipsum is simply dummy text of the printing and typesetting industry. ', 'weblizar' ),
 			'fc_btn_txt' => __('More Features', 'weblizar' ),
-			'fc_btn_link' =>'#',
+			'fc_btn_link' =>"#",
 			//Social media links
 			'header_social_media_in_enabled'=>'1',
 			'footer_section_social_media_enbled'=>'1',
@@ -347,5 +348,8 @@
 	</nav>
 	</div>	
 <?php 
-	}	
+	}
+if (is_admin()) {
+	require_once('core/admin/admin.php');
+}	
 ?>
