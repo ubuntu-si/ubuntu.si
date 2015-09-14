@@ -22,7 +22,7 @@
 						<p class="enigma_tags"><?php the_tags('Tags :&nbsp;', '', '<br />'); ?></p>
 						<?php } ?>
 						<?php the_excerpt( __( 'Read More' , 'weblizar' ) ); ?>
-						<a href="<?php the_permalink(); ?>" class="enigma_blog_read_btn"><i class="fa fa-plus-circle"></i><?php _e('Read More','weblizar'); ?></a>
+						<a href="<?php the_permalink(); ?>" class="enigma_blog_read_btn"><i class="fa fa-plus-circle"></i><?php _e('Preberi več','weblizar'); ?></a>
 						<div class="enigma_blog_thumb_footer">
 							<ul class="enigma_blog_thumb_date">
 								<li><i class="fa fa-user"></i><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php echo get_the_author(); ?></a></li>
