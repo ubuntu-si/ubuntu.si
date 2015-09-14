@@ -87,6 +87,13 @@ code {
 .carousel-list li {
   background: rgba(0,0,0,0.6);
 }
+.carousel-indicators .active {
+  background-color: #dd4814;
+}
+.carousel-indicators li
+{
+  border: 1px solid #dd4814;
+}
 @media only screen and (max-width: 992px) {
   .carousel-list li {
     text-transform: none;
