@@ -1,3 +1,4 @@
+/* enigma service area */
 .enigma_service_iocn {
   border: 0 solid #dd4814;
   background-image: linear-gradient(to bottom, #dd4814 50%, #fff 50%);
@@ -18,3 +19,10 @@
   padding-bottom: 0;
   padding-top: 0;
 }
+.enigma_service_iocn .fa-rss:before {
+  margin-left: 5px;
+}
+.enigma_service_iocn .fa-cloud-download:before {
+  margin-right: 10px;
+}
+/* end of enigma service area */

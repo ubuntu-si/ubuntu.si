@@ -1,4 +1,5 @@
-.enigma_blog_post_content p {
+/* enigma blog post */
+.enigma_blog_post_content p, ul li {
   font-size: 15px;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -75,3 +76,4 @@
   border: none !important;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+/* end of enigma blog post */

@@ -28,7 +28,7 @@ function theme_dequeue_custom()
     wp_dequeue_script('enigma-theme-script');
     wp_dequeue_script('jquery.carouFredSel');
     wp_dequeue_script('carouFredSel-element');
-    wp_dequeue_script('photobox-js');
+    /* wp_dequeue_script('photobox-js'); - cos this sh1t is giving us errors man errors!*/
 }
 
 function wp2vanilla_post_comments()

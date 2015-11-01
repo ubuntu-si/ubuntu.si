@@ -152,6 +152,7 @@ code {
   font-family:"Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/* enigma service area */
 .enigma_service_iocn {
   border: 0 solid #dd4814;
   background-image: linear-gradient(to bottom, #dd4814 50%, #fff 50%);
@@ -172,6 +173,13 @@ code {
   padding-bottom: 0;
   padding-top: 0;
 }
+.enigma_service_iocn .fa-rss:before {
+  margin-left: 5px;
+}
+.enigma_service_iocn .fa-cloud-download:before {
+  margin-right: 10px;
+}
+/* end of enigma service area */
 
 .enigma_footer_area span a {
   color: #77216F;
@@ -312,7 +320,8 @@ code {
   }
 }
 
-.enigma_blog_post_content p {
+/* enigma blog post */
+.enigma_blog_post_content p, ul li {
   font-size: 15px;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -389,6 +398,7 @@ code {
   border: none !important;
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+/* end of enigma blog post */
 
 /* povezave buttons (collapse) */
 .povezave_btn {
