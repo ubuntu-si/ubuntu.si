@@ -3,71 +3,71 @@
    word-wrap: break-word;
 }
 .CategoryGroup h2 {
-	color: #FFFFFF !important;
-	background-color: #DD4814 !important;
+  color: #FFFFFF !important;
+  background-color: #DD4814 !important;
 }
 .Wrap h3, .Category h3 a {
-	font-weight: 600 !important;
+  font-weight: 600 !important;
 }
 .DiscussionHeader {
-	/* color: #FFFFFF !important; */
-	background: #DD4814 !important;
-	border: 1px solid;
-	border-color: #DD4814 !important;
+  /* color: #FFFFFF !important; */
+  background: #DD4814 !important;
+  border: 1px solid;
+  border-color: #DD4814 !important;
 }
 .DiscussionHeader .Author .Username, .DiscussionHeader .Meta .MItem a, .DiscussionHeader .Meta .MItem:last-child, .DiscussionMeta .Category, .DiscussionMeta .DateUpdated {
-	color: #FFFFFF !important;
+  color: #FFFFFF !important;
 }
 .DiscussionMeta .Category a {
-	font-size: 100% !important;
+  font-size: 100% !important;
   font-weight: normal !important;
-	margin-left: 5px;
-	background-color: #9b9389 !important;
-	padding: 0.3em 0.6em 0.4em !important;
+  margin-left: 5px;
+  background-color: #9b9389 !important;
+  padding: 0.3em 0.6em 0.4em !important;
 }
 .Discussions .ItemDiscussion {
   padding: 0 10px 10px 10px !important;
 }
 .CheckBoxLabel {
-	display: block;
+  display: block;
 }
 .HomepageTitle {
-	margin: 0 0 0 !important;
-	padding-bottom: 10px !important;
+  margin: 0 0 0 !important;
+  padding-bottom: 10px !important;
 }
 .Buttons .Cancel {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 .StrengthText, #NameUnavailable, #PasswordsDontMatch, #EmailUnavailable {
-	color: red;
+  color: red;
 }
 .CommentQuote {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 .ButtonBarMarkupHint {
-	margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .navbar-header #logo {
-	display: block;
-	background: transparent url("../../../uploads/icons/ubuntu-logo.png") no-repeat 0 0;
-	width: 175px;
-	height: 46px;
-	text-indent: -1000px;
-	margin: 2px auto;
+  display: block;
+  background: transparent url("../../../uploads/icons/ubuntu-logo.png") no-repeat 0 0;
+  width: 175px;
+  height: 46px;
+  text-indent: -1000px;
+  margin: 2px auto;
 }
 .navbar:nth-of-type(1) .navbar-header {
   float: right;
 }
 .navbar:nth-of-type(1) {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .navbar-default:nth-of-type(1) {
-	background-color: #77216F;
-	border-color: transparent;
+  background-color: #77216F;
+  border-color: transparent;
 }
 @media (min-width: 992px) {
-    .navbar {
+  .navbar {
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 4px !important;
@@ -83,22 +83,22 @@
 }
 */
 a.ForgotPassword {
-	display: block;
-	margin-left: 0 !important;
-	margin-top: 5px;
+  display: block;
+  margin-left: 0 !important;
+  margin-top: 5px;
 }
 .PasswordStrength.Score-0 .StrengthText {
-	width: 30% !important;
+  width: 30% !important;
 }
 .search-form .Button {
-	display: none !important;
-	visibility: hidden!important
+  display: none !important;
+  visibility: hidden!important
 }
 .search-form {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
  .footer-icons {
-	float: right;
+  float: right;
 }
 .sticky-footer {
   min-height: 35px !important;
@@ -113,7 +113,7 @@ a.ForgotPassword {
   margin-left: 150px;
 }
 .container .pull-left, .container .pull-right {
-	font-size: 90%;
+  font-size: 90%;
 }
 .BlockColumn {
   padding-left: 15px;
@@ -214,14 +214,14 @@ dl dt {
   margin-left: 0 !important;
 }
 #cookiesTOS {
-	color: red;
+  color: red;
 }
 .SpMarkAllViewed:before {
-	content: "\f00c";
+  content: "\f00c";
 }
 /* we need to hide 'Root' title */
 .Category- {
-	display: none !important;
+  display: none !important;
 }
 
 /* Andrej M. suggestions */
@@ -332,7 +332,7 @@ ul.PanelCategories li.Heading {
 /* social icons end */
 
 .page-footer {
-	color: #777 !important;
+  color: #777 !important;
   padding-top: 10px !important;
   padding-bottom: 0 !important;
   padding-left: 0 !important;
@@ -354,19 +354,31 @@ ul.PanelCategories li.Heading {
 .alert_email {
 	color: red;
 }
+/* make alert msg about confirming email address more visible */
+.InformWrapper {
+  color: white;
+}
+.InformMessage {
+  background: black !important;
+  border-radius: 4px !important;
+  max-width: 400px !important;
+}
+.InformMessages {
+  max-width: 400px !important;
+}
 /* mobile specific */
 .Banner ul {
-	color: #FFFFFF;
-	background: #DD4814 !important;
+  color: #FFFFFF;
+  background: #DD4814 !important;
 }
 .Banner .NewDiscussion, .Banner li.SignInItem a {
-	border-left: none !important;
+  border-left: none !important;
 }
 #Foot a {
-	color: #3B5998 !important;
+  color: #3B5998 !important;
 }
 #Foot {
-	margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 @media screen and (max-device-width:480px){
     .Banner ul li a {
@@ -377,12 +389,12 @@ ul.PanelCategories li.Heading {
   padding: 0 !important;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a {
-	background-color: #DD4814 !important;
+  background-color: #DD4814 !important;
 }
 /* wider posts - especially noticable on mobile when width is important */
 .MessageList .Item {
   margin-left: 0 !important;
 }
-.MessageForm {
+.MessageForm { 
   margin-left: 0 !important;
 }
