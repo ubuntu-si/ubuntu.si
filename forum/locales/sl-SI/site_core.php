@@ -485,7 +485,7 @@ $Definition['Following %d people'] = 'Sledite %d osebam';
 $Definition['Following %d person'] = 'Sledite %d osebam';
 $Definition['Follows'] = 'Sledenje';
 $Definition['Forgot your password?'] = 'Ste pozabili svoje geslo?';
-$Definition['Your password must be at least %d characters long.'] = 'Vaše geslo ne sme biti krajše od %s znakov.';
+$Definition['Your password must be at least %d characters long.'] = 'Vaše geslo mora biti daljše od %d znakov.';
 $Definition['Forgot?'] = 'Pozabljeno geslo?';
 $Definition['Format his'] = 'njegov';
 $Definition['Format their'] = 'njihov';
@@ -780,7 +780,7 @@ $Definition['Q&A Accepted'] = 'Odgovorjeno ✓';
 $Definition['Q&A Answered'] = 'Odgovorjeno';
 $Definition['Q&A Options'] = 'Možnosti vprašanj in odgovorov';
 $Definition['Q&A Question'] = 'Vprašanje';
-$Definition['QnA Accepted Answer'] = 'Odgovor ✓';
+$Definition['QnA Accepted Answer'] = 'Sprejeti odgovor ✓';
 $Definition['QnA Rejected Answer'] = 'Zavrnjen odgovor';
 
 $Definition['question'] = 'vprašanje';
@@ -947,7 +947,8 @@ $Definition['Terms of Service'] = 'Pogoji uporabe';
 $Definition['TermsOfService'] = 'Pogoji uporabe';
 $Definition['TermsOfServiceText'] = '<p>Forum na spletišču ubuntu.si je javni forum in čeprav podpiramo  prost pretok idej in informacij, zahtevamo tudi, da se z uporabo foruma  strinjate z naslednjimi pravili:</p>
 <p id="cookiesTOS"><strong>Piškotki:</strong><br /> Ob vsaki prijavi na forum se naložijo piškotki! Piškotki se uporabljajo za samo delovanje foruma in so nujno potrebni. <br />Če ne želite, da se piškotki naložijo na vaš računalnik, se nikar ne vpišite na forum!</p>
-<p><b>Obnašanje na forumu</b><br />1. Prepovedano je spodbujati k narodni, rasni, verski, spolni ali drugi neenakopravnosti, k nasilju in vojni ter izzivati ali razpihovati narodno, rasno, versko, spolno ali drugo sovraštvo, razdor ali nestrpnost. <br />2. Prepovedano je objavljanje, iskanje, ponujanje in omogočanje dostopa do vsebin, ki žalijo človekovo dostojanstvo. <br />3. Prepovedana je razžalitev, obrekovanje, žaljiva obdolžitev in opravljanje.<br />4. Prepovedano je objavljanje, iskanje, ponujanje in omogočanje dostopa do avtorsko zaščitenih vsebin, razen, če so avtorske pravice vaša last ali last tega spletišča.<br /><br /><b>Teme in prispevki</b><br />1. Uporabnik mora temo ustvariti v ustreznem podforumu, pri tem si lahko pomaga z opisom podforuma. Temo, ki ne spada v noben podforum naj razvrsti v podforum »Prosti čas, šola in ostale bedarije.«<br />2. Naslovi tem v forumu morajo odsevati njihovo vsebino. Naslovi podobni »pomoč«, »nujno« so prepovedani.<br />3. Prepovedano je oživljanje nedejavne teme, brez podajanja novih informacij. <br />4. Prepovedano je odpiranje enakih ali podobnih tem in vprašanj v različnih oddelkih foruma ali temah. <br />5. Prepovedano je masovno pošiljanje sporočil ali odpiranje tem. <br />6. Zahteva se argumentiran pogovor, ki se nanaša na predmet razprave.<br />7. Prispevki morajo biti pravopisno pravilni, kar vključuje tudi ustrezno rabo velikih začetnic in ločil.<br />8.  Pretirana uporaba predmetov, ki bi otežili branje prispevka (pretiravanje z slikovnimi in/ali besedilnimi izraznimi ikonami, uporaba pretiranega oblikovanja, itd.) ni dovoljena.<br /><br /><b>Uporabniški računi</b><br />1.  Vsak uporabnik lahko odpre samo en uporabniški račun. <br />2. Vsako prošnjo po zamenjavi uporabniškega imena/e-pošte ali izbrisu uporabniškega računa  mora uporabnik poslati kot zasebno sporočilo enemu izmed skrbnikov.<br />3. Zamenjava uporabniškega imena je na voljo le, če želeno uporabniško ime še ni zasedeno in  če uporabnik pred zahtevkom ni grobo kršil pravila.<br />4. Uporabniško ime se po izbrisu spremeni v »[izbrisani uporabnik]«, odstranijo se tudi osebni podatki iz profila. Vsa sporočila uporabnika ostanejo javna, zato je uporabnik sam dolžan sporočiti naslove URL prispevkov, v katerih se nahajajo njegovi osebni podatki.<br />5. Izbrisa računa ni mogoče razveljaviti.<br /><br /><b>Oglaševanje</b><br />1.  Kakršnokoli oglaševanje brez predhodne privolitve skrbnika je strogo prepovedano. Prav tako je prepovedano prikrito oglaševanje (npr. povezava, ki je oz. kaže na komercialne vsebine z namenom oglaševanja ali prodaje, itd.). <br />2. O tem, kaj sodi pod prikrito oglaševanje, presojajo skrbniki in moderatorji.<br />3.  Za oglaševalske vsebine, katerih objavo naroči pravna ali fizična oseba z namenom, da bi s tem pospeševala promet proizvodov, storitev, pravic ali obveznosti, pridobivala poslovne partnerje ali si v javnosti ustvarjala ugled in dobro ime, je potrebno skleniti poseben dogovor z lastnikom strani.<br /><br /><b>Ukrepi ob kršenju pravil</b><br />1. Ubuntu.si ima pravico do neobjave, krajšanja, spremembe vseh prispevkov uporabnikov, če ti prispevki kršijo pravila te strani ali javni red RS. <br />2. Ukrepi ob kršenju pravil so: zaklep teme,  brisanje odgovora ali teme, popravljanje odgovora ali teme in/ali izobčenje uporabnika<br />3. Vse ukrepe, z izjemo izobčenja uporabnika, izvedejo skrbniki in moderatorji. Izobčenje uporabnika lahko izvedejo le skrbniki.<br />4. V primeru popravljanja odgovora ali teme, morajo skrbniki in moderatorji ukrep obrazložiti ter se podpisati s svojim vzdevkom.<br /><br /><b>Zanikanje odgovornosti in prenos avtorskih pravic</b><br />1. Informacije, katerih objave na strani Ubuntu.si odobri upravljavec te strani, so izključno informativne narave, preostale informacije se presojajo izključno v povezavi s pravili. Ubuntu.si ne prevzema nobene odgovornosti za natančnost, popolnost in uporabnost teh informacij.<br />2. Avtor z objavo prispevka na kateremkoli delu foruma, brezpogojno prenese pravico dajanja na voljo javnosti na forumu.<br /><br />Ta pravila stopijo v veljavo z njihovo objavo, pri tem se razveljavijo <a rel="nofollow" target="_blank" href="http://ubuntu.si/forum/discussion/3121">pravila, objavljena 1.6.2009</a> in vsa predhodno objavljena pravila. <br /><br /><b>Pravila se lahko brez opozorila kadarkoli spremenijo, zato jih redno spremljajte.</b></p>
+<p><b>Obnašanje na forumu</b><br />1. Prepovedano je spodbujati k narodni, rasni, verski, spolni ali drugi neenakopravnosti, k nasilju in vojni ter izzivati ali razpihovati narodno, rasno, versko, spolno ali drugo sovraštvo, razdor ali nestrpnost. <br />2. Prepovedano je objavljanje, iskanje, ponujanje in omogočanje dostopa do vsebin, ki žalijo človekovo dostojanstvo. <br />3. Prepovedana je razžalitev, obrekovanje, žaljiva obdolžitev in opravljanje.<br />4. Prepovedano je objavljanje, iskanje, ponujanje in omogočanje dostopa do avtorsko zaščitenih vsebin, razen, če so avtorske pravice vaša last ali last tega spletišča.<br /><br /><b>Teme in prispevki</b><br />1. Uporabnik mora temo ustvariti v ustreznem podforumu, pri tem si lahko pomaga z opisom podforuma. Temo, ki ne spada v noben podforum naj razvrsti v podforum »Prosti čas, šola in ostale bedarije.«<br />2. Naslovi tem v forumu morajo odsevati njihovo vsebino. Naslovi podobni »pomoč«, »nujno« so prepovedani.<br />3. Prepovedano je oživljanje nedejavne teme, brez podajanja novih informacij. <br />4. Prepovedano je odpiranje enakih ali podobnih tem in vprašanj v različnih oddelkih foruma ali temah. <br />5. Prepovedano je masovno pošiljanje sporočil ali odpiranje tem. <br />6. Zahteva se argumentiran pogovor, ki se nanaša na predmet razprave.<br />7. Prispevki morajo biti pravopisno pravilni, kar vključuje tudi ustrezno rabo velikih začetnic in ločil.<br />8.  Pretirana uporaba predmetov, ki bi otežili branje prispevka (pretiravanje z slikovnimi in/ali besedilnimi izraznimi ikonami, uporaba pretiranega oblikovanja, itd.) ni dovoljena.<br /><br /><b>Uporabniški računi</b><br />1.  Vsak uporabnik lahko odpre samo en uporabniški račun. <br />2. Vsako prošnjo po zamenjavi uporabniškega imena/e-pošte ali izbrisu uporabniškega računa  mora uporabnik poslati kot zasebno sporočilo enemu izmed skrbnikov.<br />3. Zamenjava uporabniškega imena je na voljo le, če želeno uporabniško ime še ni zasedeno in  če uporabnik pred zahtevkom ni grobo kršil pravila.<br />4. Uporabniško ime se po izbrisu spremeni v »[izbrisani uporabnik]«, odstranijo se tudi osebni podatki iz profila. Vsa sporočila uporabnika ostanejo javna, zato je uporabnik sam dolžan sporočiti naslove URL prispevkov, v katerih se nahajajo njegovi osebni podatki.<br />5. Izbrisa računa ni mogoče razveljaviti.<br /><br /><b>Oglaševanje</b><br />1.  Kakršnokoli oglaševanje brez predhodne privolitve skrbnika je strogo prepovedano. Prav tako je prepovedano prikrito oglaševanje (npr. povezava, ki je oz. kaže na komercialne vsebine z namenom oglaševanja ali prodaje, itd.). <br />2. O tem, kaj sodi pod prikrito oglaševanje, presojajo skrbniki in moderatorji.<br />3.  Za oglaševalske vsebine, katerih objavo naroči pravna ali fizična oseba z namenom, da bi s tem pospeševala promet proizvodov, storitev, pravic ali obveznosti, pridobivala poslovne partnerje ali si v javnosti ustvarjala ugled in dobro ime, je potrebno skleniti poseben dogovor z lastnikom strani.<br /><br /><b>Ukrepi ob kršenju pravil</b><br />1. Ubuntu.si ima pravico do neobjave, krajšanja, spremembe vseh prispevkov uporabnikov, če ti prispevki kršijo pravila te strani ali javni red RS. <br />2. Ukrepi ob kršenju pravil so: zaklep teme,  brisanje odgovora ali teme, popravljanje odgovora ali teme in/ali izobčenje uporabnika<br />3. Vse ukrepe, z izjemo izobčenja uporabnika, izvedejo skrbniki in moderatorji. Izobčenje uporabnika lahko izvedejo le skrbniki.<br />4. V primeru popravljanja odgovora ali teme, morajo skrbniki in moderatorji ukrep obrazložiti ter se podpisati s svojim vzdevkom.<br /><br /><b>Zanikanje odgovornosti in prenos avtorskih pravic</b><br />1. Informacije, katerih objave na strani Ubuntu.si odobri upravljavec te strani, so izključno informativne narave, preostale informacije se presojajo izključno v povezavi s pravili. Ubuntu.si ne prevzema nobene odgovornosti za natančnost, popolnost in uporabnost teh informacij.<br />2. Avtor z objavo prispevka na kateremkoli delu foruma, brezpogojno prenese pravico dajanja na voljo javnosti na forumu.<br /><br /
+>Ta pravila stopijo v veljavo z njihovo objavo, pri tem se razveljavijo <a rel="nofollow" target="_blank" href="http://ubuntu.si/forum/discussion/3121">pravila, objavljena 1.6.2009</a> in vsa predhodno objavljena pravila. <br /><br /><b>Pravila se lahko brez opozorila kadarkoli spremenijo, zato jih redno spremljajte.</b></p>
 ';
 $Definition['Text  Max  Length'] = 'Največja dolžina besedila';
 $Definition['The conversation has been cleared.'] = 'Pogovor je bil počiščen.';
@@ -1036,7 +1037,7 @@ $Definition['User "%s" does not exist.'] = 'Uporabnik "%s" ne obstaja.';
 $Definition['User not found.'] = 'Žal ni bil najden noben račun povezan z vpisanim uporabniškim imenom/e-pošto.';
 $Definition['Username'] = 'Uporabniško ime';
 $Definition['Username can only contain letters, numbers, and underscores.'] = 'Uporabniško ime lahko vsebuje črke, številke, podčrtaje.';
-$Definition['Username can only contain letters, numbers, underscores, and must be between 3 and 20 characters long.'] = 'Uporabniško ime lahko vsebuje črke, številke, podčrtaje in mora biti dolgo najmanj 3 in največ 20 znakov.';
+$Definition['Username can only contain letters, numbers, underscores, and must be between 3 and 20 characters long.'] = 'Uporabniško ime lahko vsebuje črke, številke, podčrtaje in mora biti dolgo najmanj 9 in največ 20 znakov.';
 $Definition['Username or email'] = 'Uporabniško ime ali geslo';
 $Definition['UsernameError'] = 'Uporabniško ime lahko vsebuje črke, številke, podčrtaj in mora biti dolgo najmanj 3 in največ 20 znakov.';
 $Definition['Users Count'] = 'Število uporabnikov';
@@ -1145,9 +1146,9 @@ $Definition['You have selected %1$s.'] = 'Izbrali ste %1$s.';
 $Definition['You have to select at least 2 discussions to merge.'] = 'Za združevanje morate izbrati vsaj 2 razpravi.';
 $Definition['You haven\'t read this yet.'] = 'Tega še niste prebrali.';
 $Definition['You must agree to the terms of service.'] = 'Strinjati se morate s pogoji uporabe.';
-$Definition['You need to confirm your email address.'] = 'Potrditi morate svoj e-poštni naslov. Za ponovno pošiljanje potrditvene e-pošte kliknite <a href="{/entry/emailconfirmrequest,url}">tu.</a>';
+$Definition['You need to confirm your email address.'] = 'POMEMBNO! Potrditi morate svoj e-poštni naslov, tako da kliknete na povezavo, ki smo vam jo poslali po e-pošti! Za ponovno pošiljanje potrditvene e-pošte kliknite <a href="{/entry/emailconfirmrequest,url}">na povezavo.</a>';
 $Definition['You need to sign in before you can do this.'] = 'Preden to storite se morate prijaviti.';
-$Definition['You were added to a conversation.'] = '{InsertUserID,user} je dodal/-a {NotifyUserID,you} v <a href="{Url,htmlencode}">pogovor</a>.';
+$Definition['You were added to a conversation.'] = 'Bili ste dodani v pogovor.';
 $Definition['You\'ve been Jailed.'] = 'V zaporu ste.';
 $Definition['YouEarnedBadge'] = 'Zaslužili ste značko';
 
@@ -1205,6 +1206,30 @@ $Definition['by %s'] = 'od %s';
 $Definition['No results for %s.'] = 'Ni rezultatov za <b>%s</b>.';
 $Definition['Please enter Correct Code.'] = 'Napačen odgovor na varnostno vprašanje. Poskusite znova. Ne pozabite na šumnike!';
 $Definition["You are about to delete all of a user's content."] = 'Izbrisali boste vse v povezavi z uporabnikom  {User.UserID,user}!';
-$Definition["1 day"] = '1 dan';
-$Definition["Whoops!"] = 'Krščen Matiček, nekaj je šlo narobe.';
+$Definition['1 day'] = '1 dan';
+$Definition['Whoops!'] = 'Krščen Matiček, nekaj je šlo narobe.';
 $Definition["User not found."] = 'Uporabnik ni bil najden.';
+$Definition['HeadlineFormat.ConversationMessage'] = '{ActivityUserID,User} vam je poslal/a <a href="{Url,html}">sporočilo</a>.';
+$Definition['Select a category...'] = 'Izberite kategorijo ...';
+# prevodi plugina - editor
+$Definition['Heading %s'] = 'Naslov %s ';
+$Definition['Source Code'] = ' Koda';
+$Definition['Spoiler'] = ' Spoiler';
+$Definition['Bold'] = 'Krepko';
+$Definition['Italic'] = 'Ležeče';
+$Definition['Strikethrough'] = 'Prečrtano';
+$Definition['Color'] = 'Barva';
+$Definition['Ordered list'] = 'Urejen seznam';
+$Definition['Unordered list'] = 'Neurejen seznam';
+$Definition['Indent'] = 'Zamik';
+$Definition['Outdent'] = 'Zamik levo';
+$Definition['Format'] = 'Oblika';
+$Definition['Emoji'] = 'Emotikoni';
+$Definition['Attach image/file'] = 'Vstavi sliko';
+$Definition['Align left'] = 'Poravnaj levo';
+$Definition['Align center'] = 'Usredinjeno';
+$Definition['Align right'] = 'Poravnaj desno';
+$Definition['Toggle HTML view'] = 'Preklopi na pogled HTML';
+$Definition['Toggle full page'] = 'Razširi čez celo stran ';
+$Definition['Toggle lights'] = 'Preklopi luči';
+$Definition['Image URL'] = 'Povezava do slike';
