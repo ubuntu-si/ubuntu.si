@@ -366,13 +366,6 @@ ul.PanelCategories li.Heading {
 .InformMessages {
   max-width: 400px !important;
 }
-/* Enable Edit button when in Preview mode - not the best solution but it works */
-a.Button.WriteButton {
-  display: inline-block !important;
-}
-a.Button.WriteButton.Hidden {
-  display: none !important;
-}
 /* mobile specific */
 .Banner ul {
   color: #FFFFFF;
