@@ -366,6 +366,10 @@ ul.PanelCategories li.Heading {
 .InformMessages {
   max-width: 400px !important;
 }
+/* msg for closed discussion */
+.Foot.Closed {
+  margin-left: 0px !important;
+}
 /* mobile specific */
 .Banner ul {
   color: #FFFFFF;
@@ -395,6 +399,6 @@ ul.PanelCategories li.Heading {
 .MessageList .Item {
   margin-left: 0 !important;
 }
-.MessageForm { 
+.MessageForm {
   margin-left: 0 !important;
 }
