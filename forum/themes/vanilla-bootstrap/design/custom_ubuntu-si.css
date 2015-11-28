@@ -359,12 +359,15 @@ ul.PanelCategories li.Heading {
   color: white;
 }
 .InformMessage {
-  background: black !important;
+  background: #77216F !important;
   border-radius: 4px !important;
   max-width: 400px !important;
 }
 .InformMessages {
   max-width: 400px !important;
+}
+a.Close {
+	text-shadow: none !important;
 }
 /* msg for closed discussion */
 .Foot.Closed {
