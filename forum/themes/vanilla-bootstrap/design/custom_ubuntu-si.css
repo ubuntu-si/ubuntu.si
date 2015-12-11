@@ -135,7 +135,7 @@ input[type="checkbox"] {
 .Actions .Popup::after {
   content: "|";
   margin-left: 1px;
-  color: black;
+  color: white;
 }
 .Breadcrumbs {
   margin-bottom: 10px !important;
