@@ -1,0 +1,12 @@
+/* this overwrites some of WYSIWYG editor style - do not rename/remove it */
+pre.CodeBlock {
+  font-size: 14px;
+  margin: 10px auto;
+  border: 1px solid #77216F;
+  border-left: 5px solid #77216F;
+  border-radius: 4px;
+  padding: 9.5px;
+}
+blockquote.Quote {
+  margin-left: 0px;
+}
