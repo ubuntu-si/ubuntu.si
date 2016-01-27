@@ -192,13 +192,14 @@ a.Close {
   color: red !important;
   opacity: 1 !important;
 }
+/* no need for this since we have a fix https://github.com/vanilla/vanilla/commit/34a338d989ec086e2c0fed218405a6c091a24510
 .Overlay>.Popup {
   width: 800px !important;
 }
 .Overlay .Popup .Border .Body .Content {
   height: 500px !important;
   overflow: auto !important;
-}
+}*/
 .InThisConversation .PanelInfo .PhotoWrap {
   display: none;
 }
