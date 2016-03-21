@@ -13,40 +13,40 @@
 				<div class="footer-icons hidden-xs">
 					<ul class="social-icons">
 						<li class="facebook">
-							<a href="https://www.facebook.com/UbuntuSlovenija" target="_blank">
+							<a href="https://www.facebook.com/UbuntuSlovenija">
 								<i class="fa fa-facebook">
 									</i>
 							</a>
 						</li>
 						<li class="google-plus">
-							<a href="https://google.com/+UbuntuSi" target="_blank">
+							<a href="https://google.com/+UbuntuSi">
 								<i class="fa fa-google-plus">
 								</i>
 							</a>
 						</li>
 						<li class="twitter">
-							<a href="https://twitter.com/ubuntusi" target="_blank">
+							<a href="https://twitter.com/ubuntusi">
 								<i class="fa fa-twitter">
 								</i>
 							</a>
 						</li>
 						<li class="youtube">
-							<a href="https://www.youtube.com/UbuntuSlovenija" target="_blank">
+							<a href="https://www.youtube.com/UbuntuSlovenija">
 								<i class="fa fa-youtube">
 								</i>
 							</a>
 						</li>
 						<li class="rss">
-							<a href="https://www.ubuntu.si/feed/" target="_blank">
+							<a href="https://www.ubuntu.si/feed/">
 								<i class="fa fa-rss">
 								</i>
 							</a>
 						</li>
-					</ul>	
+					</ul>
 				</div>
-			</div>		
-		</div>		
-	</div>		
+			</div>
+		</div>
+	</div>
 </div>
 <!-- /Footer Widget Secton -->
 </div>
