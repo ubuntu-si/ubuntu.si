@@ -409,3 +409,8 @@ a.Close {
 .MessageForm {
   margin-left: 0 !important;
 }
+/* sync heading style with wordpress */
+.Message h3, .Message h4, .Message h5, .Message h6 {
+  color: #31A3DD !important;
+  font-weight: 600 !important;
+}
