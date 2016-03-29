@@ -260,11 +260,12 @@ dl dt {
 /* better code blocks */
 .Message code, pre {
   font-size: 14px !important;
-  margin: 10px auto !important;
+}
+pre {
+  margin: 5px 0 5px;
   border: 1px solid #77216F !important;
   border-left: 5px solid #77216F !important;
 }
-
 /* smaller title in discussions */
 h1 {
   font-size: 28px !important;
