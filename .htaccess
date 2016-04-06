@@ -4,7 +4,8 @@ RewriteBase /punbb
 
 RewriteRule ^/?$ https://www.ubuntu.si/forum/ [R=301,L]
 RewriteRule ^index.php?$ https://www.ubuntu.si/forum/ [R=301,L]
-RewriteRule ^forum/(.*)?$ https://www.ubuntu.si/forum/categories/$1 [R=301,L]
+#changes made for viewtopic to specific page number
+#RewriteRule ^forum/(.*)?$ https://www.ubuntu.si/forum/categories/$1 [R=301,L]
 RewriteRule ^post/(.*)?$ https://www.ubuntu.si/forum/discussion/comment/$1#Comment_$1 [R=301,NE,L]
 RewriteRule ^topic/(.*)?$ https://www.ubuntu.si/forum/discussion/$1 [R=301,L]
 RewriteRule ^search/new/ https://www.ubuntu.si/forum/discussions/ [R=301,L]
@@ -25,3 +26,9 @@ RewriteCond %{QUERY_STRING} ^pid=([0-9]*)$
 RewriteRule ^viewtopic\.php$ https://www.ubuntu.si/forum/discussion/comment/%1#Comment_%1? [R=301,NE,L]
 
 RewriteRule ^search\.php$ https://www.ubuntu.si/forum/search? [R=301,L]
+
+RewriteRule ^userlist\.php https://www.ubuntu.si/forum/? [R=301,L]
+
+# Redirecting viewtopic.php to specific page number
+RewriteCond %{QUERY_STRING} ^id=([0-9]*)&p=([0-9]+)
+RewriteRule ^viewtopic\.php https://www.ubuntu.si/forum/discussion/%1/p%2? [R=301,L]
