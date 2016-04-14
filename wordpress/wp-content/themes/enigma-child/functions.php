@@ -18,6 +18,7 @@ function theme_dequeue_custom()
 {
     wp_dequeue_style('OpenSansRegular');
     wp_dequeue_style('OpenSansBold');
+    wp_dequeue_style('OpenSans');
     wp_dequeue_style('OpenSansSemiBold');
     wp_dequeue_style('RobotoRegular');
     wp_dequeue_style('RobotoBold');
