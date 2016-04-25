@@ -348,7 +348,9 @@ ul.PanelCategories li.Heading {
 }
 .Item .Meta a.Quote {
 	color: white;
+  margin-left: -15px;
 }
+
 /* URGENT CHANGE
 .BlockColumn .BlockTitle, .BlockColumn .Meta {
 	display: block !important;
@@ -406,6 +408,9 @@ a.Close {
 /* wider posts - especially noticable on mobile when width is important */
 .MessageList .Item {
   margin-left: 0 !important;
+}
+.MessageList .Item .Options {
+  padding-left: 0px !important;
 }
 .MessageForm {
   margin-left: 0 !important;

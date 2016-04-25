@@ -233,6 +233,10 @@ class QuotesPlugin extends Gdn_Plugin {
         echo Gdn_Theme::BulletItem('Flags');
         $this->addQuoteButton($Sender, $Args);
     }
+    public function DiscussionController_AfterDiscussionMeta_Handler($Sender, $Args) {
+        echo Gdn_Theme::BulletItem('Flags');
+        $this->addQuoteButton($Sender, $Args);
+    }
 
     /**
      * Output Quote link.
