@@ -75,6 +75,13 @@ code {
   color: black;
 }
 /* error 404 end */
+/* align images properly */
+.aligncenter {
+   display: block !important;
+    margin-bottom: 10px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 
 .carousel {
   margin-left: 5px;
