@@ -82,6 +82,15 @@ code {
     margin-left: auto !important;
     margin-right: auto !important;
 }
+/* animations */
+.bounceInRight {
+  -webkit-animation-name: inherit;
+  -moz-animation-name: inherit;
+  -o-animation-name: inherit;
+}
+.animated, .appear-animation {
+  animation-duration: inherit;
+}
 
 .carousel {
   margin-left: 5px;
