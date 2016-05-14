@@ -116,6 +116,7 @@ code {
   }
 }
 
+/* enigma blog area - zadnje novice*/
 .enigma_blog_wrapper {
   margin-bottom: 0;
 }
@@ -157,6 +158,37 @@ code {
 .enigma_heading_title h3 {
   border-bottom: 4px solid #77216F;
   font-family:"Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+@media (min-width:1200px) {
+  .enigma_blog_thumb_wrapper a.enigma_blog_read_btn {
+    position: fixed;
+    top: 72%;
+    margin-bottom: 0px;
+  }
+  .enigma_blog_thumb_footer {
+    position: fixed;
+    top: 80%;
+  }
+  .enigma_blog_thumb_wrapper {
+    height:500px;
+  }
+}
+@media (min-width:992px) and (max-width:1199px) {
+  .enigma_blog_thumb_date li {
+    margin-right: 8px;
+  }
+  .enigma_blog_thumb_wrapper a.enigma_blog_read_btn {
+    position: fixed;
+    top: 72%;
+    margin-bottom: 0px;
+  }
+  .enigma_blog_thumb_footer {
+    position: fixed;
+    top: 80%;
+  }
+  .enigma_blog_thumb_wrapper {
+    height:520px;
+  }
 }
 
 /* enigma service area */
