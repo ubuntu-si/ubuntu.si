@@ -266,6 +266,9 @@ pre {
   border: 1px solid #77216F !important;
   border-left: 5px solid #77216F !important;
 }
+pre.CodeBlock {
+  white-space: normal;
+}
 /* smaller title in discussions */
 h1 {
   font-size: 28px !important;

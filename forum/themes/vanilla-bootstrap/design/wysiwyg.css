@@ -6,6 +6,7 @@ pre.CodeBlock {
   border-left: 5px solid #77216F;
   border-radius: 4px;
   padding: 9.5px;
+  white-space: normal;
 }
 blockquote.Quote {
   margin-left: 0px;
