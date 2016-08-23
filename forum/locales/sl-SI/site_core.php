@@ -1211,6 +1211,8 @@ $Definition['Whoops!'] = 'Krščen Matiček, nekaj je šlo narobe.';
 $Definition["User not found."] = 'Uporabnik ni bil najden.';
 $Definition['HeadlineFormat.ConversationMessage'] = '{ActivityUserID,User} vam je poslal/a <a href="{Url,html}">sporočilo</a>.';
 $Definition['Select a category...'] = 'Izberite kategorijo ...';
+$Definition['Your password reset token has expired.'] = 'Vaš žeton za ponastavitev gesla je potekel. Poskusite znova z uporabo obrazca za ponastavitev gesla.';
+$Definition['Request another password reset.'] = 'Zahtevajte še eno ponastavitev gesla.';
 # prevodi plugina - editor
 $Definition['Heading %s'] = 'Naslov %s ';
 $Definition['Source Code'] = ' Koda';
