@@ -1213,6 +1213,7 @@ $Definition['HeadlineFormat.ConversationMessage'] = '{ActivityUserID,User} vam j
 $Definition['Select a category...'] = 'Izberite kategorijo ...';
 $Definition['Your password reset token has expired.'] = 'Vaš žeton za ponastavitev gesla je potekel. Poskusite znova z uporabo obrazca za ponastavitev gesla.';
 $Definition['Request another password reset.'] = 'Zahtevajte še eno ponastavitev gesla.';
+$Definition['BanReason.1'] = 'Prepoved zaradi zlorabe pravil foruma.';
 # prevodi plugina - editor
 $Definition['Heading %s'] = 'Naslov %s ';
 $Definition['Source Code'] = ' Koda';
