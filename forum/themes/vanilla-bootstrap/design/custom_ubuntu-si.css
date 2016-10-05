@@ -425,3 +425,6 @@ a.Close {
   color: #31A3DD !important;
   font-weight: 600 !important;
 }
+a.PhotoWrap.Banned {
+  display: none !important;
+}
