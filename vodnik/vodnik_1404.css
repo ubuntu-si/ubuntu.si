@@ -501,3 +501,7 @@ thead td, thead th, tfoot td, tfoot th {
 tr.shade {
   background-color: #f2f2f2;
 }
+div.example {
+  border-left: solid 4px #ccc1c1;
+  padding-left: 1em;
+}
