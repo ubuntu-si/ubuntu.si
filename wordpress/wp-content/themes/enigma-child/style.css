@@ -13,7 +13,7 @@
 */
 body {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 p {
   font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -137,7 +137,7 @@ code {
   margin: 0 0 10px;
 }
 .enigma_blog_thumb_wrapper p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .enigma_blog_thumb_wrapper {
   border-bottom: 5px solid #77216F;
