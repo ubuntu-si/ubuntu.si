@@ -192,7 +192,7 @@ a.Close {
   color: red !important;
   opacity: 1 !important;
 }
-/* no need for this since we have a fix https://github.com/vanilla/vanilla/commit/34a338d989ec086e2c0fed218405a6c091a24510
+/*
 .Overlay>.Popup {
   width: 800px !important;
 }
@@ -352,7 +352,7 @@ ul.PanelCategories li.Heading {
   color: #77216F !important;
 }
 .Item .Meta a.Quote {
-  color: white;
+	color: white;
   margin-left: -15px;
 }
 
@@ -420,11 +420,14 @@ a.Close {
 .MessageForm {
   margin-left: 0 !important;
 }
-/* sync heading style with wordpress */
+/* sync title style with wordpress */
 .Message h3, .Message h4, .Message h5, .Message h6 {
   color: #31A3DD !important;
   font-weight: 600 !important;
 }
 a.PhotoWrap.Banned {
   display: none !important;
+}
+.Item .Meta-Discussion .MItem.Category a, .Count {
+  background-color: #77216F !important;
 }
