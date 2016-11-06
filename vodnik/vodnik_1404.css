@@ -505,3 +505,12 @@ div.example {
   border-left: solid 4px #ccc1c1;
   padding-left: 1em;
 }
+/* expander-c expander-e*/
+div.ui-expander > div.inner > div.title span.title::before, div.ui-expander > div.inner > div.hgroup span.title::before {
+  content: "⌄" !important;
+  vertical-align: top;
+}
+div.ui-expander-e > div.inner > div.title span.title::before, div.ui-expander-e > div.inner > div.hgroup span.title::before {
+  content: "⌃" !important;
+  vertical-align: bottom;
+}
