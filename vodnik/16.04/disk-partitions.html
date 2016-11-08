@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang=sl>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Upravljanje nosilcev in razdelkov</title>
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script><link rel="shortcut icon" href="https://www.ubuntu.si/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../vodnik_1404.css">
+</head>
+<body id="home"><div id="wrapper" class="hfeed">
+<div id="header">
+<div id="branding">
+<div id="blog-title"><span><a rel="home" title="Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu" href="//www.ubuntu.si">Ubuntu Slovenija | Uradna spletna stran slovenske skupnosti Linux distribucije Ubuntu</a></span></div>
+<h1 id="blog-description"></h1>
+</div>
+<div id="access"><div id="loco-header-menu"><ul id="primary-header-menu"><li class="widget-container widget_nav_menu" id="nav_menu-3"><div class="menu-glavni-meni-container"><ul class="menu" id="menu-glavni-meni">
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="//www.ubuntu.si">Domov</a></li>
+<li id="menu-item-2776" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2776"><a href="//www.ubuntu.si/category/novice/">Novice</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="//www.ubuntu.si/forum/">Forum</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="//www.ubuntu.si/kaj-je-ubuntu/">Kaj je Ubuntu?</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="//www.ubuntu.si/pogosta_vprasanja/">Pogosta vprašanja</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="//www.ubuntu.si/skupnost/">Skupnost</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="//www.ubuntu.si/povezave/">Povezave</a></li>
+</ul></div></li></ul></div></div>
+</div>
+<div id="main"><div id="cwt-content" class="clearfix content-area"><div id="page">
+<div class="trails" role="navigation"><div class="trail"> » <a class="trail" href="index.html" title="Namizni vodnik Ubuntu"><span class="media"><span class="media media-image"><img src="figures/ubuntu-logo.png" height="16" width="16" class="media media-inline" alt="Pomoč"></span></span> Namizni vodnik Ubuntu</a> » <a class="trail" href="hardware.html" title="Strojna oprema in gonilniki">Strojna oprema</a> » <a class="trail" href="disk.html" title="Diski in shramba">Diski in shramba</a> » </div></div>
+<div id="content">
+<div class="hgroup"><h1 class="title"><span class="title">Upravljanje nosilcev in razdelkov</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">Beseda <span class="em">nosilec</span> se uporablja za napravo shrambe kot je trdi disk. Lahko je tudi <span class="em">del</span> naprave shrambe, ker lahko shrambo razdelite na več kosov. Računalnik naredi shrambo na voljo preko vašega datotečnega sistema preko opravila, ki se imenuje <span class="em">priklapljanje</span>. Priklopljeni nosilci so lahko trdi diski, pogoni USB, DVD-RW-ji, kartice SD in drugi mediji. V primeru da je nosilec trenutno priklopljen, lahko z njega berete (in morda tudi zapisujete) datoteke.</p>
+<p class="p">Pogosto se priklopljen nosilec imenuje <span class="em">razdelek</span>, čeprav nista nujno ista stvar. "Razdelek" se nanaša na <span class="em">fizično</span> področje shrambe na enem trdem disku. Ko je razdelek priklopljen, ga lahko kličete nosilec, saj lahko dostopate do datotek na njem. O nosilcih lahko razmišljajte kot označenih "izložbah" do "trgovine" razdelkov in pogonov.</p>
+</div>
+<div id="manage" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Ogled in upravljanje nosilcev in razdelkov z diskovnimi orodji</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Nosilce shrambe računalnika lahko preverite in spreminjate z diskovnimi orodji.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Odprite <span class="gui">Pregledno ploščo</span> in zaženite program <span class="app">Diskovna orodja</span>.</p></li>
+<li class="steps"><p class="p">V pladnju <span class="gui">Naprave shrambe</span> boste našli trde diske, pogone CD/DVD in druge fizične naprave. Kliknite na napravo, ki jo želite preučiti.</p></li>
+<li class="steps">
+<p class="p">V desnem pladnju področje <span class="gui">Nosilci</span> zagotavlja viden pregled nosilcev in razdelkov na izbrani napravi. Vsebuje tudi različna orodja za upravljanje teh nosilcev.</p>
+<p class="p">Bodite previdni: s temi pripomočki lahko popolnoma izbrišete podatke na disku.</p>
+</li>
+</ol></div></div></div>
+<p class="p">Vaš računalnik ima najverjetneje vsaj en <span class="em">primarni</span> razdelek in en <span class="em">izmenjalni</span> razdelek. Izmenjalni razdelek operacijski sistem uporablja za upravljanje pomnilnika in je le redko priklopljen. Primarni razdelek vsebuje vaš operacijski sistem, programe, nastavitve in osebne datoteke. Te datoteke lahko razdelite na več razdelkov zaradi varnosti ali priročnosti.</p>
+<p class="p">En primerni razdelek mora vsebovati podatke, ki jih vaš računalnik uporablja za <span class="em">zagon</span>. Zato se imenuje zagonski razdelek ali nosilec. Za določitev ali je mogoče iz nosilca zagnati sistem, si oglejte <span class="gui">Zastavice razdelkov</span> v diskovnih orodjih. Zagonljiv razdelek lahko vsebujejo tudi zunanji mediji kot so pogoni USB in CD-ji.</p>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">Več podrobnosti</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="disk.html" title="Diski in shramba">Diski in shramba</a><span class="desc"> — <span class="link"><a href="disk-capacity.html" title="Preverjanje koliko prostora na disku je ostalo">Prostor na disku</a></span>, <span class="link"><a href="disk-benchmark.html" title="Preizkus hitrosti delovanja trdega diska">primerjava zmogljivosti</a></span>, <span class="link"><a href="disk-check.html" title="Preverjanje trdega diska za težave.">težave</a></span>, <span class="link"><a href="disk-partitions.html" title="Upravljanje nosilcev in razdelkov">nosilci in razdelki </a></span>…</span>
+</li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div></div></div>
+<div id="footer">
+<img src="https://piwik-ubuntusi.rhcloud.com/piwik.php?idsite=1&amp;rec=1" style="border:0" alt=""><div id="siteinfo"><p>Material v tem dokumentu je na voljo pod prosto licenco. To je prevod dokumentacije Ubuntu, ki jo je sestavila <a href="https://wiki.ubuntu.com/DocumentationTeam">Ubuntu dokumentacijska ekipa za Ubuntu</a>. V slovenščino jo je prevedla skupina <a href="https://wiki.lugos.si/slovenjenje:ubuntu">Ubuntu prevajalcev</a>. Za poročanje napak v prevodih v tej dokumentaciji ali Ubuntuju pošljite sporočilo na <a href="mailto:ubuntu-l10n-slv@lists.ubuntu.com?subject=Prijava%20napak%20v%20prevodih">dopisni seznam</a>.</p></div>
+</div>
+</div></body>
+</html>
