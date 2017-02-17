@@ -57,11 +57,11 @@
           <div class="forum_feed enigma_service_detail media-body">
             <h3>Priporočamo prejem LTS različic</h3>
             <ul>
-              <li><a href="http://ftp.arnes.si/pub/mirrors/ubuntu-cdimage/releases/16.04/ubuntu-16.04.1-desktop-amd64.iso.torrent">Ubuntu 16.04.1 LTS</a></li>
-              <li><a href="http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04.1-desktop-amd64.iso.torrent">Kubuntu 16.04.1 LTS</a></li>
-              <li><a href="http://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04.1-desktop-amd64.iso.torrent">Xubuntu 16.04.1 LTS</a></li>
-              <li><a href="http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04.1-desktop-amd64.iso.torrent">Ubuntu GNOME 16.04.1 LTS</a></li>
-              <li><a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.1-desktop-amd64.iso.torrent">Ubuntu MATE 16.04.1 LTS</a></li>            
+              <li><a href="http://ftp.arnes.si/pub/mirrors/ubuntu-cdimage/releases/16.04/ubuntu-16.04.2-desktop-amd64.iso.torrent">Ubuntu 16.04.2 LTS</a></li>
+              <li><a href="http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04.2-desktop-amd64.iso.torrent">Kubuntu 16.04.2 LTS</a></li>
+              <li><a href="http://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04.2-desktop-amd64.iso.torrent">Xubuntu 16.04.2 LTS</a></li>
+              <li><a href="http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04.2-desktop-amd64.iso.torrent">Ubuntu GNOME 16.04.2 LTS</a></li>
+              <li><a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.2-desktop-amd64.iso.torrent">Ubuntu MATE 16.04.2 LTS</a></li>            
             </ul>
           </div>
         </div>
