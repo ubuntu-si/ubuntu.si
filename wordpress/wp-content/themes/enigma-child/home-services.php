@@ -57,11 +57,11 @@
           <div class="forum_feed enigma_service_detail media-body">
             <h3>Priporočamo prejem LTS različic</h3>
             <ul>
-              <li><a href="http://ftp.arnes.si/pub/mirrors/ubuntu-cdimage/releases/bionic/ubuntu-18.04.1-desktop-amd64.iso.torrent">Ubuntu 18.04.1 LTS</a></li>
-              <li><a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/bionic/release/ubuntu-mate-18.04.1-desktop-amd64.iso.torrent">Ubuntu MATE 18.04.1 LTS</a></li>              
-              <li><a href="http://cdimage.ubuntu.com/kubuntu/releases/bionic/release/kubuntu-18.04.1-desktop-amd64.iso.torrent">Kubuntu 18.04.1 LTS</a></li>
-              <li><a href="http://cdimage.ubuntu.com/xubuntu/releases/bionic/release/xubuntu-18.04.1-desktop-amd64.iso.torrent">Xubuntu 18.04.1 LTS</a></li>
-              <li><a href="http://cdimage.ubuntu.com/lubuntu/releases/bionic/release/lubuntu-18.04.1-desktop-amd64.iso.torrent">Lubuntu 18.04.1 LTS</a></li>            </ul>
+              <li><a href="http://ftp.arnes.si/pub/mirrors/ubuntu-cdimage/releases/focal/ubuntu-20.04.1-desktop-amd64.iso.torrent">Ubuntu 20.04.1 LTS</a></li>
+              <li><a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/20.04.1/release/ubuntu-mate-20.04.1-desktop-amd64.iso.torrent">Ubuntu MATE 20.04.1 LTS</a></li>              
+              <li><a href="http://cdimage.ubuntu.com/kubuntu/releases/20.04.1/release/kubuntu-20.04.1-desktop-amd64.iso.torrent">Kubuntu 20.04.1 LTS</a></li>
+              <li><a href="http://cdimage.ubuntu.com/xubuntu/releases/20.04.1/release/xubuntu-20.04.1-desktop-amd64.iso.torrent">Xubuntu 20.04.1 LTS</a></li>
+              <li><a href="http://cdimage.ubuntu.com/lubuntu/releases/20.04.1/release/lubuntu-20.04.1-desktop-amd64.iso.torrent">Lubuntu 20.04.1 LTS</a></li>            </ul>
           </div>
         </div>
       </div>
